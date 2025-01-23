@@ -29,6 +29,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-cn"
+                href="https://1sle29.github.io/zh-cn/post/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ar"
                 href="https://1sle29.github.io/ar/post/"
                 />

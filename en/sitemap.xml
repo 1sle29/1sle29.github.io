@@ -27,6 +27,11 @@
     <lastmod>2025-01-23T20:25:52+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-cn"
+                href="https://1sle29.github.io/zh-cn/post/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ar"
                 href="https://1sle29.github.io/ar/post/"
                 />
@@ -35,54 +40,6 @@
                 hreflang="en"
                 href="https://1sle29.github.io/post/"
                 />
-  </url><url>
-    <loc>https://1sle29.github.io/categories/2025/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/categories/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://1sle29.github.io/zh-cn/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://1sle29.github.io/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://1sle29.github.io/categories/"
-                />
-  </url><url>
-    <loc>https://1sle29.github.io/categories/%E4%B9%A6%E8%AF%84/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/p/test-chinese/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/categories/%E5%A5%A5%E5%9C%B0%E5%88%A9/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/categories/%E7%94%B7%E4%BD%9C%E5%AE%B6/</loc>
-    <lastmod>2025-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/p/test-chinese/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/categories/test/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/categories/%E6%97%A5%E8%AE%B0/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/categories/%E6%B5%8B%E8%AF%95/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://1sle29.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
@@ -98,6 +55,24 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://1sle29.github.io/page/"
+                />
+  </url><url>
+    <loc>https://1sle29.github.io/categories/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://1sle29.github.io/zh-cn/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://1sle29.github.io/ar/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://1sle29.github.io/categories/"
                 />
   </url><url>
     <loc>https://1sle29.github.io/tags/css/</loc>
@@ -154,6 +129,19 @@
   </url><url>
     <loc>https://1sle29.github.io/tags/tag-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://1sle29.github.io/categories/test/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://1sle29.github.io/zh-cn/categories/test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://1sle29.github.io/categories/test/"
+                />
   </url><url>
     <loc>https://1sle29.github.io/categories/test-with-whitespaces/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
