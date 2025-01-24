@@ -1119,9 +1119,22 @@ $$</description>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://1sle29.github.io/%E7%BD%91%E8%B7%AF%E6%9C%8B%E5%8F%8B%E4%BB%AC-friend-links/</guid>
-        <description>&lt;p&gt;The world is so vast! In the endless universe of the internet, we&amp;rsquo;re like tiny, twinkling stars, brought together by a magical, serendipitous pull. Welcome to this cozy little corner where my online friends gather—they sparkle and shine in this ordinary world!&lt;/p&gt;
-&lt;p&gt;And to you, who’ve found your way here, I hope you always keep your curiosity bright and your heart eager to explore, uncovering endless wonders on the beautiful journey ahead.&lt;/p&gt;
-&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
+        <description>&lt;h3 id=&#34;heading&#34;&gt;
+&lt;/h3&gt;&lt;p&gt;世界好大，在互联网这片无边无际的星空里，我们就像一颗颗闪闪发亮的星球，被奇妙的缘分牵引在一起。&lt;/p&gt;
+&lt;p&gt;欢迎你在无垠的宇宙中降落到我的星球做客！这里展示的是我珍贵的网络朋友们——他们每个人都有自己独特的故事和光芒，在各自的小天地里绽放异彩。&lt;/p&gt;
+&lt;p&gt;我很荣幸能为你介绍这些点亮我生命的朋友们，这里就是连接彼此的银河驿站。&lt;/p&gt;
+&lt;p&gt;愿你永远保持好奇和探索的心，在前方未知的旅途中发现无限精彩。&lt;/p&gt;
+&lt;p&gt;The world is vast! In the boundless starry sky of the internet, we&amp;rsquo;re like twinkling planets drawn together by a magical destiny.
+Welcome to my planet in this infinite universe! Here you&amp;rsquo;ll find my precious online friends—each with their own unique story and light, shining brilliantly in their own little worlds.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m honored to introduce these friends who illuminate my life, and this is our galactic station where we all connect.&lt;/p&gt;
+&lt;p&gt;May you always keep your curiosity and exploratory spirit, discovering endless wonders on your unknown journey ahead!&lt;/p&gt;
+&lt;h3 id=&#34;heading-1&#34;&gt;
+&lt;/h3&gt;&lt;p&gt;If you&amp;rsquo;d like to exchange friend links with me, please leave a comment below in this format:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Name:
+Website:
+Introduce yourself in one sentence:&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
@@ -1146,8 +1159,7 @@ $$</description>
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
-</description>
+&lt;/div&gt;</description>
         </item>
         
     </channel>
