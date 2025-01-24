@@ -313,16 +313,74 @@
         2025 1sle
     </section>
     
-    
     <section class="running-time">
-    本博客已稳定运行
-    <span id="runningdays" class="running-days"></span>
+        本博客已稳定运行
+        <span id="runningdays" class="running-days"></span>
+    </section>
+    
+    <section class="totalcount">
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        发表了13篇文章 · 
+        总计2.09k字
     </section>
     
     <section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
+
+    <script>
+        function updateRunningTime() {
+            const startDate = new Date('2023/03/18');
+            const now = new Date();
+            const diff = now - startDate;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            
+            document.getElementById('runningdays').innerHTML = 
+                `${days}天${hours}小时${minutes}分钟`;
+        }
+        
+        updateRunningTime();
+        setInterval(updateRunningTime, 60000);
+    </script>
 </footer>
 
 
