@@ -37,12 +37,21 @@ Learn more about island please click: &lt;a class=&#34;link&#34; href=&#34;https
         <description></description>
         </item>
         <item>
-        <title>Links</title>
-        <link>https://1sle29.github.io/links/</link>
+        <title>Search</title>
+        <link>https://1sle29.github.io/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://1sle29.github.io/links/</guid>
-        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
+        <guid>https://1sle29.github.io/search/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>网路朋友们 | Friend Links</title>
+        <link>https://1sle29.github.io/%E7%BD%91%E8%B7%AF%E6%9C%8B%E5%8F%8B%E4%BB%AC-friend-links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://1sle29.github.io/%E7%BD%91%E8%B7%AF%E6%9C%8B%E5%8F%8B%E4%BB%AC-friend-links/</guid>
+        <description>&lt;p&gt;The world is so vast! In the endless universe of the internet, we&amp;rsquo;re like tiny, twinkling stars, brought together by a magical, serendipitous pull. Welcome to this cozy little corner where my online friends gather—they sparkle and shine in this ordinary world!&lt;/p&gt;
+&lt;p&gt;And to you, who’ve found your way here, I hope you always keep your curiosity bright and your heart eager to explore, uncovering endless wonders on the beautiful journey ahead.&lt;/p&gt;
 &lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -70,14 +79,6 @@ Learn more about island please click: &lt;a class=&#34;link&#34; href=&#34;https
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
 </description>
-        </item>
-        <item>
-        <title>Search</title>
-        <link>https://1sle29.github.io/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://1sle29.github.io/search/</guid>
-        <description></description>
         </item>
         
     </channel>
