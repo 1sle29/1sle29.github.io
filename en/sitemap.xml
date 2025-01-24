@@ -28,11 +28,11 @@
                 href="https://1sle29.github.io/post/"
                 />
   </url><url>
-    <loc>https://1sle29.github.io/categories/2025/</loc>
-    <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+    <loc>https://1sle29.github.io/categories/2024/</loc>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://1sle29.github.io/categories/</loc>
-    <lastmod>2025-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
@@ -43,6 +43,15 @@
                 hreflang="en"
                 href="https://1sle29.github.io/categories/"
                 />
+  </url><url>
+    <loc>https://1sle29.github.io/categories/%E9%97%AE%E5%8D%B7/</loc>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://1sle29.github.io/p/proust-2024/</loc>
+    <lastmod>2025-01-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://1sle29.github.io/categories/2025/</loc>
+    <lastmod>2025-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://1sle29.github.io/categories/%E4%B9%A6%E8%AF%84/</loc>
     <lastmod>2025-01-18T00:00:00+00:00</lastmod>
@@ -108,9 +117,6 @@
                 hreflang="en"
                 href="https://1sle29.github.io/page/"
                 />
-  </url><url>
-    <loc>https://1sle29.github.io/categories/2024/</loc>
-    <lastmod>2024-12-31T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://1sle29.github.io/categories/%E5%B9%B4%E5%BA%A6%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2024-12-31T00:00:00+00:00</lastmod>
@@ -199,8 +205,6 @@
   </url><url>
     <loc>https://1sle29.github.io/p/emoji-support/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://1sle29.github.io/p/</loc>
   </url><url>
     <loc>https://1sle29.github.io/links/</loc>
   </url><url>
