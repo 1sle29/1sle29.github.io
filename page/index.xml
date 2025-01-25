@@ -37,19 +37,11 @@ Learn more about island please click: &lt;a class=&#34;link&#34; href=&#34;https
         <description></description>
         </item>
         <item>
-        <title>查找|Search</title>
-        <link>https://1sle29.github.io/search/</link>
+        <title>朋友|Friends</title>
+        <link>https://1sle29.github.io/%E6%9C%8B%E5%8F%8Bfriends/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://1sle29.github.io/search/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>网络朋友 | Friend Links</title>
-        <link>https://1sle29.github.io/%E7%BD%91%E7%BB%9C%E6%9C%8B%E5%8F%8B-friend-links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://1sle29.github.io/%E7%BD%91%E7%BB%9C%E6%9C%8B%E5%8F%8B-friend-links/</guid>
+        <guid>https://1sle29.github.io/%E6%9C%8B%E5%8F%8Bfriends/</guid>
         <description>&lt;h3 id=&#34;heading&#34;&gt;
 &lt;/h3&gt;&lt;p&gt;世界好大，在互联网这片无边无际的星空里，我们就像一颗颗闪闪发亮的星球，被奇妙的缘分牵引在一起。&lt;/p&gt;
 &lt;p&gt;欢迎你在无垠的宇宙中降落到我的星球做客！这里展示的是我珍贵的网络朋友们——他们每个人都有自己独特的故事和光芒，在各自的小天地里绽放异彩。&lt;/p&gt;
@@ -65,6 +57,14 @@ Welcome to my planet in this infinite universe! Here you&amp;rsquo;ll find my pr
 2.Website:
 3.Introduce yourself in one sentence:&lt;/p&gt;
 </description>
+        </item>
+        <item>
+        <title>查找|Search</title>
+        <link>https://1sle29.github.io/search/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://1sle29.github.io/search/</guid>
+        <description></description>
         </item>
         
     </channel>
