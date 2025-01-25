@@ -28,9 +28,6 @@
                 href="https://1sle29.github.io/page/"
                 />
   </url><url>
-    <loc>https://1sle29.github.io/archives/</loc>
-    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://1sle29.github.io/%E4%BB%8B%E7%BB%8Dintro/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -43,6 +40,9 @@
                 hreflang="en"
                 href="https://1sle29.github.io/%E4%BB%8B%E7%BB%8Dintro/"
                 />
+  </url><url>
+    <loc>https://1sle29.github.io/archives/</loc>
+    <lastmod>2025-01-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://1sle29.github.io/categories/2024/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
