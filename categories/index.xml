@@ -96,22 +96,6 @@
         <description></description>
         </item>
         <item>
-        <title>Test</title>
-        <link>https://1sle29.github.io/categories/test/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://1sle29.github.io/categories/test/</guid>
-        <description>&lt;img src="https://1sle29.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
-        </item>
-        <item>
-        <title>Test With Whitespaces</title>
-        <link>https://1sle29.github.io/categories/test-with-whitespaces/</link>
-        <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://1sle29.github.io/categories/test-with-whitespaces/</guid>
-        <description></description>
-        </item>
-        <item>
         <title>2019</title>
         <link>https://1sle29.github.io/categories/2019/</link>
         <pubDate>Thu, 24 Jan 2019 00:00:00 +0000</pubDate>
@@ -134,6 +118,14 @@
         
         <guid>https://1sle29.github.io/categories/%E7%90%86%E8%B4%A2/</guid>
         <description></description>
+        </item>
+        <item>
+        <title>Test</title>
+        <link>https://1sle29.github.io/categories/test/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>https://1sle29.github.io/categories/test/</guid>
+        <description>&lt;img src="https://1sle29.github.io/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post Test" /&gt;</description>
         </item>
         
     </channel>
