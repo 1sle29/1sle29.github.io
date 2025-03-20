@@ -138,14 +138,17 @@
 
   
   
-  &lt;iframe 
-      src=&#34;https://open.spotify.com/embed/track/6393yGahSJ9slVdOwSxOVR&#34; 
-      width=&#34;100%&#34; 
-      height=&#34;80&#34; 
-      frameborder=&#34;0&#34; 
-      allowtransparency=&#34;true&#34; 
-      allow=&#34;encrypted-media&#34;&gt;
-  &lt;/iframe&gt;
+  &lt;div style=&#34;margin: 15px 0;&#34;&gt;
+      &lt;iframe 
+          src=&#34;https://open.spotify.com/embed/track/6393yGahSJ9slVdOwSxOVR&#34; 
+          width=&#34;100%&#34; 
+          height=&#34;80&#34; 
+          frameborder=&#34;0&#34; 
+          style=&#34;border-radius: 8px; box-shadow: var(--shadow-l1);&#34;
+          allowtransparency=&#34;true&#34; 
+          allow=&#34;encrypted-media&#34;&gt;
+      &lt;/iframe&gt;
+  &lt;/div&gt;
 
   &lt;p style=&#34;margin-bottom: 0;&#34;&gt;虽然小时候学了很多年古筝但无奈我在音乐鉴赏领域灵智未开，除了周杰伦和林宥嘉以外，唯爱欣赏抖音土味洗脑神曲和榜单热门歌。&lt;/p&gt;
 &lt;/div&gt;
