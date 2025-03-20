@@ -45,7 +45,84 @@
 &lt;p&gt;但问题是我的食欲和食材采购能力并不匹配，导致我买的东西经常吃不完。常常是超市里明明有更小的包装但我总觉得“买大份更划算”，或者看到打折的食物就想着先囤起来，结果很多食材在冰箱里躺到过期，最后只能被我扔进垃圾桶。这些食物被我冲动购买以后就遗弃在冰箱角落最后变成了一次次不容忽视的负罪感。今年也要努力改进这个问题！！！&lt;strong&gt;想想世界上还有那么多人吃不饱肚子，浪费食物太可耻了！&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;书影音游&#34;&gt;书影音游
 &lt;/h2&gt;&lt;h3 id=&#34;书&#34;&gt;书
-&lt;/h3&gt;&lt;p&gt;《美国生活中的反智主义》 - Anti-intellectualism in American Life&lt;/p&gt;
+&lt;/h3&gt;
+
+
+
+
+
+
+&lt;div class=&#34;book-card&#34; style=&#34;display: flex; margin-bottom: 20px; padding: 15px; background: var(--card-background); border-radius: 8px; box-shadow: var(--shadow-l1);&#34;&gt;
+    &lt;div class=&#34;book-cover&#34; style=&#34;flex-shrink: 0; margin-right: 15px;&#34;&gt;
+        &lt;a href=&#34;https://book.douban.com/subject/35334792/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+            &lt;img src=&#34;https://img2.doubanio.com/view/subject/l/public/s33808301.jpgg&#34; alt=&#34;《美国生活中的反智主义》 - Anti-intellectualism in American Life [美] 理查德·霍夫施塔特 (Richard Hofstadter)&#34; style=&#34;width: 100px; border-radius: 4px;&#34;&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;book-info&#34; style=&#34;flex-grow: 1;&#34;&gt;
+        &lt;h4 class=&#34;book-title&#34; style=&#34;margin-top: 0; margin-bottom: 5px;&#34;&gt;
+            &lt;a href=&#34;https://book.douban.com/subject/35334792/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;text-decoration: none;&#34;&gt;《美国生活中的反智主义》 - Anti-intellectualism in American Life [美] 理查德·霍夫施塔特 (Richard Hofstadter)&lt;/a&gt;
+        &lt;/h4&gt;
+        &lt;div class=&#34;book-rating&#34; style=&#34;margin-bottom: 8px;&#34;&gt;
+            &lt;span style=&#34;font-weight: bold;&#34;&gt;个人评分：&lt;/span&gt; 
+            
+                
+                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
+                
+            
+                
+                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
+                
+            
+                
+                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
+                
+            
+                
+                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
+                
+            
+                
+                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
+                
+            
+                
+                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
+                
+            
+                
+                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
+                
+            
+                
+                    &lt;span style=&#34;color: #d8d8d8;&#34;&gt;★&lt;/span&gt;
+                
+            
+                
+                    &lt;span style=&#34;color: #d8d8d8;&#34;&gt;★&lt;/span&gt;
+                
+            
+                
+                    &lt;span style=&#34;color: #d8d8d8;&#34;&gt;★&lt;/span&gt;
+                
+            
+            &lt;span style=&#34;color: #c2a346; margin-left: 5px;&#34;&gt;7/10&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div class=&#34;book-brief&#34; style=&#34;margin-bottom: 10px; font-size: 0.95em; color: var(--card-text-color-main);&#34;&gt;
+            看似先进的美国教育系统实际上是美国反智文化的重要催生者。过度强调功利主义和实用主义的教育体系系统性地削弱了公民的独立思考和理性分析能力。全民教育的推广不仅没有提升社会理性，反而制造了更容易被情绪化论述和简单化叙事俘获的群体。民主制度看似给予每个人平等的表达权，实际上可能为无知提供了一种看似正当的外壳；美国基础通识教育并非真正在启蒙和建立批判性思维，而是被设计成制造顺从的人民的机器。
+        &lt;/div&gt;
+        &lt;div class=&#34;book-tags&#34;&gt;
+            
+            
+                &lt;span style=&#34;display: inline-block; padding: 3px 8px; margin-right: 5px; margin-bottom: 5px; background-color: var(--card-background-secondary); color: var(--card-text-color-secondary); border-radius: 4px; font-size: 0.85em;&#34;&gt;book&lt;/span&gt;
+            
+                &lt;span style=&#34;display: inline-block; padding: 3px 8px; margin-right: 5px; margin-bottom: 5px; background-color: var(--card-background-secondary); color: var(--card-text-color-secondary); border-radius: 4px; font-size: 0.85em;&#34;&gt; political&lt;/span&gt;
+            
+                &lt;span style=&#34;display: inline-block; padding: 3px 8px; margin-right: 5px; margin-bottom: 5px; background-color: var(--card-background-secondary); color: var(--card-text-color-secondary); border-radius: 4px; font-size: 0.85em;&#34;&gt; non-fiction&lt;/span&gt;
+            
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;p&gt;《活活烧死》 - Burned Alive: A Victim of the Law of Men&lt;/p&gt;
 &lt;p&gt;《罪与罚》 - Crime and Punishment&lt;/p&gt;
 &lt;p&gt;《离婚》 - Divorce&lt;/p&gt;
