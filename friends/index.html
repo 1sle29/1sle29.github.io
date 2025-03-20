@@ -551,11 +551,11 @@
     
     
     <section class="busuanzi-section">
-        <div class="busuanzi-footer running-text"> 
-            <span id="busuanzi_container_site_pv"> 
+        <div class="busuanzi-footer"> 
+            <span id="busuanzi_container_site_pv" class="running-text"> 
                 💫 星际航行器已在此停泊<span id="busuanzi_value_site_pv"></span>次 
             </span> 
-            <span id="busuanzi_container_site_uv"> 
+            <span id="busuanzi_container_site_uv" class="running-text"> 
                 👽 已有<span id="busuanzi_value_site_uv"></span>位星际旅行者造访过这颗小行星
             </span> 
         </div>
@@ -567,7 +567,7 @@
 <style>
      
     .running-text, .running-days {
-        color: #c2a346;  
+        color: #666258;  
         font-weight: 500;  
     }
     
@@ -577,7 +577,10 @@
     }
     
     .busuanzi-footer {
-        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+         
     }
     
     .busuanzi-footer span {
