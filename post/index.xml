@@ -45,96 +45,97 @@
 &lt;p&gt;但问题是我的食欲和食材采购能力并不匹配，导致我买的东西经常吃不完。常常是超市里明明有更小的包装但我总觉得“买大份更划算”，或者看到打折的食物就想着先囤起来，结果很多食材在冰箱里躺到过期，最后只能被我扔进垃圾桶。这些食物被我冲动购买以后就遗弃在冰箱角落最后变成了一次次不容忽视的负罪感。今年也要努力改进这个问题！！！&lt;strong&gt;想想世界上还有那么多人吃不饱肚子，浪费食物太可耻了！&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;书影音游&#34;&gt;书影音游
 &lt;/h2&gt;&lt;h3 id=&#34;书&#34;&gt;书
-&lt;/h3&gt;&lt;div style=&#34;background: #f8f8f8; padding: 15px; border-radius: 8px; margin: 20px 0;&#34;&gt;
-  &lt;ul style=&#34;list-style-type: none; padding-left: 0;&#34;&gt;
+&lt;/h3&gt;&lt;div style=&#34;background: var(--card-background); padding: 15px; border-radius: 8px; margin: 20px 0; box-shadow: var(--shadow-l1);&#34;&gt;
+  &lt;ul style=&#34;list-style-type: none; padding-left: 0; color: var(--card-text-color-main);&#34;&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《美国生活中的反智主义》&lt;/strong&gt;&lt;br&gt;
-      &lt;em&gt;Anti-intellectualism in American Life&lt;/em&gt;&lt;br&gt;
-      [美] 理查德·霍夫施塔特
+      &lt;em style=&#34;color: var(--card-text-color-secondary);&#34;&gt;Anti-intellectualism in American Life&lt;/em&gt;&lt;br&gt;
+      &lt;span style=&#34;color: var(--card-text-color-secondary);&#34;&gt;[美] 理查德·霍夫施塔特&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《活活烧死》&lt;/strong&gt;&lt;br&gt;
-      &lt;em&gt;Burned Alive: A Victim of the Law of Men&lt;/em&gt;&lt;br&gt;
-      [约旦] 苏拉雅
+      &lt;em style=&#34;color: var(--card-text-color-secondary);&#34;&gt;Burned Alive: A Victim of the Law of Men&lt;/em&gt;&lt;br&gt;
+      &lt;span style=&#34;color: var(--card-text-color-secondary);&#34;&gt;[约旦] 苏拉雅&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《罪与罚》&lt;/strong&gt;&lt;br&gt;
-      &lt;em&gt;Crime and Punishment&lt;/em&gt;&lt;br&gt;
-      [俄] 陀思妥耶夫斯基
+      &lt;em style=&#34;color: var(--card-text-color-secondary);&#34;&gt;Crime and Punishment&lt;/em&gt;&lt;br&gt;
+      &lt;span style=&#34;color: var(--card-text-color-secondary);&#34;&gt;[俄] 陀思妥耶夫斯基&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《离婚》&lt;/strong&gt;&lt;br&gt;
-      &lt;em&gt;Divorce&lt;/em&gt;&lt;br&gt;
-      [中] 老舍
+      &lt;em style=&#34;color: var(--card-text-color-secondary);&#34;&gt;Divorce&lt;/em&gt;&lt;br&gt;
+      &lt;span style=&#34;color: var(--card-text-color-secondary);&#34;&gt;[中] 老舍&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《在阿尔巴尼亚长大》&lt;/strong&gt;&lt;br&gt;
-      &lt;em&gt;Free: Coming of Age at the End of History&lt;/em&gt;&lt;br&gt;
-      [阿尔巴尼亚] 莉亚·耶尔尼
+      &lt;em style=&#34;color: var(--card-text-color-secondary);&#34;&gt;Free: Coming of Age at the End of History&lt;/em&gt;&lt;br&gt;
+      &lt;span style=&#34;color: var(--card-text-color-secondary);&#34;&gt;[阿尔巴尼亚] 莉亚·耶尔尼&lt;/span&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
   &lt;div style=&#34;text-align: center;&#34;&gt;
-    &lt;a href=&#34;https://1sle.xyz/overview-5&#34;&gt;📖 查看2025书评&lt;/a&gt;
+    &lt;a href=&#34;https://1sle.xyz/overview-5&#34; style=&#34;color: var(--link-color);&#34;&gt;📖 查看2025书评&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;影&#34;&gt;影
 &lt;/h3&gt;&lt;h4 id=&#34;电影&#34;&gt;电影
-&lt;/h4&gt;&lt;div style=&#34;background: #f8f8f8; padding: 15px; border-radius: 8px; margin: 20px 0;&#34;&gt;
-  &lt;ul style=&#34;list-style-type: none; padding-left: 0;&#34;&gt;
+&lt;/h4&gt;&lt;div style=&#34;background: var(--card-background); padding: 15px; border-radius: 8px; margin: 20px 0; box-shadow: var(--shadow-l1);&#34;&gt;
+  &lt;ul style=&#34;list-style-type: none; padding-left: 0; color: var(--card-text-color-main);&#34;&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《大内密探零零发》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★★★&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《神圣无花果之种》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★★★&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《哪吒之魔童闹海》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《喜剧之王》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★★★&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《异教徒》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★★&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《逃学威龙1》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★★&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《逃学威龙2》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《望夫成龙》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《食神》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★★&lt;/span&gt;
     &lt;/li&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《百变星君》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★★&lt;/span&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h4 id=&#34;电视剧&#34;&gt;电视剧
-&lt;/h4&gt;&lt;div style=&#34;background: #f8f8f8; padding: 15px; border-radius: 8px; margin: 20px 0;&#34;&gt;
-  &lt;ul style=&#34;list-style-type: none; padding-left: 0;&#34;&gt;
+&lt;/h4&gt;&lt;div style=&#34;background: var(--card-background); padding: 15px; border-radius: 8px; margin: 20px 0; box-shadow: var(--shadow-l1);&#34;&gt;
+  &lt;ul style=&#34;list-style-type: none; padding-left: 0; color: var(--card-text-color-main);&#34;&gt;
     &lt;li style=&#34;margin-bottom: 15px;&#34;&gt;
       &lt;strong&gt;《影后》&lt;/strong&gt; 
-      &lt;span style=&#34;color: gold;&#34;&gt;★★★★&lt;/span&gt;
+      &lt;span style=&#34;color: #FFD700;&#34;&gt;★★★★&lt;/span&gt;
+      &lt;p style=&#34;margin-top: 5px; font-style: italic; color: var(--card-text-color-secondary);&#34;&gt;刻画了非常好的女性形象/女性友谊甚至异性友谊，但结局nono，有些高开低走。&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ul&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;音&#34;&gt;音
-&lt;/h3&gt;&lt;div style=&#34;background: #f8f8f8; padding: 15px; border-radius: 8px; margin: 20px 0;&#34;&gt;
-  &lt;p style=&#34;margin-top: 0;&#34;&gt;&lt;strong&gt;最近在听：&lt;/strong&gt; &lt;a href=&#34;https://open.spotify.com/track/6393yGahSJ9slVdOwSxOVR?si=1e68256e16064a68&#34;&gt;粉红小马俱乐部&lt;/a&gt; 🎵&lt;/p&gt;
+&lt;/h3&gt;&lt;div style=&#34;background: var(--card-background); padding: 15px; border-radius: 8px; margin: 20px 0; box-shadow: var(--shadow-l1);&#34;&gt;
+  &lt;p style=&#34;margin-top: 0; color: var(--card-text-color-main);&#34;&gt;&lt;strong&gt;最近在听：&lt;/strong&gt; &lt;a href=&#34;https://open.spotify.com/track/6393yGahSJ9slVdOwSxOVR?si=1e68256e16064a68&#34; style=&#34;color: var(--link-color);&#34;&gt;粉红小马俱乐部&lt;/a&gt; 🎵&lt;/p&gt;
 
   
   
@@ -150,19 +151,19 @@
       &lt;/iframe&gt;
   &lt;/div&gt;
 
-  &lt;p style=&#34;margin-bottom: 0;&#34;&gt;虽然小时候学了很多年古筝但无奈我在音乐鉴赏领域灵智未开，除了周杰伦和林宥嘉以外，唯爱欣赏抖音土味洗脑神曲和榜单热门歌。&lt;/p&gt;
+  &lt;p style=&#34;margin-bottom: 0; color: var(--card-text-color-main);&#34;&gt;虽然小时候学了很多年古筝但无奈我在音乐鉴赏领域灵智未开，除了周杰伦和林宥嘉以外，唯爱欣赏抖音土味洗脑神曲和榜单热门歌。&lt;/p&gt;
 &lt;/div&gt;
 &lt;h3 id=&#34;游&#34;&gt;游
-&lt;/h3&gt;&lt;div style=&#34;background: #f8f8f8; padding: 15px; border-radius: 8px; margin: 20px 0;&#34;&gt;
+&lt;/h3&gt;&lt;div style=&#34;background: var(--card-background); padding: 15px; border-radius: 8px; margin: 20px 0; box-shadow: var(--shadow-l1);&#34;&gt;
   &lt;div style=&#34;margin-bottom: 20px;&#34;&gt;
-    &lt;h4 style=&#34;margin-top: 0; margin-bottom: 8px;&#34;&gt;🎮 死亡搁浅&lt;/h4&gt;
-    &lt;p style=&#34;margin: 0;&#34;&gt;再次印证我玩不了太自由设定的开放世界类型的游戏，比如永远在尝试永远在落灰的塞尔达（）好像必须有非常明确的强制剧情推着我才能保持投入。不过音画风格我真的太喜欢了！像艺术品一样，好辽阔的美，科幻设定也是狠狠戳我的偏好QoQ。&lt;/p&gt;
-    &lt;p style=&#34;margin-top: 8px; font-style: italic; color: #666;&#34;&gt;Update：在绝美跑图里坚持了没有三天就放弃了。&lt;/p&gt;
+    &lt;h4 style=&#34;margin-top: 0; margin-bottom: 8px; color: var(--card-text-color-main);&#34;&gt;🎮 死亡搁浅&lt;/h4&gt;
+    &lt;p style=&#34;margin: 0; color: var(--card-text-color-main);&#34;&gt;再次印证我玩不了太自由设定的开放世界类型的游戏，比如永远在尝试永远在落灰的塞尔达（）好像必须有非常明确的强制剧情推着我才能保持投入。不过音画风格我真的太喜欢了！像艺术品一样，好辽阔的美，科幻设定也是狠狠戳我的偏好QoQ。&lt;/p&gt;
+    &lt;p style=&#34;margin-top: 8px; font-style: italic; color: var(--card-text-color-secondary);&#34;&gt;Update：在绝美跑图里坚持了没有三天就放弃了。&lt;/p&gt;
   &lt;/div&gt;
   &lt;div&gt;
-    &lt;h4 style=&#34;margin-top: 0; margin-bottom: 8px;&#34;&gt;🎮 战神2&lt;/h4&gt;
-    &lt;p style=&#34;margin: 0;&#34;&gt;主角的武器（无论是斧头还是铁链都！）酷酷的，没有计谋乱打也能打过，挺适合我这种游戏苦手的，而且我喜欢强制主线剧情的rpg，虽然之前卡在一关一周多但是在好心网友的帮助下已经过了。&lt;/p&gt;
-    &lt;p style=&#34;margin-top: 8px; font-style: italic; color: #666;&#34;&gt;Update：最近太忙了好久没打开电视玩游戏了，保守估计还要三个月才能通关吧。&lt;/p&gt;
+    &lt;h4 style=&#34;margin-top: 0; margin-bottom: 8px; color: var(--card-text-color-main);&#34;&gt;🎮 战神2&lt;/h4&gt;
+    &lt;p style=&#34;margin: 0; color: var(--card-text-color-main);&#34;&gt;主角的武器（无论是斧头还是铁链都！）酷酷的，没有计谋乱打也能打过，挺适合我这种游戏苦手的，而且我喜欢强制主线剧情的rpg，虽然之前卡在一关一周多但是在好心网友的帮助下已经过了。&lt;/p&gt;
+    &lt;p style=&#34;margin-top: 8px; font-style: italic; color: var(--card-text-color-secondary);&#34;&gt;Update：最近太忙了好久没打开电视玩游戏了，保守估计还要三个月才能通关吧。&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;其他想说的&#34;&gt;其他想说的
