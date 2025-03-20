@@ -45,91 +45,144 @@
 &lt;p&gt;但问题是我的食欲和食材采购能力并不匹配，导致我买的东西经常吃不完。常常是超市里明明有更小的包装但我总觉得“买大份更划算”，或者看到打折的食物就想着先囤起来，结果很多食材在冰箱里躺到过期，最后只能被我扔进垃圾桶。这些食物被我冲动购买以后就遗弃在冰箱角落最后变成了一次次不容忽视的负罪感。今年也要努力改进这个问题！！！&lt;strong&gt;想想世界上还有那么多人吃不饱肚子，浪费食物太可耻了！&lt;/strong&gt;&lt;/p&gt;
 &lt;h2 id=&#34;书影音游&#34;&gt;书影音游
 &lt;/h2&gt;&lt;h3 id=&#34;书&#34;&gt;书
-&lt;/h3&gt;
-
-
-
-
-
-
-&lt;div class=&#34;book-card&#34; style=&#34;display: flex; margin-bottom: 20px; padding: 15px; background: var(--card-background); border-radius: 8px; box-shadow: var(--shadow-l1);&#34;&gt;
-    &lt;div class=&#34;book-cover&#34; style=&#34;flex-shrink: 0; margin-right: 15px;&#34;&gt;
-        &lt;a href=&#34;https://book.douban.com/subject/35334792/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
-            &lt;img src=&#34;https://img2.doubanio.com/view/subject/l/public/s33808301.jpgg&#34; alt=&#34;《美国生活中的反智主义》 - Anti-intellectualism in American Life [美] 理查德·霍夫施塔特 (Richard Hofstadter)&#34; style=&#34;width: 100px; border-radius: 4px;&#34;&gt;
-        &lt;/a&gt;
+&lt;/h3&gt;&lt;div class=&#34;books-section&#34;&gt;
+  &lt;h2&gt;📚 书单精选&lt;/h2&gt;
+  &lt;div class=&#34;book-list&#34;&gt;
+    &lt;div class=&#34;book-card&#34;&gt;
+      &lt;div class=&#34;book-title&#34;&gt;《美国生活中的反智主义》&lt;/div&gt;
+      &lt;div class=&#34;book-original&#34;&gt;Anti-intellectualism in American Life&lt;/div&gt;
+      &lt;div class=&#34;book-author&#34;&gt;[美] 理查德·霍夫施塔特&lt;/div&gt;
     &lt;/div&gt;
-    &lt;div class=&#34;book-info&#34; style=&#34;flex-grow: 1;&#34;&gt;
-        &lt;h4 class=&#34;book-title&#34; style=&#34;margin-top: 0; margin-bottom: 5px;&#34;&gt;
-            &lt;a href=&#34;https://book.douban.com/subject/35334792/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; style=&#34;text-decoration: none;&#34;&gt;《美国生活中的反智主义》 - Anti-intellectualism in American Life [美] 理查德·霍夫施塔特 (Richard Hofstadter)&lt;/a&gt;
-        &lt;/h4&gt;
-        &lt;div class=&#34;book-rating&#34; style=&#34;margin-bottom: 8px;&#34;&gt;
-            &lt;span style=&#34;font-weight: bold;&#34;&gt;个人评分：&lt;/span&gt; 
-            
-                
-                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
-                
-            
-                
-                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
-                
-            
-                
-                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
-                
-            
-                
-                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
-                
-            
-                
-                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
-                
-            
-                
-                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
-                
-            
-                
-                    &lt;span style=&#34;color: #c2a346;&#34;&gt;★&lt;/span&gt;
-                
-            
-                
-                    &lt;span style=&#34;color: #d8d8d8;&#34;&gt;★&lt;/span&gt;
-                
-            
-                
-                    &lt;span style=&#34;color: #d8d8d8;&#34;&gt;★&lt;/span&gt;
-                
-            
-                
-                    &lt;span style=&#34;color: #d8d8d8;&#34;&gt;★&lt;/span&gt;
-                
-            
-            &lt;span style=&#34;color: #c2a346; margin-left: 5px;&#34;&gt;7/10&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div class=&#34;book-brief&#34; style=&#34;margin-bottom: 10px; font-size: 0.95em; color: var(--card-text-color-main);&#34;&gt;
-            看似先进的美国教育系统实际上是美国反智文化的重要催生者。过度强调功利主义和实用主义的教育体系系统性地削弱了公民的独立思考和理性分析能力。全民教育的推广不仅没有提升社会理性，反而制造了更容易被情绪化论述和简单化叙事俘获的群体。民主制度看似给予每个人平等的表达权，实际上可能为无知提供了一种看似正当的外壳；美国基础通识教育并非真正在启蒙和建立批判性思维，而是被设计成制造顺从的人民的机器。
-        &lt;/div&gt;
-        &lt;div class=&#34;book-tags&#34;&gt;
-            
-            
-                &lt;span style=&#34;display: inline-block; padding: 3px 8px; margin-right: 5px; margin-bottom: 5px; background-color: var(--card-background-secondary); color: var(--card-text-color-secondary); border-radius: 4px; font-size: 0.85em;&#34;&gt;book&lt;/span&gt;
-            
-                &lt;span style=&#34;display: inline-block; padding: 3px 8px; margin-right: 5px; margin-bottom: 5px; background-color: var(--card-background-secondary); color: var(--card-text-color-secondary); border-radius: 4px; font-size: 0.85em;&#34;&gt; political&lt;/span&gt;
-            
-                &lt;span style=&#34;display: inline-block; padding: 3px 8px; margin-right: 5px; margin-bottom: 5px; background-color: var(--card-background-secondary); color: var(--card-text-color-secondary); border-radius: 4px; font-size: 0.85em;&#34;&gt; non-fiction&lt;/span&gt;
-            
-        &lt;/div&gt;
-    &lt;/div&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;book-card&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;book-title&amp;quot;&amp;gt;《活活烧死》&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;book-original&amp;quot;&amp;gt;Burned Alive: A Victim of the Law of Men&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;book-author&amp;quot;&amp;gt;[约旦] 苏拉雅&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;book-card&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;book-title&amp;quot;&amp;gt;《罪与罚》&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;book-original&amp;quot;&amp;gt;Crime and Punishment&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;book-author&amp;quot;&amp;gt;[俄] 陀思妥耶夫斯基&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;book-card&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;book-title&amp;quot;&amp;gt;《离婚》&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;book-original&amp;quot;&amp;gt;Divorce&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;book-author&amp;quot;&amp;gt;[中] 老舍&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+
+&amp;lt;div class=&amp;quot;book-card&amp;quot;&amp;gt;
+  &amp;lt;div class=&amp;quot;book-title&amp;quot;&amp;gt;《在阿尔巴尼亚长大》&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;book-original&amp;quot;&amp;gt;Free: Coming of Age at the End of History&amp;lt;/div&amp;gt;
+  &amp;lt;div class=&amp;quot;book-author&amp;quot;&amp;gt;[阿尔巴尼亚] 莉亚·耶尔尼&amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;book-reviews-link&#34;&gt;
+    &lt;a href=&#34;https://1sle.xyz/overview-5&#34;&gt;📖查看完整书评&lt;/a&gt;
+  &lt;/div&gt;
 &lt;/div&gt;
+&lt;style&gt;
+.books-section {
+  padding: 2rem;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  margin: 2rem 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
 
-&lt;p&gt;《活活烧死》 - Burned Alive: A Victim of the Law of Men&lt;/p&gt;
-&lt;p&gt;《罪与罚》 - Crime and Punishment&lt;/p&gt;
-&lt;p&gt;《离婚》 - Divorce&lt;/p&gt;
-&lt;p&gt;《在阿尔巴尼亚长大》 - Free: Coming of Age at the End of History&lt;/p&gt;
-&lt;p&gt;了解具体书评可以点击：&lt;a class=&#34;link&#34; href=&#34;https://1sle.xyz/overview-5&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;查看2025书评&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;最喜欢：《罪与罚》&lt;/strong&gt;&lt;/p&gt;
+.books-section h2 {
+  margin-top: 0;
+  color: #343a40;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #dee2e6;
+  padding-bottom: 0.5rem;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.book-card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  position: relative;
+  overflow: hidden;
+}
+
+.book-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.book-card::before {
+  content: &#39;&#39;;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #4263eb;
+  border-radius: 4px 0 0 4px;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #212529;
+}
+
+.book-original {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+.book-author {
+  font-size: 0.85rem;
+  color: #495057;
+}
+
+.book-reviews-link {
+  text-align: center;
+}
+
+.book-reviews-link a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #4263eb;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.book-reviews-link a:hover {
+  background-color: #3b5bdb;
+  text-decoration: none;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .book-list {
+    grid-template-columns: 1fr;
+  }
+  
+  .books-section {
+    padding: 1.5rem;
+  }
+}
+&lt;/style&gt;
 &lt;h3 id=&#34;影&#34;&gt;影
 &lt;/h3&gt;&lt;h4 id=&#34;电影&#34;&gt;电影
 &lt;/h4&gt;&lt;p&gt;《大内密探零零发》⭐⭐⭐⭐⭐&lt;/p&gt;
