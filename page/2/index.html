@@ -835,5 +835,18 @@
     "pluginKey": "b779c53f-bf6e-44f0-a1b5-4c6361b927c1"
   });
 </script>
-</body>
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const darkModeToggle = document.querySelector('a[href="#dark-mode"]');
+            if (darkModeToggle) {
+                darkModeToggle.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.body.classList.toggle('dark');
+                    localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+                });
+            }
+        });
+        </script>
+    </body>
 </html>
