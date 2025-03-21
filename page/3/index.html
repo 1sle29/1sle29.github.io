@@ -537,101 +537,44 @@
         
     </aside>
 
-        </div><footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-        2025 1sle
-    </section>
-    
-    <section class="running-time">
-        <span class="running-text">🌌 岛的星球已稳定运转了</span> <span id="runningdays" class="running-days">0</span> <span class="running-text">个地球日</span>
-    </section>
-    
-    <section class="word-count">
-        
-         
-            
+        </div><script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
-            
-         
-            
-         
-            
-         
-            
-                
-            
-         
-            
-                
-            
-         
-            
-                
-            
-         
-            
-                
-            
-         
-            
-                
-            
-         
-            
-                
-            
-         
-            
-         
-            
-         
-        <span class="running-text">🌠 已有21.9k宇宙电波以汉字形式被发射</span>
-    </section>
-    
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
 
-<section class="busuanzi-section">
-    <div class="busuanzi-footer"> 
-        <span id="busuanzi_container_site_pv" class="running-text"> 
-            🛸 星际日志标记了 <span id="busuanzi_value_site_pv"></span> 次探测记录
-        </span> 
-        <span id="busuanzi_container_site_uv" class="running-text"> 
-            👽 您是造访这颗星球的第 <span id="busuanzi_value_site_uv"></span> 位宇宙漫游者 ✧𝕜𝕝𝕒𝕒𝕥𝕦 𝕓𝕒𝕣𝕒𝕕𝕒 𝕟𝕚𝕜𝕥𝕠✧
-        </span>
-    </div>
-</section><section class="powerby">
-        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
-        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
-    </section>
-</footer>
-<style>
-     
-    .running-text, .running-days {
-        color: #666258;  
-        font-weight: 500;  
-    }
-    
-     
-    .busuanzi-section {
-        margin: 0.5rem 0;
-    }
-    
-    .busuanzi-footer {
-        display: flex;
-        flex-direction: column;
-        gap: 0.3rem;
-         
-    }
-    
-    .busuanzi-footer span {
-        margin-right: 1rem;
-    }
-    
-    #busuanzi_value_site_pv, #busuanzi_value_site_uv {
-        font-weight: 600;
-        margin: 0 0.25rem;
-    }
-</style>
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+<script>
+    let s1 = '2025-01-22'; 
+    s1 = new Date(s1.replace(/-/g, "/"));
+    let s2 = new Date();
+    let timeDifference = s2.getTime() - s1.getTime();
+
+    let days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
+    let hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    let minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+
+    let result = days + "天" + hours + "小时" + minutes + "分钟";
+    document.getElementById('runningdays').innerHTML = result;
+</script>
+
+<script>
+  (function(){var w=window;if(w.ChannelIO){return w.console.error("ChannelIO script included twice.");}var ch=function(){ch.c(arguments);};ch.q=[];ch.c=function(args){ch.q.push(args);};w.ChannelIO=ch;function l(){if(w.ChannelIOInitialized){return;}w.ChannelIOInitialized=true;var s=document.createElement("script");s.type="text/javascript";s.async=true;s.src="https://cdn.channel.io/plugin/ch-plugin-web.js";var x=document.getElementsByTagName("script")[0];if(x.parentNode){x.parentNode.insertBefore(s,x);}}if(document.readyState==="complete"){l();}else{w.addEventListener("DOMContentLoaded",l);w.addEventListener("load",l);}})();
+
+  ChannelIO('boot', {
+    "pluginKey": "b779c53f-bf6e-44f0-a1b5-4c6361b927c1"
+  });
+</script>
+
 </body>
 </html>
