@@ -587,9 +587,7 @@
     </section>
     
     <section class="running-time">
-        <div class="footer-stat-item running-text">
-            <span>🌌 岛的星球已稳定运转了</span> <span id="runningdays" class="running-days">0</span> <span>个地球日</span>
-        </div>
+        <span class="running-text">🌌 岛的星球已稳定运转了</span> <span id="runningdays" class="running-days">0</span> <span class="running-text">个地球日</span>
     </section>
     
     <section class="word-count">
@@ -630,23 +628,21 @@
             
          
             
-        
-        <div class="footer-stat-item running-text">
-            <span>🌠 已有21.9k宇宙电波以汉字形式被发射</span>
-        </div>
+         
+        <span class="running-text">🌠 已有21.9k宇宙电波以汉字形式被发射</span>
     </section>
     
-    
-    <section class="busuanzi-section">
-        <div class="busuanzi-footer running-text"> 
-            <span id="busuanzi_container_site_pv"> 
-                💫 星际航行器已在此停泊<span id="busuanzi_value_site_pv"></span>次 
-            </span> 
-            <span id="busuanzi_container_site_uv"> 
-                👽 您是造访过本颗小星球的第<span id="busuanzi_value_site_uv"></span>位星际漫游者
-            </span> 
-        </div>
-    </section><section class="powerby">
+
+<section class="busuanzi-section">
+    <div class="busuanzi-footer"> 
+        <span id="busuanzi_container_site_pv" class="running-text"> 
+            🛸 星际日志标记了 <span id="busuanzi_value_site_pv"></span> 次探测记录
+        </span> 
+        <span id="busuanzi_container_site_uv" class="running-text"> 
+            👽 您是造访这颗星球的第 <span id="busuanzi_value_site_uv"></span> 位宇宙漫游者 「✧༺ 𝓚𝓵𝓪𝓪𝓽𝓾 𝓑𝓪𝓻𝓪𝓭𝓪 𝓝𝓲𝓴𝓽𝓸 ༻✧」
+        </span>
+    </div>
+</section><section class="powerby">
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
@@ -654,13 +650,8 @@
 <style>
      
     .running-text, .running-days {
-        color: #c2a346;  
+        color: #666258;  
         font-weight: 500;  
-    }
-    
-     
-    .footer-stat-item, .busuanzi-footer {
-        font-size: 0.9rem;
     }
     
      
@@ -672,27 +663,19 @@
         display: flex;
         flex-direction: column;
         gap: 0.3rem;
+         
     }
     
-    .busuanzi-footer span, .footer-stat-item span {
-        margin-right: 0.25rem;
+    .busuanzi-footer span {
+        margin-right: 1rem;
     }
     
-    #busuanzi_value_site_pv, #busuanzi_value_site_uv, .running-days {
+    #busuanzi_value_site_pv, #busuanzi_value_site_uv {
         font-weight: 600;
         margin: 0 0.25rem;
     }
-    
-    .site-footer {
-        display: flex;
-        flex-direction: column;
-        gap: 0.8rem;
-    }
-    
-    .site-footer section {
-        line-height: 1.5;
-    }
 </style>
+
 
     
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
