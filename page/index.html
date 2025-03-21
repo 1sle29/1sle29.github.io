@@ -498,7 +498,9 @@
     </section>
     
     <section class="running-time">
-        <span class="running-text">🌌 岛的星球已稳定运转了</span> <span id="runningdays" class="running-days">0</span> <span class="running-text">个地球日</span>
+        <div class="footer-stat-item running-text">
+            <span>🌌 岛的星球已稳定运转了</span> <span id="runningdays" class="running-days">0</span> <span>个地球日</span>
+        </div>
     </section>
     
     <section class="word-count">
@@ -539,8 +541,10 @@
             
          
             
-         
-        <span class="running-text">🌠 已有21.9k宇宙电波以汉字形式被发射</span>
+        
+        <div class="footer-stat-item running-text">
+            <span>🌠 已有21.9k宇宙电波以汉字形式被发射</span>
+        </div>
     </section>
     
     
@@ -566,24 +570,40 @@
     }
     
      
+    .footer-stat-item, .busuanzi-footer {
+        font-size: 0.9rem;
+    }
+    
+     
     .busuanzi-section {
         margin: 0.5rem 0;
     }
     
     .busuanzi-footer {
-        font-size: 0.9rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
     }
     
-    .busuanzi-footer span {
-        margin-right: 1rem;
+    .busuanzi-footer span, .footer-stat-item span {
+        margin-right: 0.25rem;
     }
     
-    #busuanzi_value_site_pv, #busuanzi_value_site_uv {
+    #busuanzi_value_site_pv, #busuanzi_value_site_uv, .running-days {
         font-weight: 600;
         margin: 0 0.25rem;
     }
+    
+    .site-footer {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+    
+    .site-footer section {
+        line-height: 1.5;
+    }
 </style>
-
 
             </main>
         </div>
