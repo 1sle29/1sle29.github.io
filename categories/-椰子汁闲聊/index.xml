@@ -13,7 +13,22 @@
         <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://1sle29.github.io/p/hugocode25321/</guid>
-        <description>&lt;h2 id=&#34;如何更换全局字体&#34;&gt;如何更换全局字体
+        <description>
+
+
+&lt;div style=&#34;margin: 15px 0;&#34;&gt;
+    &lt;iframe 
+        src=&#34;https://open.spotify.com/embed/track/&#34; 
+        width=&#34;100%&#34; 
+        height=&#34;80&#34; 
+        frameborder=&#34;0&#34; 
+        style=&#34;border-radius: 8px; box-shadow: var(--shadow-l1);&#34;
+        allowtransparency=&#34;true&#34; 
+        allow=&#34;encrypted-media&#34;&gt;
+    &lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;如何更换全局字体&#34;&gt;如何更换全局字体
 &lt;/h2&gt;&lt;p&gt;好网站的阅读体验中字体是是非常关键的因素，无论是阅读的你还是吧唧吧唧敲字的我来说&amp;gt;w&amp;lt;！&lt;/p&gt;
 &lt;h3 id=&#34;找到合适的字体源--授权声明&#34;&gt;找到合适的字体源 &amp;amp; 授权声明
 &lt;/h3&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://chinese-font.netlify.app/zh-cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
