@@ -385,107 +385,462 @@ layouts/partials/article-list/tile.html&lt;/p&gt;
         <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
         
         <guid>https://1sle29.github.io/%E4%BB%8B%E7%BB%8Dintro/</guid>
-        <description>&lt;h2 id=&#34;关于岛&#34;&gt;关于岛
+        <description>&lt;div class=&#34;profile-container&#34;&gt;
+  &lt;div class=&#34;profile-header&#34;&gt;
+    &lt;div class=&#34;avatar-container&#34;&gt;
+      &lt;img src=&#34;https://1sle29.github.io/images/avatar.jpg&#34; alt=&#34;岛的头像&#34; class=&#34;avatar&#34;&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;intro-text&#34;&gt;
+      &lt;h1 class=&#34;name-title&#34;&gt;✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✧&lt;/h1&gt;
+      &lt;p class=&#34;tagline&#34;&gt;一颗漂浮在宇宙中的小行星，正在记录银河系漫游指南&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;h2 id=&#34;关于岛&#34;&gt;关于岛
 &lt;/h2&gt;&lt;h3 id=&#34;-基本信息&#34;&gt;🌊 基本信息
-&lt;/h3&gt;&lt;p&gt;岛是一只看似复杂实则简单的奇妙生物 ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✧&lt;/p&gt;
-&lt;p&gt;融合人类常见的缺点（没有耐心、易燃易爆炸，普通却自信）和不太常见的优点（超强的共情能力、多愁善感，还算善良）；&lt;/p&gt;
-&lt;p&gt;难以贴标签，很好相处，每天产出的废话堪比小型垃圾场（约三吨，疑似过度思考的副作用）。&lt;/p&gt;
-&lt;h3 id=&#34;-成分分析&#34;&gt;🎭 成分分析
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;15% 好奇心&lt;/li&gt;
-&lt;li&gt;20% 叛逆&lt;/li&gt;
-&lt;li&gt;20% 温暖&lt;/li&gt;
-&lt;li&gt;15% 特立独行&lt;/li&gt;
-&lt;li&gt;10% 阴暗&lt;/li&gt;
-&lt;li&gt;10% 懒惰&lt;/li&gt;
-&lt;li&gt;9% 固执&lt;/li&gt;
-&lt;li&gt;当然啦还有1%的神秘 :)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/h3&gt;&lt;p&gt;岛是一只看似复杂实则简单的奇妙生物 ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✧&lt;br&gt;
+融合人类常见的缺点（没有耐心、易燃易爆炸，普通却自信）和不太常见的优点（超强的共情能力、多愁善感，还算善良）；&lt;br&gt;
+难以贴标签，很好相处，每天产出的废话堪比小型垃圾场（约三吨，疑似过度思考的副作用）。&lt;/p&gt;
+&lt;div class=&#34;composition-card&#34;&gt;
+  &lt;h3 class=&#34;composition-title&#34;&gt;🎭 成分分析&lt;/h3&gt;
+  &lt;div class=&#34;composition-bars&#34;&gt;
+    &lt;div class=&#34;composition-item&#34;&gt;
+      &lt;div class=&#34;comp-label&#34;&gt;好奇心&lt;/div&gt;
+      &lt;div class=&#34;comp-bar&#34;&gt;
+        &lt;div class=&#34;comp-fill&#34; style=&#34;width: 15%&#34;&gt;&lt;/div&gt;
+        &lt;span class=&#34;comp-percentage&#34;&gt;15%&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;composition-item&#34;&gt;
+      &lt;div class=&#34;comp-label&#34;&gt;叛逆&lt;/div&gt;
+      &lt;div class=&#34;comp-bar&#34;&gt;
+        &lt;div class=&#34;comp-fill&#34; style=&#34;width: 20%&#34;&gt;&lt;/div&gt;
+        &lt;span class=&#34;comp-percentage&#34;&gt;20%&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;composition-item&#34;&gt;
+      &lt;div class=&#34;comp-label&#34;&gt;温暖&lt;/div&gt;
+      &lt;div class=&#34;comp-bar&#34;&gt;
+        &lt;div class=&#34;comp-fill&#34; style=&#34;width: 20%&#34;&gt;&lt;/div&gt;
+        &lt;span class=&#34;comp-percentage&#34;&gt;20%&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;composition-item&#34;&gt;
+      &lt;div class=&#34;comp-label&#34;&gt;特立独行&lt;/div&gt;
+      &lt;div class=&#34;comp-bar&#34;&gt;
+        &lt;div class=&#34;comp-fill&#34; style=&#34;width: 15%&#34;&gt;&lt;/div&gt;
+        &lt;span class=&#34;comp-percentage&#34;&gt;15%&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;composition-item&#34;&gt;
+      &lt;div class=&#34;comp-label&#34;&gt;阴暗&lt;/div&gt;
+      &lt;div class=&#34;comp-bar&#34;&gt;
+        &lt;div class=&#34;comp-fill&#34; style=&#34;width: 10%&#34;&gt;&lt;/div&gt;
+        &lt;span class=&#34;comp-percentage&#34;&gt;10%&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;composition-item&#34;&gt;
+      &lt;div class=&#34;comp-label&#34;&gt;懒惰&lt;/div&gt;
+      &lt;div class=&#34;comp-bar&#34;&gt;
+        &lt;div class=&#34;comp-fill&#34; style=&#34;width: 10%&#34;&gt;&lt;/div&gt;
+        &lt;span class=&#34;comp-percentage&#34;&gt;10%&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;composition-item&#34;&gt;
+      &lt;div class=&#34;comp-label&#34;&gt;固执&lt;/div&gt;
+      &lt;div class=&#34;comp-bar&#34;&gt;
+        &lt;div class=&#34;comp-fill&#34; style=&#34;width: 9%&#34;&gt;&lt;/div&gt;
+        &lt;span class=&#34;comp-percentage&#34;&gt;9%&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;composition-item&#34;&gt;
+      &lt;div class=&#34;comp-label&#34;&gt;神秘&lt;/div&gt;
+      &lt;div class=&#34;comp-bar&#34;&gt;
+        &lt;div class=&#34;comp-fill&#34; style=&#34;width: 1%&#34;&gt;&lt;/div&gt;
+        &lt;span class=&#34;comp-percentage&#34;&gt;1%&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;-当前状态&#34;&gt;🌏 当前状态
-&lt;/h3&gt;&lt;p&gt;目前被命运安排在美洲大陆栖息（已经八年了，大概还要5-8年或者一辈子）。&lt;/p&gt;
+&lt;/h3&gt;&lt;div class=&#34;current-status&#34;&gt;
+  目前被命运安排在美洲大陆栖息（已经八年了，大概还要5-8年或者一辈子）。
 &lt;p&gt;时刻都在幻想远走高飞，奈何理想很丰满、现实很骨感。于是乎安于现状，得过且过，看似无甚大志，却在暗地里幻想着一鸣惊人。&lt;/p&gt;
 &lt;p&gt;渴望被看见和记住，渴望被接纳与认可；&lt;/p&gt;
 &lt;p&gt;向往自由，但在太自由的环境里又会无所适从。&lt;/p&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;-永远可以和我聊这些&#34;&gt;🎀 永远可以和我聊这些
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;🌟 女权主义&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🎬 恐怖片和其他电影: 致力于观看全世界所有恐怖片（即使是烂片）的恐怖片爱好者一枚&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🐱 Pusheen收藏家。如果你不知道pusheen是什么，可以点这里认识她&lt;a class=&#34;link&#34; href=&#34;https://www.douban.com/group/topic/199019795/?_spm_id=MTU1MzQxMTc2&amp;amp;_i=7771823N0LDgHQ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Pusheen&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;📚 阅读分享：欢迎在&lt;a class=&#34;link&#34; href=&#34;https://1sle.xyz/summary&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;我的书单&lt;/a&gt;里随便选一本和我聊喔，或者推荐书给我也可以&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;📒 我最喜欢的genre：文学、科幻、女权主义、哲学&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;✈️ 旅游：探索我的旅游日记获取&lt;a class=&#34;link&#34; href=&#34;https://1sle.notion.site/7ed09ddeb0f34c3489c1460984d64226&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;旅游攻略&lt;/a&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;🚩 下一站想去：南美&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;👗 Vintage探店和购物分享：&lt;a class=&#34;link&#34; href=&#34;https://1sle.notion.site/276a29692ce1411dae28736e45a0c6a9&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;岛的好物种草&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;📻 播客：一个人开车时的最佳伙伴，主要在 spotify 和 podcast 听&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;最爱的播客（每期必听）&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.bumingbai.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;不明白&lt;/a&gt; - 中国人发声、连接的平台，有深度有温度的访谈类节目&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://seahorseplanet.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;海马星球&lt;/a&gt; - 女权主义知识库，我的女权主义启蒙&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8Bfm/id1256399960&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;故事fm&lt;/a&gt; - 主持人&lt;strong&gt;完全不会&lt;/strong&gt;喧宾夺主的故事类节目&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🕵🏻 罪案类youtube&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;想强烈安利的频道&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/@dark-light-studio&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;光暗杂学馆&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.youtube.com/@MiAnZhuiZong&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;迷案追踪&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/h3&gt;&lt;div class=&#34;topic-cards&#34;&gt;
+  &lt;div class=&#34;topic-card&#34;&gt;
+    &lt;div class=&#34;topic-icon&#34;&gt;🌟&lt;/div&gt;
+    &lt;div class=&#34;topic-content&#34;&gt;
+      &lt;h4&gt;女权主义&lt;/h4&gt;
+      &lt;p&gt;我相信性别平等，热爱讨论相关话题&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;topic-card&#34;&gt;
+    &lt;div class=&#34;topic-icon&#34;&gt;🎬&lt;/div&gt;
+    &lt;div class=&#34;topic-content&#34;&gt;
+      &lt;h4&gt;恐怖片和其他电影&lt;/h4&gt;
+      &lt;p&gt;致力于观看全世界所有恐怖片（即使是烂片）的恐怖片爱好者一枚&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;topic-card&#34;&gt;
+    &lt;div class=&#34;topic-icon&#34;&gt;🐱&lt;/div&gt;
+    &lt;div class=&#34;topic-content&#34;&gt;
+      &lt;h4&gt;Pusheen收藏家&lt;/h4&gt;
+      &lt;p&gt;如果你不知道pusheen是什么，可以&lt;a href=&#34;https://www.douban.com/group/topic/199019795/?_spm_id=MTU1MzQxMTc2&amp;_i=7771823N0LDgHQ&#34;&gt;点这里认识她&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;topic-card&#34;&gt;
+    &lt;div class=&#34;topic-icon&#34;&gt;📚&lt;/div&gt;
+    &lt;div class=&#34;topic-content&#34;&gt;
+      &lt;h4&gt;阅读分享&lt;/h4&gt;
+      &lt;p&gt;欢迎在&lt;a href=&#34;https://1sle.xyz/summary&#34;&gt;我的书单&lt;/a&gt;里随便选一本和我聊喔&lt;/p&gt;
+      &lt;p&gt;最爱的genre：文学、科幻、女权主义、哲学&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;topic-card&#34;&gt;
+    &lt;div class=&#34;topic-icon&#34;&gt;✈️&lt;/div&gt;
+    &lt;div class=&#34;topic-content&#34;&gt;
+      &lt;h4&gt;旅游&lt;/h4&gt;
+      &lt;p&gt;探索我的&lt;a href=&#34;https://1sle.notion.site/7ed09ddeb0f34c3489c1460984d64226&#34;&gt;旅游日记&lt;/a&gt;获取旅游攻略&lt;/p&gt;
+      &lt;p&gt;🚩 下一站想去：南美&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;topic-card&#34;&gt;
+    &lt;div class=&#34;topic-icon&#34;&gt;👗&lt;/div&gt;
+    &lt;div class=&#34;topic-content&#34;&gt;
+      &lt;h4&gt;Vintage探店和购物分享&lt;/h4&gt;
+      &lt;p&gt;欢迎查看&lt;a href=&#34;https://1sle.notion.site/276a29692ce1411dae28736e45a0c6a9&#34;&gt;岛的好物种草&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;topic-card&#34;&gt;
+    &lt;div class=&#34;topic-icon&#34;&gt;📻&lt;/div&gt;
+    &lt;div class=&#34;topic-content&#34;&gt;
+      &lt;h4&gt;播客&lt;/h4&gt;
+      &lt;p&gt;一个人开车时的最佳伙伴，主要在 spotify 和 podcast 听&lt;/p&gt;
+      &lt;p&gt;最爱：&lt;a href=&#34;https://www.bumingbai.net/&#34;&gt;不明白&lt;/a&gt;、&lt;a href=&#34;https://seahorseplanet.net/&#34;&gt;海马星球&lt;/a&gt;、&lt;a href=&#34;https://podcasts.apple.com/us/podcast/%E6%95%85%E4%BA%8Bfm/id1256399960&#34;&gt;故事fm&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;topic-card&#34;&gt;
+    &lt;div class=&#34;topic-icon&#34;&gt;🕵🏻&lt;/div&gt;
+    &lt;div class=&#34;topic-content&#34;&gt;
+      &lt;h4&gt;罪案类youtube&lt;/h4&gt;
+      &lt;p&gt;推荐：&lt;a href=&#34;https://www.youtube.com/@dark-light-studio&#34;&gt;光暗杂学馆&lt;/a&gt;、&lt;a href=&#34;https://www.youtube.com/@MiAnZhuiZong&#34;&gt;迷案追踪&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;-不擅长但是很喜欢的事&#34;&gt;🥺 不擅长但是很喜欢的事
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;📝 手账：正在笨拙但快乐地学习拼贴中&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🔍 剧本杀：已完成200+场，喜欢和姐妹们一起”在线开会“几个小时的菠萝头侦探🍍，有局可以叫我！&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;🎮 游戏：主机其实都在落灰中但还是想交朋友&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;⌨️ PS5:&lt;strong&gt;island29hk&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;del&gt;📢 键政&lt;/del&gt;：这个话题请私聊啦~&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/h3&gt;&lt;div class=&#34;hobby-section&#34;&gt;
+  &lt;div class=&#34;hobby-item&#34;&gt;
+    &lt;span class=&#34;hobby-icon&#34;&gt;📝&lt;/span&gt;
+    &lt;div class=&#34;hobby-desc&#34;&gt;
+      &lt;strong&gt;手账&lt;/strong&gt;
+      &lt;p&gt;正在笨拙但快乐地学习拼贴中&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;hobby-item&#34;&gt;
+    &lt;span class=&#34;hobby-icon&#34;&gt;🔍&lt;/span&gt;
+    &lt;div class=&#34;hobby-desc&#34;&gt;
+      &lt;strong&gt;剧本杀&lt;/strong&gt;
+      &lt;p&gt;已完成200+场，喜欢和姐妹们一起&#34;在线开会&#34;几个小时的菠萝头侦探🍍，有局可以叫我！&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;hobby-item&#34;&gt;
+    &lt;span class=&#34;hobby-icon&#34;&gt;🎮&lt;/span&gt;
+    &lt;div class=&#34;hobby-desc&#34;&gt;
+      &lt;strong&gt;游戏&lt;/strong&gt;
+      &lt;p&gt;主机其实都在落灰中但还是想交朋友&lt;/p&gt;
+      &lt;p&gt;⌨️ PS5: &lt;code&gt;island29hk&lt;/code&gt;&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;hobby-item&#34;&gt;
+    &lt;span class=&#34;hobby-icon&#34;&gt;📢&lt;/span&gt;
+    &lt;div class=&#34;hobby-desc&#34;&gt;
+      &lt;strong&gt;&lt;del&gt;键政&lt;/del&gt;&lt;/strong&gt;
+      &lt;p&gt;这个话题请私聊啦~&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
 &lt;h3 id=&#34;-联系方式&#34;&gt;📮 联系方式
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://1sle.xyz&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;网站&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.notion.so/1sle/ee231a6cd1ca47c8a857fdb08cc92662&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;接触手册&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://box.n3ko.cc/_/1sle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;匿名提问箱&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;/h3&gt;&lt;div class=&#34;contact-section&#34;&gt;
+  &lt;a href=&#34;https://1sle.xyz&#34; class=&#34;contact-button&#34;&gt;
+    &lt;span class=&#34;button-icon&#34;&gt;🏠&lt;/span&gt;
+    &lt;span class=&#34;button-text&#34;&gt;网站&lt;/span&gt;
+  &lt;/a&gt;
+  &lt;a href=&#34;https://www.notion.so/1sle/ee231a6cd1ca47c8a857fdb08cc92662&#34; class=&#34;contact-button&#34;&gt;
+    &lt;span class=&#34;button-icon&#34;&gt;📋&lt;/span&gt;
+    &lt;span class=&#34;button-text&#34;&gt;接触手册&lt;/span&gt;
+  &lt;/a&gt;
+  &lt;a href=&#34;https://box.n3ko.cc/_/1sle&#34; class=&#34;contact-button&#34;&gt;
+    &lt;span class=&#34;button-icon&#34;&gt;✉️&lt;/span&gt;
+    &lt;span class=&#34;button-text&#34;&gt;匿名提问箱&lt;/span&gt;
+  &lt;/a&gt;
+&lt;/div&gt;
+&lt;style&gt;
+.profile-container {
+  margin-bottom: 2rem;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.avatar-container {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 1.5rem;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.intro-text {
+  flex-grow: 1;
+}
+
+.name-title {
+  margin: 0 0 0.5rem 0;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+.tagline {
+  font-size: 1.1rem;
+  margin: 0;
+  color: var(--card-text-color-secondary);
+}
+
+.status-card {
+  background: var(--card-background);
+  border-radius: var(--card-border-radius);
+  padding: 1rem 1.5rem;
+  box-shadow: var(--shadow-l1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.status-item {
+  padding: 0.5rem;
+  flex: 1;
+  min-width: 160px;
+  text-align: center;
+}
+
+.status-label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  color: var(--card-text-color-secondary);
+}
+
+.status-value {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.composition-card {
+  background: var(--card-background);
+  border-radius: var(--card-border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-l1);
+  margin: 1.5rem 0;
+}
+
+.composition-title {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.composition-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.composition-item {
+  display: flex;
+  align-items: center;
+}
+
+.comp-label {
+  width: 80px;
+  flex-shrink: 0;
+}
+
+.comp-bar {
+  flex-grow: 1;
+  height: 24px;
+  background: rgba(0,0,0,0.05);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.comp-fill {
+  height: 100%;
+  background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  border-radius: 12px;
+}
+
+.comp-percentage {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.current-status {
+  background: var(--card-background);
+  border-radius: var(--card-border-radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow-l1);
+  margin: 1.5rem 0;
+  line-height: 1.6;
+}
+
+.topic-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.topic-card {
+  background: var(--card-background);
+  border-radius: var(--card-border-radius);
+  padding: 1rem;
+  box-shadow: var(--shadow-l1);
+  display: flex;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-l2);
+}
+
+.topic-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.topic-content {
+  flex: 1;
+}
+
+.topic-content h4 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.topic-content p {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.hobby-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.hobby-item {
+  background: var(--card-background);
+  border-radius: var(--card-border-radius);
+  padding: 1rem;
+  box-shadow: var(--shadow-l1);
+  display: flex;
+  align-items: flex-start;
+}
+
+.hobby-icon {
+  font-size: 1.8rem;
+  margin-right: 1rem;
+}
+
+.hobby-desc {
+  flex: 1;
+}
+
+.hobby-desc p {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.9rem;
+}
+
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.contact-button {
+  display: inline-flex;
+  align-items: center;
+  background: var(--card-background);
+  color: var(--link-color);
+  border-radius: 30px;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  box-shadow: var(--shadow-l1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-button:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-l2);
+}
+
+.button-icon {
+  margin-right: 0.5rem;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .profile-header {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .avatar-container {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .status-card {
+    flex-direction: column;
+  }
+  
+  .status-item {
+    margin-bottom: 0.5rem;
+  }
+  
+  .topic-cards, .hobby-section {
+    grid-template-columns: 1fr;
+  }
+}
+&lt;/style&gt;
 </description>
         </item>
         <item>
