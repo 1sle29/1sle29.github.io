@@ -33,31 +33,22 @@
   gtag('js', new Date());
   gtag('config', 'G-MSMV3S0M9W');
 </script>
-
-<link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/mkwtyt/dist/MaoKenTangYuan/result.css' />
-
-
 <style>
-    html, body {
-        font-size: 14px !important;
-    }
-    
-    * {
-        font-size: 95% !important;
-    }
-    
-    h1, h2, h3, h4, h5, h6 {
-        font-size: 110% !important;
-    }
-    
-    .article-title {
-        font-size: 1.5rem !important;
-    }
-    
-    .article-subtitle {
-        font-size: 1rem !important;
+    :root {
+        --article-font-family: "Noto Serif SC", var(--base-font-family);
     }
 </style>
+<script>  
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&display=swap";
+    
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+    
+        document.head.appendChild(customFont);
+    }());
+</script>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <script>
   document.addEventListener('DOMContentLoaded', function() {
