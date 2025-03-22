@@ -13,21 +13,24 @@
         <pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate>
         
         <guid>https://1sle29.github.io/p/hugocode25321/</guid>
-        <description>
+        <description>&lt;div style=&#34;background: var(--card-background); padding: 15px; border-radius: 8px; margin: 20px 0; box-shadow: var(--shadow-l1);&#34;&gt;
+  &lt;p style=&#34;margin-top: 0; color: var(--card-text-color-main);&#34;&gt;&lt;strong&gt;最近在听：&lt;/strong&gt; &lt;a href=&#34;https://open.spotify.com/track/4MJ7Oao7yDlUgoOR2kCg95?si=2c53a88f3e6a4af6&#34; style=&#34;color: var(--link-color);&#34;&gt;Counting Stars&lt;/a&gt; 🎵&lt;/p&gt;
 
+  
+  
+  &lt;div style=&#34;margin: 15px 0;&#34;&gt;
+      &lt;iframe 
+          src=&#34;https://open.spotify.com/embed/track/4MJ7Oao7yDlUgoOR2kCg95&#34; 
+          width=&#34;100%&#34; 
+          height=&#34;80&#34; 
+          frameborder=&#34;0&#34; 
+          style=&#34;border-radius: 8px; box-shadow: var(--shadow-l1);&#34;
+          allowtransparency=&#34;true&#34; 
+          allow=&#34;encrypted-media&#34;&gt;
+      &lt;/iframe&gt;
+  &lt;/div&gt;
 
-&lt;div style=&#34;margin: 15px 0;&#34;&gt;
-    &lt;iframe 
-        src=&#34;https://open.spotify.com/embed/track/&#34; 
-        width=&#34;100%&#34; 
-        height=&#34;80&#34; 
-        frameborder=&#34;0&#34; 
-        style=&#34;border-radius: 8px; box-shadow: var(--shadow-l1);&#34;
-        allowtransparency=&#34;true&#34; 
-        allow=&#34;encrypted-media&#34;&gt;
-    &lt;/iframe&gt;
 &lt;/div&gt;
-
 &lt;h2 id=&#34;如何更换全局字体&#34;&gt;如何更换全局字体
 &lt;/h2&gt;&lt;p&gt;好网站的阅读体验中字体是是非常关键的因素，无论是阅读的你还是吧唧吧唧敲字的我来说&amp;gt;w&amp;lt;！&lt;/p&gt;
 &lt;h3 id=&#34;找到合适的字体源--授权声明&#34;&gt;找到合适的字体源 &amp;amp; 授权声明
