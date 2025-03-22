@@ -38,17 +38,37 @@
         --article-font-family: "Noto Serif SC", var(--base-font-family);
     }
 </style>
-<script>  
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;700&display=swap";
+
+<style>
+    html {
+        font-size: 14px !important;
+    }
     
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
+    .sidebar .site-name {
+        font-size: 1.5rem !important;
+    }
     
-        document.head.appendChild(customFont);
-    }());
-</script>
+    .sidebar .site-description {
+        font-size: 0.8rem !important;
+    }
+    
+    .menu a span {
+        font-size: 0.9rem !important;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 90% !important;
+    }
+    
+    .article-title {
+        font-size: 1.8rem !important;
+    }
+    
+    .section-title, .widget-title {
+        font-size: 1rem !important;
+    }
+</style>
+<link rel='stylesheet' href='https://chinese-fonts-cdn.deno.dev/packages/mkwtyt/dist/MaoKenTangYuan/result.css' />
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <script>
   document.addEventListener('DOMContentLoaded', function() {
