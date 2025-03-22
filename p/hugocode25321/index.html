@@ -303,14 +303,19 @@
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#1-找到合适的字体源--授权声明">1. 找到合适的字体源 &amp; 授权声明</a></li>
-    <li><a href="#2-在网站的head部分添加以下代码来添加猫啃糖圆字体">2. 在网站的<code>&lt;head&gt;</code>部分，添加以下代码来添加猫啃糖圆字体：</a></li>
-    <li><a href="#3修改hugo主题的variablescss文件">3.修改Hugo主题的variable.scss文件</a></li>
-  </ol>
-
-  <ol>
-    <li><a href="#定位到需要修改的文件">定位到需要修改的文件</a></li>
-    <li><a href="#优化显示">优化显示</a></li>
+    <li><a href="#如何更换全局字体">如何更换全局字体</a>
+      <ol>
+        <li><a href="#找到合适的字体源--授权声明">找到合适的字体源 &amp; 授权声明</a></li>
+        <li><a href="#在网站的head部分添加以下代码来添加猫啃糖圆字体">在网站的<code>&lt;head&gt;</code>部分，添加以下代码来添加猫啃糖圆字体：</a></li>
+        <li><a href="#修改hugo主题的variablescss文件">修改Hugo主题的variable.scss文件</a></li>
+      </ol>
+    </li>
+    <li><a href="#如何优化相关文章板块">如何优化相关文章板块</a>
+      <ol>
+        <li><a href="#定位到需要修改的文件">定位到需要修改的文件</a></li>
+        <li><a href="#优化显示">优化显示</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -392,7 +397,7 @@
         
             <div>
                 <time class="article-words">
-                    715 words
+                    711 words
                 </time>
             </div>
         
@@ -411,14 +416,14 @@
     <section class="article-content">
     
     
-    <h1 id="如何更换全局字体">如何更换全局字体
-</h1><p>好网站的阅读体验中字体是是非常关键的因素，无论是阅读的你还是吧唧吧唧敲字的我来说&gt;w&lt;！</p>
-<h2 id="1-找到合适的字体源--授权声明">1. 找到合适的字体源 &amp; 授权声明
-</h2><p><a class="link" href="https://chinese-font.netlify.app/zh-cn/"  target="_blank" rel="noopener"
+    <h2 id="如何更换全局字体">如何更换全局字体
+</h2><p>好网站的阅读体验中字体是是非常关键的因素，无论是阅读的你还是吧唧吧唧敲字的我来说&gt;w&lt;！</p>
+<h3 id="找到合适的字体源--授权声明">找到合适的字体源 &amp; 授权声明
+</h3><p><a class="link" href="https://chinese-font.netlify.app/zh-cn/"  target="_blank" rel="noopener"
     >Chinese Fonts CDN</a></p>
 <p>目前网站使用的是猫啃糖圆 (MaoKenTangYuan beta)，感谢字体作者的无私分享！</p>
-<h2 id="2-在网站的head部分添加以下代码来添加猫啃糖圆字体">2. 在网站的<code>&lt;head&gt;</code>部分，添加以下代码来添加猫啃糖圆字体：
-</h2><div class="highlight"><div class="chroma">
+<h3 id="在网站的head部分添加以下代码来添加猫啃糖圆字体">在网站的<code>&lt;head&gt;</code>部分，添加以下代码来添加猫啃糖圆字体：
+</h3><div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
 </span><span class="lnt"> 2
@@ -448,8 +453,8 @@
 </span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="3修改hugo主题的variablescss文件">3.修改Hugo主题的variable.scss文件
-</h2><p>找到hugo-theme-stack/assets/scss/variable.scss文件，加入：</p>
+</div><h3 id="修改hugo主题的variablescss文件">修改Hugo主题的variable.scss文件
+</h3><p>找到hugo-theme-stack/assets/scss/variable.scss文件，加入：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -475,11 +480,11 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>这一步是为了改变了字体的优先级，确保猫啃糖圆成为网站的首选字体</p>
-<h1 id="如何优化相关文章板块">如何优化相关文章板块
-</h1><p>原本的相关文章部分试图在每篇文章下方显示图片，但我的post大多没有设置主题图片所以就有很不协调的视觉效果
+<h2 id="如何优化相关文章板块">如何优化相关文章板块
+</h2><p>原本的相关文章部分试图在每篇文章下方显示图片，但我的post大多没有设置主题图片所以就有很不协调的视觉效果
 我下往修改后的设计是纯文本，只显示文章标题和发布日期</p>
-<h2 id="定位到需要修改的文件">定位到需要修改的文件
-</h2><p>Stack主题的相关文章功能主要是这两个文件控制：
+<h3 id="定位到需要修改的文件">定位到需要修改的文件
+</h3><p>Stack主题的相关文章功能主要是这两个文件控制：
 layouts/partials/article/components/related-contents.html
 layouts/partials/article-list/tile.html</p>
 <p>我们来简化以下所有与图片相关的逻辑和HTML标记的部分然后增加发布日期</p>
@@ -519,8 +524,8 @@ layouts/partials/article-list/tile.html</p>
 </span></span><span class="line"><span class="cl">&lt;/article&gt;
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h2 id="优化显示">优化显示
-</h2><p>然后找到assets/scss/custom.scss</p>
+</div><h3 id="优化显示">优化显示
+</h3><p>然后找到assets/scss/custom.scss</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
