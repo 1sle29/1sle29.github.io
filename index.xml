@@ -385,17 +385,16 @@ layouts/partials/article-list/tile.html&lt;/p&gt;
         <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
         
         <guid>https://1sle29.github.io/%E4%BB%8B%E7%BB%8Dintro/</guid>
-        <description>&lt;div class=&#34;profile-container&#34;&gt;
-  &lt;div class=&#34;profile-header&#34;&gt;
-    &lt;div class=&#34;avatar-container&#34;&gt;
-      &lt;img src=&#34;https://1sle29.github.io/img/catdoodle.png&#34; alt=&#34;猫&#34; class=&#34;avatar&#34;&gt;
-    &lt;/div&gt;
-    &lt;div class=&#34;intro-text&#34;&gt;
-      &lt;h1 class=&#34;name-title&#34;&gt;✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✧&lt;/h1&gt;
-      &lt;p class=&#34;tagline&#34;&gt;一颗漂浮在宇宙中的小行星，正在记录银河系漫游指南&lt;/p&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
+        <description>&lt;p&gt;&lt;img src=&#34;https://1sle29.github.io/img/catdoodle.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h1 id=&#34;ʕɂ&#34;&gt;✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✧
+&lt;/h1&gt;&lt;p&gt;一颗漂浮在宇宙中的小行星，正在记录银河系漫游指南&lt;/p&gt;
 &lt;h2 id=&#34;关于岛&#34;&gt;关于岛
 &lt;/h2&gt;&lt;h3 id=&#34;-基本信息&#34;&gt;🌊 基本信息
 &lt;/h3&gt;&lt;p&gt;岛是一只看似复杂实则简单的奇妙生物 ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✧&lt;br&gt;
