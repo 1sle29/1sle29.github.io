@@ -139,12 +139,7 @@
   &lt;div class=&#34;imdb-card-header&#34;&gt;
     &lt;div class=&#34;imdb-logo&#34;&gt;IMDb&lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;imdb-card-content&#34;&gt;
-    &lt;div class=&#34;imdb-poster&#34;&gt;
-      
-        &lt;div class=&#34;imdb-no-poster&#34;&gt;无海报&lt;/div&gt;
-      
-    &lt;/div&gt;
+  &lt;div class=&#34;imdb-card-content no-poster&#34;&gt;
     &lt;div class=&#34;imdb-info&#34;&gt;
       &lt;h3 class=&#34;imdb-title&#34;&gt;An Unfinished Film (未知年份)&lt;/h3&gt;
       &lt;div class=&#34;imdb-rating&#34;&gt;
@@ -161,6 +156,7 @@
           在IMDb上查看
         &lt;/a&gt;
       &lt;/div&gt;
+      
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -182,12 +178,7 @@
   &lt;div class=&#34;imdb-card-header&#34;&gt;
     &lt;div class=&#34;imdb-logo&#34;&gt;IMDb&lt;/div&gt;
   &lt;/div&gt;
-  &lt;div class=&#34;imdb-card-content&#34;&gt;
-    &lt;div class=&#34;imdb-poster&#34;&gt;
-      
-        &lt;div class=&#34;imdb-no-poster&#34;&gt;无海报&lt;/div&gt;
-      
-    &lt;/div&gt;
+  &lt;div class=&#34;imdb-card-content no-poster&#34;&gt;
     &lt;div class=&#34;imdb-info&#34;&gt;
       &lt;h3 class=&#34;imdb-title&#34;&gt;No Other Land (未知年份)&lt;/h3&gt;
       &lt;div class=&#34;imdb-rating&#34;&gt;
@@ -204,6 +195,7 @@
           在IMDb上查看
         &lt;/a&gt;
       &lt;/div&gt;
+      
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
