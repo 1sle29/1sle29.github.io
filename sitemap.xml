@@ -89,6 +89,8 @@
     <loc>https://1sle29.github.io/p/creditcard/</loc>
     <lastmod>2023-01-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://1sle29.github.io/books/</loc>
+  </url><url>
     <loc>https://1sle29.github.io/tags/</loc>
   </url><url>
     <loc>https://1sle29.github.io/categories/test/</loc>
@@ -96,7 +98,5 @@
     <loc>https://1sle29.github.io/friends/</loc>
   </url><url>
     <loc>https://1sle29.github.io/search/</loc>
-  </url><url>
-    <loc>https://1sle29.github.io/books/</loc>
   </url>
 </urlset>
