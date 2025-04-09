@@ -60,6 +60,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  font-size: 14px;  
 }
 .imdb-card-header {
   background-color: #f5c518;
@@ -168,14 +169,69 @@
     color: #ccc;
   }
 }
-
  
 .imdb-card-content.no-poster {
   padding: 20px;
 }
-
 .imdb-info {
   width: 100%;
+}
+
+ 
+ 
+.imdb-details p, 
+.imdb-review-content p {
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+ 
+.imdb-details strong {
+  font-size: 0.95rem;
+}
+
+ 
+.imdb-review {
+  padding: 0 20px 20px 20px;
+  border-top: 1px solid #eee;
+  margin-top: 5px;
+}
+
+ 
+.imdb-review-header {
+  font-size: 1.1rem;
+  margin: 15px 0 10px 0;
+  font-weight: 600;
+  color: #333;
+  padding-bottom: 5px;
+}
+
+ 
+.imdb-review-content {
+  font-size: 0.95rem !important;
+  line-height: 1.6;
+  color: #444;
+}
+
+ 
+.imdb-card * {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+ 
+@media (prefers-color-scheme: dark) {
+  .imdb-review {
+    border-top-color: #444;
+  }
+  
+  .imdb-review-header {
+    color: #eee;
+  }
+  
+  .imdb-review-content {
+    color: #ccc;
+  }
 }
 </style>
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
