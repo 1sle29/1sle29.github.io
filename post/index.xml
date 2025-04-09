@@ -130,17 +130,40 @@
 
 
 
+
+
+
+
+
 &lt;div class=&#34;imdb-card&#34;&gt;
   &lt;div class=&#34;imdb-card-header&#34;&gt;
     &lt;div class=&#34;imdb-logo&#34;&gt;IMDb&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;imdb-card-content&#34;&gt;
-    &lt;div class=&#34;imdb-error&#34;&gt;
-      需要提供OMDB API密钥。您可以在 &lt;a href=&#34;http://www.omdbapi.com/&#34; target=&#34;_blank&#34;&gt;www.omdbapi.com&lt;/a&gt; 获取免费API密钥。
+    &lt;div class=&#34;imdb-poster&#34;&gt;
+      
+        &lt;div class=&#34;imdb-no-poster&#34;&gt;无海报&lt;/div&gt;
+      
+    &lt;/div&gt;
+    &lt;div class=&#34;imdb-info&#34;&gt;
+      &lt;h3 class=&#34;imdb-title&#34;&gt;测试 (未知年份)&lt;/h3&gt;
+      &lt;div class=&#34;imdb-rating&#34;&gt;
+        &lt;span class=&#34;imdb-star&#34;&gt;★&lt;/span&gt; 
+        &lt;span class=&#34;imdb-score&#34;&gt;0.0&lt;/span&gt;&lt;span class=&#34;imdb-outof&#34;&gt;/10&lt;/span&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;imdb-details&#34;&gt;
+        &lt;p&gt;&lt;strong&gt;导演:&lt;/strong&gt; 未知导演&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;类型:&lt;/strong&gt; 未知类型&lt;/p&gt;
+        &lt;p&gt;&lt;strong&gt;剧情:&lt;/strong&gt; 没有剧情简介&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;imdb-link&#34;&gt;
+        &lt;a href=&#34;https://www.imdb.com/title/tt32186579/&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;
+          在IMDb上查看
+        &lt;/a&gt;
+      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
-
 
 &lt;p&gt;放映厅的光暗下来的那一刻，我突然意识到，那几年的情绪余波从未真正离开，它们一直沉在我身体深处，像潜伏的暗流，无声却持续地流动着。娄烨用镜头与遗忘对抗，用艺术抵达那些不被允许表达的禁区。这部电影粗糙、简单，艺术性或许并不出众，但也正因如此，它显得格外坦率。娄烨没有把表达变成一种姿态，他只是倔强而诚实地，将时间与记忆化作影像。他拍的是我们，那些还不愿放下、还在拼命记得的我们。他把那些“不该被说”的话藏进镜头的缝隙里，像偷偷写在书页边角的注解，埋在光影交错之中，埋在长镜头无言的凝视里。轻轻地，却固执地留下痕迹。娄烨不仅在拍电影，他在记录——一种对“不能记得”的记，一种在缄默中喃喃自语的记，一种无需回应但必须被保留下来的记。坐在小小的放映厅里，我和身边陌生的观众沉浸在那段既共通又各异的记忆中，仿佛我们在黑暗中形成了一种默契的共情，一种无声却真实的连接。我忽然想，也许此刻能够自由地坐在这里，完整地看完这部被禁止的作品，就是我走得这么远、这么辛苦的意义所在吧。&lt;/p&gt;
 &lt;p&gt;只要我们还记得，就还有一些东西，是他们拿不走的。&lt;/p&gt;
