@@ -59,7 +59,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
-  font-size: 14px;  
+  font-size: 16px;  
 }
 .imdb-card-header {
   background-color: #f5c518;
@@ -102,7 +102,8 @@
 }
 .imdb-title {
   margin: 0 0 10px 0;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
   color: #000;
 }
 .imdb-rating {
@@ -117,7 +118,7 @@
 }
 .imdb-score {
   font-weight: bold;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 .imdb-outof {
   color: #666;
@@ -125,11 +126,11 @@
 }
 .imdb-details {
   color: #333;
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.6;
 }
 .imdb-details p {
-  margin: 5px 0;
+  margin: 8px 0;
 }
 .imdb-link {
   margin-top: 15px;
@@ -138,11 +139,11 @@
   display: inline-block;
   background-color: #f5c518;
   color: #000;
-  padding: 8px 12px;
+  padding: 10px 15px;
   border-radius: 4px;
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition: background-color 0.2s;
 }
 .imdb-link a:hover {
@@ -177,20 +178,6 @@
 }
 
  
- 
-.imdb-details p, 
-.imdb-review-content p {
-  font-size: 0.95rem;
-  line-height: 1.5;
-  margin: 5px 0;
-}
-
- 
-.imdb-details strong {
-  font-size: 0.95rem;
-}
-
- 
 .imdb-review {
   padding: 0 20px 20px 20px;
   border-top: 1px solid #eee;
@@ -199,18 +186,22 @@
 
  
 .imdb-review-header {
-  font-size: 1.1rem;
-  margin: 15px 0 10px 0;
+  font-size: 1.3rem;
+  margin: 20px 0 12px 0;
   font-weight: 600;
   color: #333;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
 }
 
  
 .imdb-review-content {
-  font-size: 0.95rem !important;
-  line-height: 1.6;
+  font-size: 1.1rem !important;
+  line-height: 1.7;
   color: #444;
+}
+
+.imdb-review-content p {
+  margin-bottom: 12px;
 }
 
  
@@ -230,6 +221,21 @@
   
   .imdb-review-content {
     color: #ccc;
+  }
+}
+
+ 
+@media (max-width: 768px) {
+  .imdb-card {
+    font-size: 15px;
+  }
+  
+  .imdb-title {
+    font-size: 1.4rem;
+  }
+  
+  .imdb-review-content {
+    font-size: 1rem !important;
   }
 }
 </style>
