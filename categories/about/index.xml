@@ -26,66 +26,74 @@ summary:hover {
   color: #ffffff;
 }
 
-/* 强化 dark mode 下的可见性 */
-@media (prefers-color-scheme: dark) {
-  summary {
-    color: #bbbbbb;
-  }
-  summary:hover {
-    color: #ffffff;
-  }
-}
-&lt;/style&gt;
+
 &lt;details&gt;
 &lt;summary&gt;🌙 点这里切换中文版本&lt;/summary&gt;
-&lt;p&gt;一颗叛逃轨道漂浮在宇宙中的小岛，正在记录银河系漫游指南✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
-&lt;p&gt;你好呀，人类，或者外星人。&lt;/p&gt;
-&lt;p&gt;无论你来自哪里，为什么来，宇宙总是这样安排一些奇妙的邂逅，于是我们会在某个时空的某个坐标相遇，是一种概率近乎于零的奇迹。很高兴遇见你，愿你的每一天都温暖、明亮，健康。&lt;/p&gt;
-&lt;p&gt;我呢，是这颗蓝色星球中既普通又特别的一个，一团凝结成了会思考的形状的尘埃，拥有人类这种生物常见的小毛病：没有耐心、易燃易爆炸，普通却自信；
-同时也有些不太常见的属性：超强的共情力、多愁善感，以及，还算善良（至少我这样希望^^）&lt;/p&gt;
-&lt;p&gt;如果你需要标签来勾勒我的轮廓的话，那么我大概是由这些碎片拼凑而成的：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;女权主义者&lt;/li&gt;
-&lt;li&gt;测了至少50遍都是ENFP的水瓶座&lt;/li&gt;
-&lt;li&gt;正在执着地收集Pusheen相关的一切产品&lt;/li&gt;
-&lt;li&gt;三餐都吃炒土豆丝、爆辣新疆炒米粉和面条儿也不会腻&lt;/li&gt;
-&lt;li&gt;非常非常非常喜欢J·M·库切，周杰伦和林宥嘉&lt;/li&gt;
-&lt;li&gt;恐怖片爱好者，尤其是cult和slasher（就是那种一边捂着眼睛一边透过指缝偷看的类型啦！）习惯吃任何东西都蘸醋&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;不过呢，用标签定义人总是太简单粗暴。就像试图用几次潮汐概括整片海洋，生命的色彩要来得丰富太多、复杂太多。好在这里存放着一些我的想法，我就藏在这些文字的缝隙背后，请你随意翻阅。但这些文字，也只是我在某个瞬间的倒影，就像水面映出的月亮不是真正的月亮，我也是不断流动变化的，当下的表达只代表当下的我，不代表此刻，更不代表明天的我。&lt;/p&gt;
-&lt;p&gt;在这个什么都很快，快到来不及细看一次花开的时代，人和人之间也变得奇怪了。我们和很多人一起吃饭玩耍，却很少有人会认真问一句&amp;quot;你最近在想什么？&amp;quot;，更少有人愿意耐心听完答案。我们默契地停留在安全的表面，成为彼此最熟悉的陌生人。而我呢，我总是很好奇——你怎么看这个世界？你怎么理解人生、存在，那些说不清道不明的东西？我们不必思考相同的问题，甚至可以拥有完全不同的答案。重要的是你在想，而我在听。毕竟从思想开始慢慢地靠近一个人，是件奢侈又浪漫的事，你觉得呢？&lt;/p&gt;
-&lt;p&gt;如果你愿意停留几秒钟，给予我的表达一点点回应的话，那就太好啦。我始终相信生命与生命之间那些柔软的东西——真诚、友善、理解，它们比偏见和仇恨要珍贵得多。&lt;/p&gt;
-&lt;p&gt;看见和被看见，大概就是我表达的全部意义了。
-无论如何，谢谢你读到这里！&lt;/p&gt;
+
+一颗叛逃轨道漂浮在宇宙中的小岛，正在记录银河系漫游指南✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎
+
+你好呀，人类，或者外星人。
+
+无论你来自哪里，为什么来，宇宙总是这样安排一些奇妙的邂逅，于是我们会在某个时空的某个坐标相遇，是一种概率近乎于零的奇迹。很高兴遇见你，愿你的每一天都温暖、明亮，健康。
+
+我呢，是这颗蓝色星球中既普通又特别的一个，一团凝结成了会思考的形状的尘埃，拥有人类这种生物常见的小毛病：没有耐心、易燃易爆炸，普通却自信；
+同时也有些不太常见的属性：超强的共情力、多愁善感，以及，还算善良（至少我这样希望^^）
+
+
+如果你需要标签来勾勒我的轮廓的话，那么我大概是由这些碎片拼凑而成的：
+
+- 女权主义者
+- 测了至少50遍都是ENFP的水瓶座
+- 正在执着地收集Pusheen相关的一切产品
+- 三餐都吃炒土豆丝、爆辣新疆炒米粉和面条儿也不会腻
+- 非常非常非常喜欢J·M·库切，周杰伦和林宥嘉
+- 恐怖片爱好者，尤其是cult和slasher（就是那种一边捂着眼睛一边透过指缝偷看的类型啦！）习惯吃任何东西都蘸醋
+
+不过呢，用标签定义人总是太简单粗暴。就像试图用几次潮汐概括整片海洋，生命的色彩要来得丰富太多、复杂太多。好在这里存放着一些我的想法，我就藏在这些文字的缝隙背后，请你随意翻阅。但这些文字，也只是我在某个瞬间的倒影，就像水面映出的月亮不是真正的月亮，我也是不断流动变化的，当下的表达只代表当下的我，不代表此刻，更不代表明天的我。
+
+在这个什么都很快，快到来不及细看一次花开的时代，人和人之间也变得奇怪了。我们和很多人一起吃饭玩耍，却很少有人会认真问一句&#34;你最近在想什么？&#34;，更少有人愿意耐心听完答案。我们默契地停留在安全的表面，成为彼此最熟悉的陌生人。而我呢，我总是很好奇——你怎么看这个世界？你怎么理解人生、存在，那些说不清道不明的东西？我们不必思考相同的问题，甚至可以拥有完全不同的答案。重要的是你在想，而我在听。毕竟从思想开始慢慢地靠近一个人，是件奢侈又浪漫的事，你觉得呢？
+
+如果你愿意停留几秒钟，给予我的表达一点点回应的话，那就太好啦。我始终相信生命与生命之间那些柔软的东西——真诚、友善、理解，它们比偏见和仇恨要珍贵得多。
+
+看见和被看见，大概就是我表达的全部意义了。
+无论如何，谢谢你读到这里！
+
+
 &lt;/details&gt;
-&lt;p&gt;&lt;img src=&#34;https://1sle29.github.io/img/catdoodle.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;who-is-1sle&#34;&gt;who is 1sle?
-&lt;/h2&gt;&lt;p&gt;A rebellious little island, off its destined orbit, drifting through the cosmos while quietly writing its own version of the galaxy’s travel diary. ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
-&lt;p&gt;Hi there—human, or alien.&lt;/p&gt;
-&lt;p&gt;Wherever you come from, whatever brought you here, it feels like the universe arranged this wonderful encounter—so that we meet at some random coordinate in space-time, a miracle with a probability close to zero. It&amp;rsquo;s wonderful to meet you. May each of your days be warm, bright, and healthy.&lt;/p&gt;
-&lt;p&gt;As for me, I&amp;rsquo;m both ordinary and special among the inhabitants of this blue planet—a clump of dust that has condensed into a thinking form. I carry some of the classic human glitches: impatient, quick to ignite, a bit of a mess—but weirdly confident. But I’ve also got some rarer traits: a bleeding-heart empath, deeply sentimental, and (I hope) kind.&lt;/p&gt;
-&lt;p&gt;If you need labels to sketch out a rough silhouette of me, I suppose I’m made up of these fragments:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Feminist&lt;/li&gt;
-&lt;li&gt;ENFP/Aquarius&lt;/li&gt;
-&lt;li&gt;Devoted Pusheen collector&lt;/li&gt;
-&lt;li&gt;Horror film enthusiast, especially cult and slasher films (the type who covers their eyes while peeking through their fingers anyway!)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;But labeling people is always a little too crude, too simplistic—like trying to sum up the whole sea with just a few tides. There’s so much more beneath the surface. I’ve scattered some of my thoughts around here. You’re welcome to take a look. But words are only reflections of who I am in certain moments. Like the moon mirrored on water, they aren’t the moon itself. I’m always in motion, always becoming. What you read here captures only who I am now—not who I was, and not yet who I’ll be.&lt;/p&gt;
-&lt;p&gt;In a world where everything rushes forward so fast we barely have time to watch a flower bloom, human connection has grown strangely distant. We share meals, laughter, and moments with many—rarely does someone pause to ask,  “What’s been on your mind lately?” And rarer still: someone who stays to hear the whole answer. So we linger on the surface, where it feels safe. And slowly, we become each other’s most familiar strangers.&lt;/p&gt;
-&lt;p&gt;But me? I’m always curious:
-How do you see this world? How do you understand life, existence, those ineffable things? We don&amp;rsquo;t need to ask the same questions, or even hold answers that contradict. What matters is that you’re thinking, and I’m listening. After all, approaching someone by way of their thoughts is both luxurious and romantic, don’t you think?&lt;/p&gt;
-&lt;p&gt;So if you’ve made it this far—if you’re willing to pause for just a few seconds and leave behind a small echo—then that would be more than enough. I’ve always believed in the soft, invisible threads that connect one life to another: sincerity, kindness, understanding.
-They’re so much rarer, and so much more precious, than prejudice or hate.&lt;/p&gt;
-&lt;p&gt;To see and to be seen—that’s the connection I cherish most. And the reason I persist in expressing myself.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this far.Really. ♡&lt;/p&gt;
+
+![](/img/catdoodle.png)
+
+## who is 1sle?
+
+A rebellious little island, off its destined orbit, drifting through the cosmos while quietly writing its own version of the galaxy’s travel diary. ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎
+
+Hi there—human, or alien.
+
+Wherever you come from, whatever brought you here, it feels like the universe arranged this wonderful encounter—so that we meet at some random coordinate in space-time, a miracle with a probability close to zero. It&#39;s wonderful to meet you. May each of your days be warm, bright, and healthy.
+
+As for me, I&#39;m both ordinary and special among the inhabitants of this blue planet—a clump of dust that has condensed into a thinking form. I carry some of the classic human glitches: impatient, quick to ignite, a bit of a mess—but weirdly confident. But I’ve also got some rarer traits: a bleeding-heart empath, deeply sentimental, and (I hope) kind.
+
+If you need labels to sketch out a rough silhouette of me, I suppose I’m made up of these fragments:
+
+- Feminist
+- ENFP/Aquarius
+- Devoted Pusheen collector
+- Horror film enthusiast, especially cult and slasher films (the type who covers their eyes while peeking through their fingers anyway!)
+
+But labeling people is always a little too crude, too simplistic—like trying to sum up the whole sea with just a few tides. There’s so much more beneath the surface. I’ve scattered some of my thoughts around here. You’re welcome to take a look. But words are only reflections of who I am in certain moments. Like the moon mirrored on water, they aren’t the moon itself. I’m always in motion, always becoming. What you read here captures only who I am now—not who I was, and not yet who I’ll be.
+
+In a world where everything rushes forward so fast we barely have time to watch a flower bloom, human connection has grown strangely distant. We share meals, laughter, and moments with many—rarely does someone pause to ask,  “What’s been on your mind lately?” And rarer still: someone who stays to hear the whole answer. So we linger on the surface, where it feels safe. And slowly, we become each other’s most familiar strangers.
+
+But me? I’m always curious: 
+How do you see this world? How do you understand life, existence, those ineffable things? We don&#39;t need to ask the same questions, or even hold answers that contradict. What matters is that you’re thinking, and I’m listening. After all, approaching someone by way of their thoughts is both luxurious and romantic, don’t you think?
+
+So if you’ve made it this far—if you’re willing to pause for just a few seconds and leave behind a small echo—then that would be more than enough. I’ve always believed in the soft, invisible threads that connect one life to another: sincerity, kindness, understanding.
+They’re so much rarer, and so much more precious, than prejudice or hate.
+
+To see and to be seen—that’s the connection I cherish most. And the reason I persist in expressing myself.
+
+Thank you for reading this far.
+Really. ♡
 </description>
         </item>
         
