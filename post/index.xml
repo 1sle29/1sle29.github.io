@@ -73,7 +73,7 @@
         <description>&lt;div style=&#34;background: var(--card-background); padding: 15px; border-radius: 8px; margin: 20px 0; box-shadow: var(--shadow-l1); max-width: 400px;&#34;&gt;
   &lt;p style=&#34;margin-top: 0; color: var(--card-text-color-main);&#34;&gt;
     &lt;strong&gt;最近在听：&lt;/strong&gt;
-    &lt;a href=&#34;https://open.spotify.com/track/69onJEliNwYVOjlRhZl9rB?si=69279ebe01be45cc&#34; style=&#34;color: var(--link-color);&#34;&gt;丁世光的《侦探》&lt;/a&gt; 🎵
+    &lt;a href=&#34;https://open.spotify.com/track/69onJEliNwYVOjlRhZl9rB?si=69279ebe01be45cc&#34; style=&#34;color: var(--link-color);&#34;&gt;丁世光的《神探》&lt;/a&gt; 🎵
   &lt;/p&gt;
   &lt;iframe style=&#34;border-radius:12px&#34; 
     src=&#34;https://open.spotify.com/embed/track/69onJEliNwYVOjlRhZl9rB?utm_source=generator&#34; 
