@@ -21,14 +21,10 @@
         <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
         
         <guid>https://1sle29.github.io/introduction/</guid>
-        <description>&lt;div style=&#34;text-align: center; margin: 1.5em 0; padding: 1em; background: rgba(255, 255, 255, 0.05); border-radius: 8px; border: 1px solid rgba(255, 255, 255, 0.1);&#34;&gt;
-  &lt;a href=&#34;https://1sle29.github.io/index.xml&#34; target=&#34;_blank&#34; style=&#34;display: inline-block; padding: 0.6em 1.2em; background: linear-gradient(135deg, #ff6b6b, #ff8e8e); color: white; text-decoration: none; border-radius: 20px; font-weight: 600; transition: transform 0.2s ease, box-shadow 0.2s ease; box-shadow: 0 2px 8px rgba(255, 107, 107, 0.3);&#34;&gt;
-    📡RSS订阅 / Subscribe to RSS
-  &lt;/a&gt;
-  &lt;div style=&#34;margin-top: 0.5em; font-size: 0.85em; color: #888; font-style: italic;&#34;&gt;
-    欢迎订阅岛の漂流日记✨
-  &lt;/div&gt;
-&lt;/div&gt;
+        <description>&lt;blockquote&gt;
+&lt;p&gt;📡 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;RSS订阅岛の日记 / Subscribe to RSS&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;style&gt;
 summary {
   cursor: pointer;
@@ -45,10 +41,6 @@ summary:hover {
   summary {
     color: #aaa;
   }
-}
-a[href=&#34;https://1sle29.github.io/index.xml&#34;]:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(255, 107, 107, 0.4) !important;
 }
 &lt;/style&gt;
 &lt;details&gt;
