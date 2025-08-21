@@ -2612,11 +2612,7 @@ layouts/partials/article-list/tile.html&lt;/p&gt;
         <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
         
         <guid>https://1sle29.github.io/introduction/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;📡 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;RSS订阅岛の日记 / Subscribe to RSS&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;style&gt;
+        <description>&lt;style&gt;
 summary {
   cursor: pointer;
   font-weight: 600;
@@ -2637,6 +2633,10 @@ summary:hover {
 &lt;details&gt;
 &lt;summary&gt;如果你需要中文翻译的话，请点这里展开&lt;/summary&gt;
 &lt;!-- 中文内容区域 --&gt;
+&lt;blockquote&gt;
+&lt;p&gt;📡 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;通过RSS订阅岛の碎碎念 / Subscribe to RSS&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;一颗叛逃轨道漂浮在宇宙中的小岛，正在记录银河系漫游指南✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
 &lt;p&gt;你好呀，人类，或者外星人。&lt;/p&gt;
 &lt;p&gt;无论你来自哪里，为什么来，宇宙总是这样安排一些奇妙的邂逅，于是我们会在某个时空的某个坐标相遇，是一种概率近乎于零的奇迹。很高兴遇见你，愿你的每一天都温暖、明亮，健康。&lt;/p&gt;
@@ -2667,7 +2667,11 @@ summary:hover {
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;who-is-1sle&#34;&gt;Who is 1sle?
-&lt;/h2&gt;&lt;p&gt;A rebellious little island, off its destined orbit, drifting through the cosmos while quietly writing its own version of the galaxy’s travel diary. ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;🛸 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Subscribe to Island&amp;rsquo;s Random Rambles via RSS&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;A rebellious little island, off its destined orbit, drifting through the cosmos while quietly writing its own version of the galaxy’s travel diary. ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
 &lt;p&gt;Hi there—human, or alien.&lt;/p&gt;
 &lt;p&gt;Wherever you come from, whatever brought you here, it feels like the universe arranged this wonderful encounter—so that we meet at some random coordinate in space-time, a miracle with a probability close to zero. It&amp;rsquo;s wonderful to meet you. May each of your days be warm, bright, and healthy.&lt;/p&gt;
 &lt;p&gt;As for me, I&amp;rsquo;m both ordinary and special among the inhabitants of this blue planet—a clump of dust that has condensed into a thinking form. I carry some of the classic human glitches: impatient, quick to ignite, a bit of a mess—but weirdly confident. But I’ve also got some rarer traits: a bleeding-heart empath, deeply sentimental, and (I hope) kind.&lt;/p&gt;
