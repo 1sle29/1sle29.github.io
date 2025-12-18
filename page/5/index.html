@@ -531,19 +531,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 .island-scrapbook {
     position: relative;
     width: 100%; 
-    min-height: 80vh; 
+    min-height: 85vh; 
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding-left: 5%;
+    padding-left: 4%;
     margin: 40px auto;
 }
 
 .scrapbook-container {
     position: relative;
     width: 100%;
-    max-width: 900px; 
-    height: 650px; 
+    max-width: 950px; 
+    height: 700px; 
 }
 
 .scrap-item {
@@ -554,15 +554,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  
 .photo {
     background: #fff;
-    padding: 12px 12px 30px 12px;  
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    padding: 12px 12px 32px 12px;
+    box-shadow: 5px 10px 25px rgba(0,0,0,0.06);
 }
 
  
 .dashed-border {
-    border: 2px dashed var(--meta-color);  
-    opacity: 0.5;  
-    line-height: 0;  
+     
+    border: 2px dashed rgba(139, 69, 19, 0.4); 
+    line-height: 0; 
     display: block;
     padding: 2px;
     background: transparent;
@@ -572,6 +572,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     display: block;
     width: 100%;
     height: auto;
+    opacity: 1 !important;  
 }
 
  
@@ -581,75 +582,62 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     left: 50%;
     width: 90px;
     height: 28px;
-     
-    background: rgba(227, 136, 123, 0.25); 
+    background: rgba(227, 136, 123, 0.2); 
     backdrop-filter: blur(4px);
     transform: translateX(-50%) rotate(-2deg);
     z-index: 10;
-     
-    border-left: 1px dashed rgba(255,255,255,0.5);
-    border-right: 1px dashed rgba(255,255,255,0.5);
-    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+    border-left: 1px dashed rgba(255,255,255,0.4);
+    border-right: 1px dashed rgba(255,255,255,0.4);
 }
 
  
 .p5.note-paper { 
-    width: 380px; 
+    width: 400px; 
     right: 2%; 
-    top: 80px; 
-    background: #fffcf5;  
-    padding: 25px; 
-    border-left: none;
-    box-shadow: 8px 10px 20px rgba(0,0,0,0.05); 
+    top: 100px; 
+    background: #fffcf5; 
+    padding: 30px; 
+    border: none !important;  
+    box-shadow: 10px 15px 30px rgba(0,0,0,0.04); 
     transform: rotate(1deg); 
-    z-index: 3;
+    z-index: 5;  
 }
 
-.note-title {
-    margin: 0; 
-    font-weight: bold; 
-    font-size: 1.15em; 
-    color: var(--text-title);  
-}
-
-.note-body {
-    margin-top: 15px; 
-    font-size: 0.92em; 
-    line-height: 1.8; 
-    text-align: justify; 
-    color: var(--text-main);  
-}
-
-.note-footer {
-    text-align: right; 
-    margin-top: 15px; 
-    font-size: 0.85em; 
-    font-style: italic; 
-    color: var(--meta-color);  
-    opacity: 0.8;
-}
+.note-title { margin: 0; font-weight: bold; font-size: 1.15em; color: var(--text-title); }
+.note-body { margin-top: 15px; font-size: 0.92em; line-height: 1.8; color: var(--text-main); }
+.note-footer { text-align: right; margin-top: 15px; font-size: 0.85em; font-style: italic; color: var(--meta-color); opacity: 0.8; }
 
  
-.p3 { width: 260px; left: 0%; top: 20px; transform: rotate(-4deg); z-index: 1; }
-.p4 { width: 240px; left: 2%; top: 380px; transform: rotate(3deg); z-index: 2; }
+.p3 { 
+    width: 280px; 
+    left: 0%; 
+    top: 20px; 
+    transform: rotate(-4deg); 
+    z-index: 2; 
+}
+
+.p4 { 
+    width: 250px; 
+    left: 6%;        
+    top: 260px;      
+    transform: rotate(3deg); 
+    z-index: 1; 
+}
 
  
 .scrap-item:hover {
-    transform: scale(1.03) rotate(0deg) !important;
+    transform: scale(1.05) rotate(0deg) !important;
     z-index: 100 !important;
     cursor: pointer;
-    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
 
  
 @media (max-width: 768px) {
-    .island-scrapbook { height: auto; padding: 20px 0; }
     .scrapbook-container { 
         display: flex; flex-direction: column; align-items: center; 
-        height: auto; gap: 50px; 
+        height: auto; gap: 40px; 
     }
-    .scrap-item { position: static !important; width: 90% !important; transform: none !important; }
-    .scrap-tape { top: -15px; }
+    .scrap-item { position: static !important; width: 92% !important; transform: none !important; margin-bottom: 20px; }
 }
 </style>
 
