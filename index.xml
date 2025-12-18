@@ -2604,11 +2604,11 @@ layouts/partials/article-list/tile.html&lt;/p&gt;
         <description></description>
         </item>
         <item>
-        <title>Introduction</title>
-        <link>https://1sle29.github.io/introduction/</link>
+        <title>Intro/关于我</title>
+        <link>https://1sle29.github.io/intro/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
         <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://1sle29.github.io/introduction/</guid>
+        <guid>https://1sle29.github.io/intro/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
         <description>&lt;style&gt;
 summary {
   cursor: pointer;
