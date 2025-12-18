@@ -483,14 +483,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </aside>
 
             <main class="main full-width">
-    <div class="welcome" style="margin-top: 40px; margin-bottom: 20px;">
-        <p style="font-size: 2.2rem; text-align: center; font-weight: bold;">
-            <span class="shake">🏝️</span>
-            <span class="jump-text"> 欢迎来到</span><span class="jump-text" style="color:#e99312"> 1sle 小岛</span>
-        </p>
-    </div>
-    
-    <section class="island-scrapbook">
+    <section class="island-scrapbook" style="margin-top: 60px;">
         <div class="scrapbook-container">
             
             <div class="scrap-item p1 sticker">
@@ -512,7 +505,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <div class="scrap-item p5 note-paper">
                 <div class="note-content">
-                    <p style="margin: 0; font-weight: bold;">欢迎来到这座小岛 ^^</p>
+                    <p style="margin: 0; font-weight: bold; line-height: 1.6;">欢迎来到这座小岛 ^^</p>
                     <p style="text-align: right; margin-top: 15px; font-size: 0.9em; opacity: 0.8;">—— 1sle</p>
                 </div>
             </div>
@@ -570,16 +563,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .p1 {
             width: 220px;
             left: 5%;
-            top: 30px;
+            top: 20px;
             transform: rotate(-8deg);
-            z-index: 5;  
+            z-index: 5;
         }
 
          
         .p2 {
             width: 280px;
             left: 35%;
-            top: 20px;
+            top: 0px;
             transform: rotate(6deg);
             z-index: 2;
         }
@@ -588,16 +581,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .p3 {
             width: 320px;
             right: 2%;
-            top: 80px;
+            top: 60px;
             transform: rotate(-3deg);
             z-index: 3;
         }
 
          
         .p4 {
-            width: 200px;
-            left: 25%;
-            top: 380px;
+            width: 210px;
+            left: 20%;
+            top: 360px;
             transform: rotate(10deg);
             z-index: 4;
         }
@@ -605,16 +598,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
          
         .p5.note-paper {
             width: 260px;
-            right: 18%;
-            top: 450px;
+            right: 15%;
+            top: 430px;
             background: #fef9c3;
-            padding: 20px;
+            padding: 22px;
             box-shadow: 5px 10px 15px rgba(0,0,0,0.08);
             transform: rotate(-2deg);
             z-index: 6;
             font-family: 'Courier New', Courier, monospace;
             color: #4b5563;
-            border-left: 2px solid rgba(0,0,0,0.02);
         }
 
          
@@ -630,6 +622,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             z-index: 10;
         }
 
+         
         .scrap-item:hover {
             transform: scale(1.08) rotate(0deg) !important;
             z-index: 50;
@@ -637,13 +630,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             cursor: pointer;
         }
 
+         
         @media (max-width: 768px) {
             .island-scrapbook { height: auto; }
             .scrapbook-container { 
                 display: flex; 
                 flex-direction: column; 
                 align-items: center;
-                padding: 40px 0;
+                padding: 20px 0;
                 gap: 40px;
             }
             .scrap-item { 
