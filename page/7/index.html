@@ -534,7 +534,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     min-height: 80vh; 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    padding-left: 5%;
     margin: 40px auto;
 }
 
@@ -595,10 +596,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 .p5.note-paper { 
     width: 380px; 
     right: 2%; 
-    top: 60px; 
+    top: 80px; 
     background: #fffcf5;  
     padding: 25px; 
-    border-left: 3px solid var(--link-color);  
+    border-left: none;
     box-shadow: 8px 10px 20px rgba(0,0,0,0.05); 
     transform: rotate(1deg); 
     z-index: 3;
@@ -629,8 +630,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 
  
-.p3 { width: 260px; left: 2%; top: 40px; transform: rotate(-4deg); z-index: 1; }
-.p4 { width: 240px; left: 5%; top: 320px; transform: rotate(3deg); z-index: 2; }
+.p3 { width: 260px; left: 0%; top: 20px; transform: rotate(-4deg); z-index: 1; }
+.p4 { width: 240px; left: 2%; top: 380px; transform: rotate(3deg); z-index: 2; }
 
  
 .scrap-item:hover {
