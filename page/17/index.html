@@ -483,152 +483,142 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </aside>
 
             <main class="main full-width">
-    <section class="island-scrapbook" style="margin-top: 40px;">
-        <div class="scrapbook-container">
-            
-            <div class="scrap-item p3 photo">
-                <div class="scrap-tape"></div>
-                <img src="/img/b7927e89c2b2884ad8725506bbdfe695.jpg" alt="UFO">
-            </div>
+<section class="island-scrapbook" style="margin-top: 40px;">
+    <div class="scrapbook-container">
+        
+        
+        <div class="scrap-item p3 photo">
+            <div class="scrap-tape"></div>
+            <img src="/img/b7927e89c2b2884ad8725506bbdfe695.jpg" alt="UFO" class="shadow">
+        </div>
 
-            <div class="scrap-item p4 photo">
-                <img src="/img/64542734e1d03a0aa03597c23f2b044f.jpg" alt="跳舞">
-            </div>
+        
+        <div class="scrap-item p4 photo">
+            <img src="/img/64542734e1d03a0aa03597c23f2b044f.jpg" alt="跳舞" class="glow">
+        </div>
 
-            <div class="scrap-item p5 note-paper">
-                <div class="note-content">
-                    <p style="margin: 0; font-weight: bold; line-height: 1.6; font-size: 1.1em; color: #1f2937;">欢迎来到这座小岛 ^^</p>
-                    <p style="margin-top: 12px; font-size: 0.88em; line-height: 1.7; text-align: justify; color: #4b5563;">
-                        偶尔会有这样的幻想：深夜一艘UFO停在窗外，我被吸走，缓缓升空，城市的万千灯火在脚下汇聚成琥珀色的静谧河流；也常常梦见另一种更古老的狂欢：月圆之夜，森林最深处，我和小动物们手拉着手围跳萨巴特之舞。<br><br>
-                        玛格丽特一定真的在某个春夜骑着会飞的小猪掠过莫斯科的屋顶，参加撒旦的舞会，天空呈现低饱和的紫罗兰色，风里混合着硫磺和丁香的气味。这些浪漫的想象力不停地打捞我，从每一个按下闹钟、机械起身的早晨。<br><br>
-                        我知道在可见的光谱之外，宇宙里还有另一个世界存在。于是银蓝色的光柱落下，篝火在瞳孔间跳跃，掌心感受小狐狸手的温度，体内濒临风化的部分重新变得柔软。我站在衣橱前面，推开门，下一秒就抵达纳尼亚。
-                    </p>
-                    <p style="text-align: right; margin-top: 12px; font-size: 0.85em; font-style: italic; opacity: 0.7;">
-                       如果你也听到了召唤...
-                    </p>
-                </div>
+        
+        <div class="scrap-item p5 note-paper">
+            <div class="note-content">
+                <p style="margin: 0; font-weight: bold; line-height: 1.6; font-size: 1.1em; color: #1f2937;">欢迎来到这座小岛 ^^</p>
+                <p style="margin-top: 12px; font-size: 0.88em; line-height: 1.7; text-align: justify; color: #4b5563;">
+                    我在等待一艘悬停在窗外的飞船，缓缓吸引我升空，俯瞰整座城市的灯火在脚下汇聚成琥珀色的静谧河流。我无数次梦见一种古老的狂欢，月圆之夜，森林最深处，我和小动物们手拉手围跳萨巴特之舞，脚下踩着野花和嘎吱作响的落叶。<br><br>
+                    玛格丽特一定在某个春夜骑着会飞的小猪掠过莫斯科的屋顶，赶赴撒旦盛大的舞会，天空是低饱和的紫罗兰色，风里混合着硫磺和丁香的气味。浪漫的想象力不停打捞我，从每一个按下闹钟、机械起身的早晨，于是我还没有溺死在平庸的潮汐。<br><br>
+                    确信在可见的光谱之外，宇宙深处还存在另一个世界。于是银蓝的光柱落下，篝火在瞳孔间跳跃，握住小狐狸温热的掌心，体内濒临风化的部分重新变得柔软。
+                </p>
+                <p style="text-align: right; margin-top: 12px; font-size: 0.85em; font-style: italic; opacity: 0.7;">
+                    闻到衣橱里漏出的松针香气，我知道，只要推开门，下一秒就能抵达积雪的纳尼亚。
+                </p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
-    <style>
-     
-    html, body {
-        height: 100% !important;
-        margin: 0 !important;
-        padding: 0 !important;
-        overflow: hidden !important; 
+<style>
+ 
+html, body {
+    height: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important; 
+}
+
+.island-scrapbook {
+    position: relative;
+    width: 100vw; 
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.scrapbook-container {
+    position: relative;
+    width: 100%;
+    max-width: 850px; 
+    height: 600px; 
+    margin: 0 auto;
+}
+
+.scrap-item {
+    position: absolute;
+    transition: all 0.4s ease-out;
+}
+
+ 
+.photo {
+    background: #fff;
+    padding: 10px 10px 28px 10px;
+    box-shadow: 8px 10px 20px rgba(0,0,0,0.08);
+}
+
+.scrap-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 1px;
+}
+
+ 
+.scrap-item img.shadow {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+.scrap-item img.glow {
+    filter: drop-shadow(0 0 15px rgba(255,255,255,0.8));
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+ 
+.p3 { width: 240px; left: 5%; top: 40px; transform: rotate(-5deg); z-index: 1; }
+.p4 { width: 220px; left: 10%; top: 260px; transform: rotate(4deg); z-index: 2; }
+.p5.note-paper { 
+    width: 380px; right: 5%; top: 60px; background: #fefce8; padding: 25px; 
+    box-shadow: 5px 8px 15px rgba(0,0,0,0.05); transform: rotate(1deg); z-index: 3;
+    font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; border-left: none;
+}
+
+ 
+.scrap-tape {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    width: 80px;
+    height: 25px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(1.5px);
+    transform: translateX(-50%) rotate(-2deg);
+    z-index: 10;
+}
+
+ 
+.scrap-item:hover {
+    transform: scale(1.03) rotate(0deg) !important;
+    z-index: 50 !important;
+    cursor: pointer;
+}
+
+ 
+@media (max-width: 768px) {
+    .scrapbook-container { 
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        gap: 25px;
+        padding: 20px;
     }
-        
-        ..island-scrapbook {
-            position: relative;
-             
-            width: 100vw; 
-            height: 100vh; 
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto;
-            overflow: hidden;  
-        }
-
-        .scrapbook-container {
-            position: relative;
-            width: 100%;
-            max-width: 850px; 
-            height: 600px;  
-            margin: 0 auto;
-        }
-
-        .scrap-item {
-            position: absolute;
-            transition: all 0.4s ease-out;
-        }
-
-         
-        .photo {
-            background: #fff;
-            padding: 10px 10px 28px 10px;  
-            box-shadow: 8px 10px 20px rgba(0,0,0,0.08);
-        }
-
-        .scrap-item img {
-            display: block;
-            width: 100%;
-            height: auto;
-            border-radius: 1px;
-        }
-
-         
-
-        .p3 {
-            width: 240px;  
-            left: 5%;
-            top: 40px;
-            transform: rotate(-5deg);
-            z-index: 1;
-        }
-
-        .p4 {
-            width: 220px;  
-            left: 10%;
-            top: 260px;  
-            transform: rotate(4deg);
-            z-index: 2;
-        }
-
-        .p5.note-paper {
-            width: 380px;  
-            right: 5%;
-            top: 60px;
-            background: #fefce8;  
-            padding: 25px;
-            box-shadow: 5px 8px 15px rgba(0,0,0,0.05);
-            transform: rotate(1deg);
-            z-index: 3;
-            font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
-            border-left: none;  
-        }
-
-         
-        .scrap-tape {
-            position: absolute;
-            top: -12px;
-            left: 50%;
-            width: 80px;
-            height: 25px;
-            background: rgba(255, 255, 255, 0.2);
-            backdrop-filter: blur(1.5px);
-            transform: translateX(-50%) rotate(-2deg);
-            z-index: 10;
-        }
-
-         
-        .scrap-item:hover {
-            transform: scale(1.03) rotate(0deg) !important;
-            z-index: 50 !important;
-            cursor: pointer;
-        }
-
-         
-        @media (max-width: 768px) {
-            .scrapbook-container { 
-                display: flex; 
-                flex-direction: column; 
-                align-items: center; 
-                gap: 25px;
-                padding: 20px;
-            }
-            .scrap-item { 
-                position: relative !important; 
-                left: auto !important; 
-                right: auto !important; 
-                top: auto !important;
-                transform: rotate(0deg) !important;
-                width: 90% !important;
-            }
-        }
-    </style>
+    .scrap-item { 
+        position: relative !important; 
+        left: auto !important; 
+        right: auto !important; 
+        top: auto !important;
+        transform: rotate(0deg) !important;
+        width: 90% !important;
+    }
+}
+</style>
 
             </main>
         </div>
