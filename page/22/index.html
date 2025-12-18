@@ -483,21 +483,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </aside>
 
             <main class="main full-width">
-<section class="island-scrapbook" style="margin-top: 40px;">
+<section class="island-scrapbook">
     <div class="scrapbook-container">
-        
         
         <div class="scrap-item p3 photo">
             <div class="scrap-tape"></div>
-            <img src="/img/b7927e89c2b2884ad8725506bbdfe695.jpg" alt="UFO" class="shadow">
+            <img src="/img/b7927e89c2b2884ad8725506bbdfe695.jpg" alt="UFO" class="dashed-border">
         </div>
 
-        
         <div class="scrap-item p4 photo">
-            <img src="/img/64542734e1d03a0aa03597c23f2b044f.jpg" alt="跳舞" class="glow">
+            <div class="scrap-tape tape-alt"></div>
+            <img src="/img/64542734e1d03a0aa03597c23f2b044f.jpg" alt="跳舞" class="dashed-border">
         </div>
 
-        
         <div class="scrap-item p5 note-paper">
             <div class="note-content">
                 <p style="margin: 0; font-weight: bold; line-height: 1.6; font-size: 1.1em; color: #1f2937;">欢迎来到这座小岛 ^^</p>
@@ -507,7 +505,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     确信在可见的光谱之外，宇宙深处还存在另一个世界。于是银蓝的光柱落下，篝火在瞳孔间跳跃，握住小狐狸温热的掌心，体内濒临风化的部分重新变得柔软。
                 </p>
                 <p style="text-align: right; margin-top: 12px; font-size: 0.85em; font-style: italic; opacity: 0.7;">
-                    闻着衣橱里漏出的松针香气，我知道，只要推开门，下一秒就能抵达积雪的纳尼亚。
+                    闻到衣橱里漏出的松针香气，我知道，只要推开门，下一秒就能抵达积雪的纳尼亚。
                 </p>
             </div>
         </div>
@@ -521,6 +519,7 @@ html, body {
     margin: 0 !important;
     padding: 0 !important;
     overflow: hidden !important; 
+    background-color: #f4f4f2;  
 }
 
 .island-scrapbook {
@@ -530,84 +529,93 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto;
-    overflow: hidden;
 }
 
 .scrapbook-container {
     position: relative;
     width: 100%;
-    max-width: 850px; 
-    height: 600px; 
-    margin: 0 auto;
-}
-
-.scrap-item {
-    position: absolute;
-    transition: all 0.4s ease-out;
+    max-width: 900px; 
+    height: 650px; 
 }
 
  
-.photo {
-    background: #fff;
-    padding: 10px 10px 28px 10px;
-    box-shadow: 8px 10px 20px rgba(0,0,0,0.08);
+.scrap-item {
+    position: absolute;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.scrap-item img {
+.photo {
+    background: #fff;
+    padding: 12px 12px 35px 12px;  
+    box-shadow: 10px 15px 30px rgba(0,0,0,0.05);
+}
+
+ 
+.dashed-border {
     display: block;
     width: 100%;
     height: auto;
-    border-radius: 1px;
-}
-
- 
-.scrap-item img.shadow {
-    box-shadow: 0 10px 25px rgba(0,0,0,0.5);
-}
-
-.scrap-item img.glow {
-    filter: drop-shadow(0 0 15px rgba(255,255,255,0.8));
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
-}
-
- 
-.p3 { width: 240px; left: 5%; top: 40px; transform: rotate(-5deg); z-index: 1; }
-.p4 { width: 220px; left: 10%; top: 260px; transform: rotate(4deg); z-index: 2; }
-.p5.note-paper { 
-    width: 380px; right: 5%; top: 60px; background: #fefce8; padding: 25px; 
-    box-shadow: 5px 8px 15px rgba(0,0,0,0.05); transform: rotate(1deg); z-index: 3;
-    font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif; border-left: none;
+     
+    outline: 2px dashed rgba(0, 0, 0, 0.1); 
+    outline-offset: -10px; 
 }
 
  
 .scrap-tape {
     position: absolute;
-    top: -12px;
+    top: -15px;
     left: 50%;
-    width: 80px;
-    height: 25px;
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(1.5px);
-    transform: translateX(-50%) rotate(-2deg);
+    width: 90px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(2px);  
+    transform: translateX(-50%) rotate(-3deg);
     z-index: 10;
+     
+    -webkit-mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+    mask-image: linear-gradient(to right, transparent, black 15%, black 85%, transparent);
+    border-left: 1px solid rgba(255,255,255,0.2);
+    border-right: 1px solid rgba(255,255,255,0.2);
+}
+
+.tape-alt {
+    transform: translateX(-50%) rotate(5deg);  
+    width: 100px;
+}
+
+ 
+.p3 { width: 260px; left: 5%; top: 50px; transform: rotate(-6deg); z-index: 1; }
+.p4 { width: 240px; left: 12%; top: 300px; transform: rotate(3deg); z-index: 2; }
+.p5.note-paper { 
+    width: 400px; 
+    right: 5%; 
+    top: 40px; 
+    background: #fefce8; 
+    padding: 30px; 
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.04); 
+    transform: rotate(1deg); 
+    z-index: 3;
+    font-family: 'PingFang SC', serif;
 }
 
  
 .scrap-item:hover {
-    transform: scale(1.03) rotate(0deg) !important;
-    z-index: 50 !important;
+    transform: scale(1.04) rotate(0deg) !important;
+    z-index: 100 !important;
     cursor: pointer;
+    box-shadow: 15px 20px 40px rgba(0,0,0,0.1);
 }
 
  
 @media (max-width: 768px) {
+    html, body { overflow: auto !important; }
+    .island-scrapbook { height: auto; padding: 40px 0; }
     .scrapbook-container { 
         display: flex; 
         flex-direction: column; 
         align-items: center; 
-        gap: 25px;
-        padding: 20px;
+        gap: 40px;
+        height: auto;
     }
     .scrap-item { 
         position: relative !important; 
@@ -615,7 +623,7 @@ html, body {
         right: auto !important; 
         top: auto !important;
         transform: rotate(0deg) !important;
-        width: 90% !important;
+        width: 85% !important;
     }
 }
 </style>
