@@ -486,27 +486,37 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <section class="island-scrapbook" style="margin-top: 60px;">
         <div class="scrapbook-container">
             
+            
             <div class="scrap-item p1 sticker">
                 <img src="/img/delicat.png" alt="脆弱猫">
                 <span class="scrap-tape"></span> 
             </div>
             
+            
             <div class="scrap-item p2 photo">
-                <img src="/img/拼贴.jpg" alt="Sticker">
+                <img src="/img/4c46094bd34e08e96689afd6f638c480.jpg" alt="吹号">
             </div>
             
+            
             <div class="scrap-item p3 photo">
-                <img src="/img/拼贴2.jpg" alt="Memory 2">
+                <img src="/img/b7927e89c2b2884ad8725506bbdfe695.jpg" alt="UFO">
             </div>
 
+            
             <div class="scrap-item p4 photo">
-                <img src="/img/拼贴3.jpg" alt="Decoration">
+                <img src="/img/2d7c4b27c3654f9a36a2b6549a403c48.jpg" alt="做客">
             </div>
 
+            
             <div class="scrap-item p5 note-paper">
                 <div class="note-content">
                     <p style="margin: 0; font-weight: bold; line-height: 1.6;">欢迎来到这座小岛 ^^</p>
-                    <p style="text-align: right; margin-top: 15px; font-size: 0.9em; opacity: 0.8;">—— 1sle</p>
+                    <p style="margin-top: 15px; font-size: 0.9em; line-height: 1.8;">
+                       我偶尔会幻想深夜被UFO从窗户无声地吸走，缓缓升空，城市的灯火在脚下闪烁成琥珀色的河流。我也常常梦见另一种狂欢：在月圆之夜，我们手拉着手围成圆圈，在森林深处跳起萨巴特之舞。就像玛格丽特骑着小猪飞越莫斯科的屋顶去往撒旦舞会的那个春夜——天空是紫罗兰色的，风里有硫磺和丁香的气味。
+                    </p>
+                    <p style="text-align: right; margin-top: 10px; font-size: 0.85em; font-style: italic;">
+                        Join me or not?
+                    </p>
                 </div>
             </div>
         </div>
@@ -516,9 +526,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .island-scrapbook {
             position: relative;
             width: 100%;
-            height: 750px; 
+            min-height: 750px; 
             margin: 0 auto;
             overflow: visible;
+            padding-bottom: 50px;
         }
 
         .scrapbook-container {
@@ -526,7 +537,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             width: 100%;
             max-width: 900px;
             margin: 0 auto;
-            height: 100%;
+            min-height: 750px;
         }
 
         .scrap-item {
@@ -597,11 +608,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
          
         .p5.note-paper {
-            width: 260px;
-            right: 15%;
+            width: 340px;
+            right: 8%;
             top: 430px;
             background: #fef9c3;
-            padding: 22px;
+            padding: 24px 26px;
             box-shadow: 5px 10px 15px rgba(0,0,0,0.08);
             transform: rotate(-2deg);
             z-index: 6;
@@ -632,22 +643,33 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
          
         @media (max-width: 768px) {
-            .island-scrapbook { height: auto; }
+            .island-scrapbook { 
+                min-height: auto;
+                padding-bottom: 30px;
+            }
+            
             .scrapbook-container { 
                 display: flex; 
                 flex-direction: column; 
                 align-items: center;
-                padding: 20px 0;
+                padding: 20px 15px;
                 gap: 40px;
+                min-height: auto;
             }
+            
             .scrap-item { 
                 position: relative !important; 
                 left: auto !important; 
                 right: auto !important; 
                 top: auto !important;
                 transform: rotate(0deg) !important;
-                width: 85% !important;
+                width: 90% !important;
                 max-width: 350px;
+            }
+            
+            .p5.note-paper {
+                width: 90% !important;
+                max-width: 340px;
             }
         }
     </style>
