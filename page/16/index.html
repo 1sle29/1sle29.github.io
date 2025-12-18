@@ -499,7 +499,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <div class="note-content">
                     <p style="margin: 0; font-weight: bold; line-height: 1.6; font-size: 1.1em; color: #1f2937;">欢迎来到这座小岛 ^^</p>
                     <p style="margin-top: 12px; font-size: 0.88em; line-height: 1.7; text-align: justify; color: #4b5563;">
-                        偶尔会有这样的幻想：深夜一艘 UFO 停在窗外，我被吸走，缓缓升空，城市的万千灯火在脚下汇聚成琥珀色的静谧河流；也常常梦见另一种更古老的狂欢：月圆之夜，森林最深处，我和小动物们手拉着手围跳萨巴特之舞。<br><br>
+                        偶尔会有这样的幻想：深夜一艘UFO停在窗外，我被吸走，缓缓升空，城市的万千灯火在脚下汇聚成琥珀色的静谧河流；也常常梦见另一种更古老的狂欢：月圆之夜，森林最深处，我和小动物们手拉着手围跳萨巴特之舞。<br><br>
                         玛格丽特一定真的在某个春夜骑着会飞的小猪掠过莫斯科的屋顶，参加撒旦的舞会，天空呈现低饱和的紫罗兰色，风里混合着硫磺和丁香的气味。这些浪漫的想象力不停地打捞我，从每一个按下闹钟、机械起身的早晨。<br><br>
                         我知道在可见的光谱之外，宇宙里还有另一个世界存在。于是银蓝色的光柱落下，篝火在瞳孔间跳跃，掌心感受小狐狸手的温度，体内濒临风化的部分重新变得柔软。我站在衣橱前面，推开门，下一秒就抵达纳尼亚。
                     </p>
@@ -512,19 +512,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </section>
 
     <style>
-        .island-scrapbook {
+     
+    html, body {
+        height: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        overflow: hidden !important; 
+    }
+        
+        ..island-scrapbook {
             position: relative;
-            width: 100%;
-            min-height: 700px;  
+             
+            width: 100vw; 
+            height: 100vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
             margin: 0 auto;
-            overflow: visible;
-            padding-bottom: 40px;
+            overflow: hidden;  
         }
 
         .scrapbook-container {
             position: relative;
             width: 100%;
-            max-width: 850px;  
+            max-width: 850px; 
+            height: 600px;  
             margin: 0 auto;
         }
 
