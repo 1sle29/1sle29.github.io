@@ -482,217 +482,181 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </ol>
 </aside>
 
-    <aside class="sidebar right-sidebar sticky">
-        
-            
-                
-            
-        
-    </aside>
-
-
             <main class="main full-width">
-    
-    <div class="welcome">
-        <p style="font-size: 2rem; text-align: center; font-weight: bold">
+    <div class="welcome" style="margin-top: 40px; margin-bottom: 20px;">
+        <p style="font-size: 2.2rem; text-align: center; font-weight: bold;">
             <span class="shake">🏝️</span>
-            <span class="jump-text"> 欢迎来到这座</span><span class="jump-text" style="color:#e99312">小岛</span>
+            <span class="jump-text"> 欢迎来到</span><span class="jump-text" style="color:#e99312"> 1sle 小岛</span>
         </p>
     </div>
     
-    
-    
-    
-    
-    <section class="article-list">
-        
+    <section class="island-scrapbook">
+        <div class="scrapbook-container">
             
-<article class="">
-    <header class="article-header">
-
-    <div class="article-details">
-    
-    <header class="article-category">
-        
-            <a href="/categories/%E7%8B%AC%E8%87%AA%E9%86%92%E6%9D%A5%E7%9A%84%E6%97%A9%E6%99%A8/" >
-                独自醒来的早晨
-            </a>
-        
-    </header>
-    
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="/p/qa-wired/">✨脑洞大开三十问✨</a>
-        </h2>
-    
-        
-        <h3 class="article-subtitle">
-            太离谱！30个莫名其妙的问题曝光你内心最荒诞的想法！回答第16题的人都疯了！
-        </h3>
-        
-    </div>
-    
-    
-    
-    
-    
-    <footer class="article-time">
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-                <time class="article-time--published">Mar 24, 2025</time>
+            <div class="scrap-item p1 sticker">
+                <img src="/img/delicat.png" alt="脆弱猫">
+                <span class="scrap-tape"></span> 
             </div>
-        
-        
-            <div>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <polyline points="12 7 12 12 15 15" />
-</svg>
-
-
-
-                <time class="article-time--reading">
-                    3 minute read
-                </time>
+            
+            <div class="scrap-item p2 photo">
+                <img src="/img/拼贴.jpg" alt="Sticker">
             </div>
-        
-        
-            <div>
-                <time class="article-words">
-                    1090 words
-                </time>
+            
+            <div class="scrap-item p3 photo">
+                <img src="/img/拼贴2.jpg" alt="Memory 2">
             </div>
-        
-        <div class="post-view-counter">
-                <span id="busuanzi_container_page_pv" style="display: none;">
-                    🔮 银河数据已被解析<span id="busuanzi_value_page_pv"></span>次
-                </span>
-            </div>
-    </footer>
-    
-    
-</div>
 
-</header>
-</article>
-        
+            <div class="scrap-item p4 photo">
+                <img src="/img/拼贴3.jpg.png" alt="Decoration">
+            </div>
+
+            <div class="scrap-item p5 note-paper">
+                <div class="note-content">
+                    <p style="margin: 0; font-weight: bold;">欢迎来到这座小岛 ^^</p>
+                    <p style="text-align: right; margin-top: 15px; font-size: 0.9em; opacity: 0.8;">—— 1sle</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <nav class='pagination'>
-        
-        
 
+    <style>
+        .island-scrapbook {
+            position: relative;
+            width: 100%;
+            height: 750px; 
+            margin: 0 auto;
+            overflow: visible;
+        }
+
+        .scrapbook-container {
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            height: 100%;
+        }
+
+        .scrap-item {
+            position: absolute;
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            z-index: 1;
+        }
+
+         
+        .photo {
+            background: #fff;
+            padding: 12px 12px 35px 12px;
+            box-shadow: 10px 15px 25px rgba(0,0,0,0.12);
+        }
+
+         
+        .sticker {
+            background: transparent;
+            padding: 0;
+            box-shadow: none;
+            filter: drop-shadow(5px 8px 10px rgba(0,0,0,0.2));
+        }
+
+        .scrap-item img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+        }
+
+         
         
-            
-                    <a class='page-link' href='/'>1</a>
-                
-            
-            
-                    
-                        
-                        <span class='page-link dots'>&hellip;</span>
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    <a class='page-link' href='/page/16/'>16</a>
-                
-            
-            
-                <span class='page-link current'>17</span>
-                
-            
-            
-                    <a class='page-link' href='/page/18/'>18</a>
-                
-            
-            
-                    
-                        
-                        <span class='page-link dots'>&hellip;</span>
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    
-                
-            
-            
-                    <a class='page-link' href='/page/23/'>23</a>
-                
-            
-    </nav>
+         
+        .p1 {
+            width: 220px;
+            left: 5%;
+            top: 30px;
+            transform: rotate(-8deg);
+            z-index: 5;  
+        }
 
+         
+        .p2 {
+            width: 280px;
+            left: 35%;
+            top: 20px;
+            transform: rotate(6deg);
+            z-index: 2;
+        }
 
+         
+        .p3 {
+            width: 320px;
+            right: 2%;
+            top: 80px;
+            transform: rotate(-3deg);
+            z-index: 3;
+        }
+
+         
+        .p4 {
+            width: 200px;
+            left: 25%;
+            top: 380px;
+            transform: rotate(10deg);
+            z-index: 4;
+        }
+
+         
+        .p5.note-paper {
+            width: 260px;
+            right: 18%;
+            top: 450px;
+            background: #fef9c3;
+            padding: 20px;
+            box-shadow: 5px 10px 15px rgba(0,0,0,0.08);
+            transform: rotate(-2deg);
+            z-index: 6;
+            font-family: 'Courier New', Courier, monospace;
+            color: #4b5563;
+            border-left: 2px solid rgba(0,0,0,0.02);
+        }
+
+         
+        .scrap-tape {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            width: 90px;
+            height: 30px;
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(1.5px);
+            transform: translateX(-50%) rotate(2deg);
+            z-index: 10;
+        }
+
+        .scrap-item:hover {
+            transform: scale(1.08) rotate(0deg) !important;
+            z-index: 50;
+            box-shadow: 20px 30px 50px rgba(0,0,0,0.25);
+            cursor: pointer;
+        }
+
+        @media (max-width: 768px) {
+            .island-scrapbook { height: auto; }
+            .scrapbook-container { 
+                display: flex; 
+                flex-direction: column; 
+                align-items: center;
+                padding: 40px 0;
+                gap: 40px;
+            }
+            .scrap-item { 
+                position: relative !important; 
+                left: auto !important; 
+                right: auto !important; 
+                top: auto !important;
+                transform: rotate(0deg) !important;
+                width: 85% !important;
+                max-width: 350px;
+            }
+        }
+    </style>
 
             </main>
         </div>
