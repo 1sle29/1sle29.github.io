@@ -633,31 +633,48 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  
 @media (max-width: 768px) {
-     
-    .scrapbook-images-layer {
-        height: 380px !important; 
-        margin-bottom: 0 !important;
+    .island-scrapbook {
+        display: block;         
+        padding: 20px 15px;
+        min-height: auto;
+    }
+
+    .scrapbook-container {
+        display: flex;          
+        flex-direction: column;  
+        height: auto;           
+        max-width: 100%;
     }
 
      
-    .p3 { width: 140px !important; left: 5% !important; top: 20px !important; }
-    .p4 { width: 140px !important; left: 45% !important; top: 50px !important; }
+    .scrap-item.photo {
+        position: relative !important;
+        left: 0 !important;
+        top: 0 !important;
+        margin: 20px auto;      
+        width: 80% !important;  
+    }
 
      
+    .p3 { transform: rotate(-2deg) !important; }
+    .p4 { transform: rotate(2deg) !important; margin-top: -10px !important; }
+
+     
+    .p5.note-paper {
+        position: relative !important;
+        width: 100% !important;
+        right: auto !important;
+        top: 0 !important;
+        margin: 30px 0 !important;  
+        transform: none !important;
+        box-sizing: border-box;  
+    }
+
+     
+    .scrapbook-images-layer, 
     .scrap-text-layer {
         position: relative !important;
-        display: block !important;
-        margin-top: -20px !important;  
-    }
-
-    .p5.note-paper {
-        position: relative !important;  
-        width: 90% !important;
-        left: 0 !important;
-        right: 0 !important;
-        top: 0 !important;
-        margin: 0 auto 50px auto !important;
-        transform: none !important;
+        height: auto !important;
         display: block !important;
     }
 }
