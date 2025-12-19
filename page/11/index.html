@@ -633,51 +633,64 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  
 @media (max-width: 768px) {
+
+     
     .island-scrapbook {
-        display: block;         
+        display: block;
         padding: 20px 15px;
         min-height: auto;
     }
 
     .scrapbook-container {
-        display: flex;          
-        flex-direction: column;  
-        height: auto;           
+        display: flex;
+        flex-direction: column;    
+        height: auto;
         max-width: 100%;
+    }
+
+     
+    .p5.note-paper {
+        position: relative !important;
+        order: -1;                 
+        width: 100% !important;
+        right: auto !important;
+        top: 0 !important;
+        margin: 0 0 30px 0 !important;
+        transform: none !important;
+        box-sizing: border-box;
+        z-index: 2;
     }
 
      
     .scrap-item.photo {
         position: relative !important;
+        order: 1;
         left: 0 !important;
         top: 0 !important;
-        margin: 20px auto;      
-        width: 80% !important;  
+        margin: 20px auto;
+        width: 80% !important;
+        z-index: 1;
     }
 
      
-    .p3 { transform: rotate(-2deg) !important; }
-    .p4 { transform: rotate(2deg) !important; margin-top: -10px !important; }
+    .p3 { 
+        transform: rotate(-2deg) !important; 
+    }
 
-     
-    .p5.note-paper {
-        position: relative !important;
-        width: 100% !important;
-        right: auto !important;
-        top: 0 !important;
-        margin: 30px 0 !important;  
-        transform: none !important;
-        box-sizing: border-box;  
+    .p4 { 
+        transform: rotate(2deg) !important; 
+        margin-top: -10px !important; 
     }
 
      
-    .scrapbook-images-layer, 
+    .scrapbook-images-layer,
     .scrap-text-layer {
         position: relative !important;
         height: auto !important;
         display: block !important;
     }
 }
+
 </style>
 </style>
 
