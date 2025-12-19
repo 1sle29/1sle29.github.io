@@ -631,73 +631,76 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     cursor: pointer;
 }
 
-
  
 @media (max-width: 768px) {
+     
     .island-scrapbook {
         display: flex !important;
-        flex-direction: column !important;  
+        flex-direction: column !important;
         align-items: center !important;
-        padding: 10px 0 !important;
+        padding: 0 !important;
         width: 100% !important;
-        overflow-x: hidden !important;
     }
-    
+
+     
     .scrapbook-container { 
         position: relative !important;
         width: 100% !important;
-         
-        height: 250px !important; 
-        margin: 0 auto !important;
+        height: 280px !important;  
+        margin-top: 20px !important;
+        margin-bottom: 0 !important;
         display: block !important;
     }
-    
+
     .scrap-item {
         position: absolute !important;
+         
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2) !important;
     }
-    
+
      
     .p3 { 
-        width: 130px !important;
+        width: 140px !important; 
         left: 10% !important;
-        top: 20px !important;
-        transform: rotate(-7deg) !important;
-        z-index: 1;
+        top: 0 !important;
+        transform: rotate(-8deg) !important;
+        z-index: 10;
     }
-    
+
      
     .p4 { 
-        width: 130px !important;
+        width: 140px !important;
         left: 38% !important;  
-        top: 45px !important; 
-        transform: rotate(5deg) !important;
-        z-index: 2;  
+        top: 40px !important;  
+        transform: rotate(6deg) !important;
+        z-index: 20;  
     }
-    
+
      
     .p5.note-paper { 
         position: relative !important; 
-         
-        left: auto !important;
-        right: auto !important;
-        top: auto !important;
-        bottom: auto !important;
-        
         width: 90% !important;
-         
-        margin: 20px auto 40px !important; 
         
-        padding: 25px 20px !important;
+         
+        margin: 10px auto 50px !important; 
+        
+         
+        left: 0 !important;
+        right: 0 !important;
+        top: 0 !important;
+        
+        padding: 30px 20px !important;
         background: #fff !important;
-        box-shadow: 0 5px 15px rgba(0,0,0,0.1) !important;
         box-sizing: border-box !important;
         transform: rotate(0deg) !important;  
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1) !important;
     }
 
-    .note-body {
-        text-align: left !important;
-        word-wrap: break-word !important;
-        font-size: 0.8em !important;
+     
+    .note-title { 
+        font-size: 1.1em !important; 
+        margin-bottom: 15px !important;
+        display: block !important;
     }
 }
 
