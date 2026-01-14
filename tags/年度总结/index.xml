@@ -16,13 +16,22 @@
         <description>&lt;div style=&#34;background: var(--card-background); padding: 15px; border-radius: 8px; margin: 20px 0; box-shadow: var(--shadow-l1); max-width: 400px;&#34;&gt;
   &lt;p style=&#34;margin-top: 0; color: var(--card-text-color-main);&#34;&gt;
     &lt;strong&gt;最近在听：&lt;/strong&gt;
-    &lt;a href=&#34;https://music.163.com/#/song?id=27889117&#34; style=&#34;color: var(--link-color);&#34;&gt;Def Leppard的《Stagefright》&lt;/a&gt; 🎵
+    &lt;a
+      href=&#34;https://music.163.com/#/song?id=27889117&#34;
+      target=&#34;_blank&#34;
+      rel=&#34;noopener noreferrer&#34;
+      style=&#34;color: var(--link-color);&#34;
+    &gt;
+      Def Leppard 的《Stagefright》
+    &lt;/a&gt;
+    🎵
   &lt;/p&gt;
-  &lt;iframe style=&#34;border-radius:12px&#34; 
-    src=&#34;https://music.163.com/outchain/player?type=2&amp;id=27889117&amp;auto=0&amp;height=66&#34; 
-    width=&#34;100%&#34; height=&#34;86&#34; 
-    frameborder=&#34;0&#34; 
-    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34; 
+  &lt;iframe
+    style=&#34;border-radius:12px&#34;
+    src=&#34;https://open.spotify.com/embed/track/186BPmIIYZ60TetjMrhonK&#34;
+    width=&#34;100%&#34;
+    height=&#34;80&#34;
+    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;
     loading=&#34;lazy&#34;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
