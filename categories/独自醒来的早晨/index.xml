@@ -17,7 +17,7 @@
   &lt;p style=&#34;margin-top: 0; margin-bottom: 12px; color: var(--card-text-color-main, #333); font-family: sans-serif; font-size: 14px;&#34;&gt;
     &lt;strong&gt;最近在聽：&lt;/strong&gt;
     &lt;a
-      href=&#34;https://open.spotify.com/track/4Xf9v899Dk68pA2vY7iTca&#34;
+      href=&#34;https://open.spotify.com/track/0YmYshG0O6pPh9Z3F37Uat&#34;
       target=&#34;_blank&#34;
       rel=&#34;noopener noreferrer&#34;
       style=&#34;color: var(--link-color, #1DB954); text-decoration: none; font-weight: bold;&#34;
@@ -28,7 +28,7 @@
   &lt;/p&gt;
   &lt;iframe
     style=&#34;border-radius:12px&#34;
-    src=&#34;https://open.spotify.com/embed/track/4Xf9v899Dk68pA2vY7iTca?utm_source=generator&#34;
+    src=&#34;https://open.spotify.com/embed/track/0YmYshG0O6pPh9Z3F37Uat?utm_source=generator&#34;
     width=&#34;100%&#34;
     height=&#34;152&#34;
     frameBorder=&#34;0&#34;
