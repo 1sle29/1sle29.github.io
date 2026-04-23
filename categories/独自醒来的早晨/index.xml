@@ -13,27 +13,40 @@
         <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
         
         <guid>https://1sle29.github.io/p/2026-april-supplements/</guid>
-        <description>&lt;div style=&#34;background: #f9f9f9; padding: 15px; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 400px; border: 1px solid rgba(0,0,0,0.05);&#34;&gt;
-  &lt;p style=&#34;margin-top: 0; margin-bottom: 12px; color: #333; font-family: sans-serif; font-size: 14px;&#34;&gt;
-    &lt;strong&gt;最近在聽：&lt;/strong&gt;
-    &lt;a href=&#34;https://open.spotify.com/track/27SNoXmYV0U6pC7SlsS7pE&#34; 
-       target=&#34;_blank&#34; 
-       rel=&#34;noopener noreferrer&#34; 
-       style=&#34;color: #1DB954; text-decoration: none; font-weight: bold;&#34;&gt;
-       Daniel Caesar - Who Knows
-    &lt;/a&gt;
-    🐡
+        <description>&lt;div style=&#34;background: #f9f9f9; padding: 15px; border-radius: 12px; margin: 20px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1); max-width: 400px; border: 1px solid rgba(0,0,0,0.05); font-family: sans-serif;&#34;&gt;
+  &lt;p style=&#34;margin-top: 0; margin-bottom: 12px; color: #333; font-size: 14px;&#34;&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;strong&amp;gt;最近在聽：&amp;lt;/strong&amp;gt;
+
+&amp;lt;a href=&amp;quot;https://open.spotify.com/track/6DH13QYXK7lKkYHSU88N48&amp;quot; 
+
+   target=&amp;quot;_blank&amp;quot; 
+
+   rel=&amp;quot;noopener noreferrer&amp;quot; 
+
+   style=&amp;quot;color: #1DB954; text-decoration: none; font-weight: bold;&amp;quot;&amp;gt;
+
+   Daniel Caesar - Who Knows
+
+&amp;lt;/a&amp;gt;
+
+🐡
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/p&gt;
   &lt;iframe
-    data-testid=&#34;embed-iframe&#34;
-    style=&#34;border-radius:12px&#34;
-    src=&#34;https://open.spotify.com/embed/track/27SNoXmYV0U6pC7SlsS7pE&#34;
-    width=&#34;100%&#34;
-    height=&#34;152&#34;
-    frameBorder=&#34;0&#34;
-    allowfullscreen=&#34;&#34;
-    allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;
-    loading=&#34;lazy&#34;&gt;
+&lt;pre&gt;&lt;code&gt;style=&amp;quot;border-radius:12px&amp;quot;
+
+src=&amp;quot;https://open.spotify.com/embed/track/6DH13QYXK7lKkYHSU88N48?utm_source=generator&amp;quot;
+
+width=&amp;quot;100%&amp;quot;
+
+height=&amp;quot;152&amp;quot;
+
+frameBorder=&amp;quot;0&amp;quot;
+
+allow=&amp;quot;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&amp;quot;
+
+loading=&amp;quot;lazy&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;写在前面&#34;&gt;写在前面
