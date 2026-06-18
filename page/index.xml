@@ -7,39 +7,13 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en</language>
         <copyright>1sle</copyright>
-        <lastBuildDate>Wed, 22 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://1sle29.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Notes/随笔</title>
-        <link>https://1sle29.github.io/archives/</link>
+        <lastBuildDate>Wed, 18 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://1sle29.github.io/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Intro/关于我</title>
+        <link>https://1sle29.github.io/intro/%E5%85%B3%E4%BA%8E%E6%88%91/</link>
         <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://1sle29.github.io/archives/</guid>
-        <description>&lt;p&gt;写作是最后的自由。即使身处最黑暗的时刻，我也依然可以用文字重塑一个世界。这里是我思想的标本室，它们构成我的骨骼、我的棱角，以及我对世界尚未熄灭的好奇心。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title></title>
-        <link>https://1sle29.github.io/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>https://1sle29.github.io/</guid>
-        <description>&lt;h2 id=&#34;謝謝這段自我介紹-intro的index-有什麽可以美化的嗎&#34;&gt;謝謝！這段自我介紹 intro的index 有什麽可以美化的嗎。。
-&lt;/h2&gt;&lt;h2 id=&#34;showcomments-false&#34;&gt;title: Intro/关于我
-description: Who is 1sle？
-date: &amp;lsquo;2025-01-22&amp;rsquo;
-lastmod: &amp;lsquo;2025-06-18&amp;rsquo;
-author: 1sle
-aliases: [about-us, about-hugo, contact]
-license: CC BY-NC-ND
-menu:
-  main: 
-    weight: -90
-    params:
-      icon: user
-featuredImage: &amp;ldquo;/img/catdoodle.png&amp;rdquo;
-summary: A drifting little island&amp;rsquo;s galactic travel diary.
-showToc: false
-showComments: false
-&lt;/h2&gt;&lt;style&gt;
+        <guid>https://1sle29.github.io/intro/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
+        <description>&lt;style&gt;
 summary {
   cursor: pointer;
   font-weight: 600;
@@ -125,6 +99,15 @@ Really. ♡&lt;/p&gt;
 &lt;p&gt;Too shy to speak up? That’s okay! I’ve prepared an anonymous question box, ready to quietly listen to you.&lt;/p&gt;
 &lt;p&gt;→ &lt;a class=&#34;link&#34; href=&#34;https://box.n3ko.cc/_/1sle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Send 1sle message anonymously&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>Notes/随笔</title>
+        <link>https://1sle29.github.io/archives/</link>
+        <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://1sle29.github.io/archives/</guid>
+        <description>&lt;p&gt;写作是最后的自由。即使身处最黑暗的时刻，我也依然可以用文字重塑一个世界。这里是我思想的标本室，它们构成我的骨骼、我的棱角，以及我对世界尚未熄灭的好奇心。&lt;/p&gt;
 </description>
         </item>
         <item>
