@@ -14,89 +14,127 @@
         
         <guid>https://1sle29.github.io/intro/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
         <description>&lt;style&gt;
+/* ✨ 重新设计的现代手账感折叠框 */
+details {
+  background: var(--card-background, #fffcf5); /* 适配你的莫兰迪暖茶色 */
+  border: 1px dashed rgba(139, 69, 19, 0.25);
+  border-radius: 12px;
+  padding: 15px 20px;
+  margin: 25px 0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+  transition: all 0.3s ease;
+}
+
+details[open] {
+  box-shadow: 0 8px 25px rgba(139, 69, 19, 0.05);
+}
+
 summary {
   cursor: pointer;
   font-weight: 600;
-  padding: 0.4em 0;
-  border-radius: 6px;
-  color: #ccc;
+  padding: 5px 0;
+  color: var(--text-title, #754e49);
+  outline: none;
+  user-select: none;
   transition: color 0.2s ease;
 }
+
 summary:hover {
-  color: #fff;
+  color: var(--link-color, #e3887b);
 }
+
+/* 暗黑模式适配 */
 @media (prefers-color-scheme: dark) {
-  summary {
-    color: #aaa;
+  details {
+    background: #252423;
+    border-color: rgba(255,255,255,0.1);
   }
+  summary {
+    color: #ccc;
+  }
+  summary:hover {
+    color: #e3887b;
+  }
+}
+
+/* 优化引用块样式 */
+.intro-quote {
+  border-left: 3px solid var(--link-color, #e3887b) !important;
+  background: transparent !important;
+  padding-left: 15px !important;
+  margin: 20px 0 !important;
+}
+
+/* 强调文字样式 */
+.highlight-text {
+  color: var(--text-title, #754e49);
+  font-weight: 500;
 }
 &lt;/style&gt;
 &lt;details&gt;
-&lt;summary&gt;如果你需要中文翻译的话，请点这里展开&lt;/summary&gt;
-&lt;!-- 中文内容区域 --&gt;
+&lt;summary&gt;💡 Looking for Chinese version? / 需要中文翻译请点这里&lt;/summary&gt;
+&lt;div style=&#34;margin-top: 15px; border-top: 1px dashed rgba(139, 69, 19, 0.1); padding-top: 15px;&#34;&gt;
 &lt;blockquote&gt;
-&lt;p&gt;📡 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;通过RSS订阅岛の碎碎念&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;📡 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;通过 RSS 订阅岛の碎碎念&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;一颗叛逃轨道漂浮在宇宙中的小岛，正在记录银河系漫游指南✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
-&lt;p&gt;你好呀，人类，或者外星人。&lt;/p&gt;
-&lt;p&gt;无论你来自哪里，为什么来，宇宙总是这样安排一些奇妙的邂逅，于是我们会在某个时空的某个坐标相遇，是一种概率近乎于零的奇迹。很高兴遇见你，愿你的每一天都温暖、明亮，健康。&lt;/p&gt;
-&lt;p&gt;我呢，是这颗蓝色星球中既普通又特别的一个，一团凝结成了会思考的形状的尘埃，拥有人类这种生物常见的小毛病：没有耐心、易燃易爆炸，普通却自信；
-同时也有些不太常见的属性：超强的共情力、多愁善感，以及，还算善良（至少我这样希望^^）&lt;/p&gt;
-&lt;p&gt;如果你需要标签来勾勒我的轮廓的话，那么我大概是由这些碎片拼凑而成的吧：&lt;/p&gt;
+&lt;p&gt;一颗叛逃轨道漂浮在宇宙中的小岛，正在记录银河系漫游指南 ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
+&lt;p&gt;你好呀，人类。或者……外星人？&lt;/p&gt;
+&lt;p&gt;无论你来自哪里，为什么来，我都相信这是宇宙在暗中安排的奇妙邂逅。我们在某个时空的某一个坐标相遇，这是一种概率近乎于零的奇迹。很高兴遇见你，愿你的每一天都温暖、明亮、健康。&lt;/p&gt;
+&lt;p&gt;我呢，是这颗蓝色星球中既普通又特别的一个，一团凝结成了会思考的形状的小小星尘，拥有人类这种生物常见的小毛病：偶尔缺乏耐心、易燃易爆炸，普通却自信；同时也拥有些不太常见的特质：超强的共情力、多愁善感，以及，还算善良（至少我是这样希望的^^）&lt;/p&gt;
+&lt;p&gt;如果你需要用标签来拼凑出一个模糊的我，那么大概是找到这样的一些碎片：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;女权主义者&lt;/li&gt;
-&lt;li&gt;测了至少50遍都是ENFP的水瓶座&lt;/li&gt;
-&lt;li&gt;正在执着地收集Pusheen相关的一切产品&lt;/li&gt;
-&lt;li&gt;三餐都吃炒土豆丝、爆辣新疆炒米粉和面条儿也不会腻&lt;/li&gt;
-&lt;li&gt;非常非常非常喜欢J·M·库切，周杰伦和林宥嘉&lt;/li&gt;
-&lt;li&gt;恐怖片爱好者，尤其是cult和slasher（就是那种一边捂着眼睛一边透过指缝偷看的类型啦！）&lt;/li&gt;
-&lt;li&gt;习惯吃任何东西都蘸醋&lt;/li&gt;
+&lt;li&gt;♀️ &lt;strong&gt;女权主义者&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🧪 &lt;strong&gt;测了至少 50 遍都是 ENFP 的水瓶座&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🐱 &lt;strong&gt;正在执着地收集 Pusheen 相关的一切产品&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🥔 &lt;strong&gt;三餐都吃炒土豆丝、爆辣新疆炒米粉和面条儿也不会腻&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;✍️ &lt;strong&gt;非常非常非常喜欢 J·M·库切、周杰伦和林宥嘉&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🎬 &lt;strong&gt;恐怖片爱好者&lt;/strong&gt;，尤其是 cult 和 slasher（就是那种一边捂着眼睛一边透过指缝偷看的类型啦！）&lt;/li&gt;
+&lt;li&gt;🍯 &lt;strong&gt;习惯吃任何东西都蘸醋&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;不过呢，用标签定义人总是太简单粗暴。就像试图用几次潮汐概括整片海洋，生命的色彩要来得丰富太多、复杂太多。好在这里存放着一些我的想法，我就藏在这些文字的缝隙背后，请你随意翻阅。但这些文字，也只是我在某个瞬间的倒影，就像水面映出的月亮不是真正的月亮，我也是不断流动变化的，当下的表达只代表当下的我，不代表此刻，更不代表明天的我。&lt;/p&gt;
-&lt;p&gt;在这个什么都很快，快到来不及细看一次花开的时代，人和人之间也变得奇怪了。我们和很多人一起吃饭玩耍，却很少有人会认真问一句&amp;quot;你最近在想什么？&amp;quot;，更少有人愿意耐心听完答案。我们默契地停留在安全的表面，成为彼此最熟悉的陌生人。而我呢，我总是很好奇——你怎么看这个世界？你怎么理解人生、存在，那些说不清道不明的东西？我们不必思考相同的问题，甚至可以拥有完全不同的答案。重要的是你在想，而我在听。毕竟从思想开始慢慢地靠近一个人，是件奢侈又浪漫的事，你觉得呢？&lt;/p&gt;
-&lt;p&gt;如果你愿意停留几秒钟，给予我的表达一点点回应的话，那就太好啦。我始终相信生命与生命之间那些柔软的东西：真诚、友善、理解，它们比偏见和仇恨要珍贵得多。&lt;/p&gt;
+&lt;p&gt;不过呢，只用标签去定义一个人，总是太简单粗暴了。就像试图用几次潮汐概括整片海洋，生命的色彩远比那些词汇要丰富、复杂得多。好在这里存放着一些我的想法，我就藏在这些文字的背后，请随意翻阅。但你也要知道，这些文字呢，也只是我在某个瞬间的定格，就像水面映出的月亮并不是真正的月亮，我也是不断流动、变化着的。当下的表达就只代表敲下键盘那一刻的我，不代表此时此刻，更不代表明天的我。&lt;/p&gt;
+&lt;p&gt;在这个什么都很快，快到来不及细看一次花开的时代，人与人的连接似乎也变浅了。我们和很多人一起吃饭玩耍，却很少有人会认真问一句 “你最近在想什么？”，更少有人愿意耐心听完答案。我们默契地停留在安全的表面，成为彼此最熟悉的陌生人。&lt;/p&gt;
+&lt;p&gt;而我呢，我总是很好奇，&lt;span class=&#34;highlight-text&#34;&gt;你怎么看这个世界？你怎么理解人生、存在，以及那些说不清道不明的东西？&lt;/span&gt;我们不必总是思考相同的问题，甚至可以拥有完全相反的答案。重要的是你在表达，而我在倾听。毕竟，从思想开始慢慢地靠近一个人，是一件奢侈又浪漫的事，你觉得呢？&lt;/p&gt;
+&lt;p&gt;如果你愿意在这里停留几分钟，给予我的表达一点点回应的话，那就太好啦。我始终相信生命与生命之间那些柔软的：真诚、友善、理解，它们比任何偏见和仇恨，都要珍贵得多。&lt;/p&gt;
 &lt;p&gt;看见和被看见，大概就是我表达的全部意义了。
 无论如何，谢谢你读到这里！&lt;/p&gt;
+&lt;/div&gt;
 &lt;/details&gt;
-&lt;p&gt;&lt;img src=&#34;https://1sle29.github.io/img/catdoodle.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
+&lt;div style=&#34;text-align: center; margin: 30px 0;&#34;&gt;
+  &lt;img src=&#34;https://1sle29.github.io/img/catdoodle.png&#34; alt=&#34;catdoodle&#34; style=&#34;max-width: 180px; opacity: 0.9;&#34; /&gt;
+&lt;/div&gt;
 &lt;h2 id=&#34;who-is-1sle&#34;&gt;Who is 1sle?
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;🛸 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Subscribe to Island&amp;rsquo;s Random Rambles via RSS&lt;/a&gt;&lt;/p&gt;
+&lt;/h2&gt;&lt;blockquote class=&#34;intro-quote&#34;&gt;
+  🛸 &lt;b&gt;&lt;a href=&#34;https://1sle29.github.io/index.xml&#34;&gt;Subscribe to Island&#39;s Random Rambles via RSS&lt;/a&gt;&lt;/b&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;A rebellious little island, off its destined orbit, drifting through the cosmos while quietly writing its own version of the galaxy’s travel diary. ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
 &lt;p&gt;Hi there, human, or alien!&lt;/p&gt;
-&lt;p&gt;Wherever you come from, whatever brought you here, it feels like the universe arranged this wonderful encounter so that we meet at some random coordinate in space-time, a miracle with a probability close to zero. It&amp;rsquo;s wonderful to meet you. May each of your days be warm, bright, and healthy.&lt;/p&gt;
+&lt;p&gt;Wherever you come from, whatever brought you here, it feels like the universe arranged this wonderful encounter so that we meet at some random coordinate in space-time—a miracle with a probability close to zero. It&amp;rsquo;s wonderful to meet you. May each of your days be warm, bright, and healthy.&lt;/p&gt;
 &lt;p&gt;As for me, I&amp;rsquo;m both ordinary and special among the inhabitants of this blue planet, a clump of dust that has condensed into a thinking form. I carry some of the classic human glitches: impatient, quick to ignite, a bit of a mess but weirdly confident. But I’ve also got some rarer traits: a bleeding-heart empath, deeply sentimental, and (I hope) kind.&lt;/p&gt;
 &lt;p&gt;If you need labels to sketch out a rough silhouette of me, I suppose I’m made up of these fragments:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Feminist&lt;/li&gt;
-&lt;li&gt;ENFP/Aquarius&lt;/li&gt;
-&lt;li&gt;Devoted Pusheen collector&lt;/li&gt;
-&lt;li&gt;Horror film enthusiast, especially cult and slasher films (the type who covers their eyes while peeking through their fingers anyway!)&lt;/li&gt;
+&lt;li&gt;♀️ &lt;strong&gt;Feminist&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🧪 &lt;strong&gt;ENFP / Aquarius&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🐱 &lt;strong&gt;Devoted Pusheen collector&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;🎬 &lt;strong&gt;Horror film enthusiast&lt;/strong&gt;, especially cult and slasher films (the type who covers their eyes while peeking through their fingers anyway!)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;But labeling people is always a little too crude, too simplistic, like trying to sum up the whole sea with just a few tides. There’s so much more beneath the surface. I’ve scattered some of my thoughts around here. You’re welcome to take a look. But words are only reflections of who I am in certain moments. Like the moon mirrored on water, they aren’t the moon itself. I’m always in motion, always becoming. What you read here captures only who I am now not who I was, and not yet who I’ll be.&lt;/p&gt;
-&lt;p&gt;In a world where everything rushes forward so fast we barely have time to watch a flower bloom, human connection has grown strangely distant. We share meals, laughter, and moments with many rarely does someone pause to ask,  “What’s been on your mind lately?” And rarer still: someone who stays to hear the whole answer. So we linger on the surface, where it feels safe. And slowly, we become each other’s most familiar strangers.&lt;/p&gt;
-&lt;p&gt;But me? I’m always curious:
-How do you see this world? How do you understand life, existence, those ineffable things? We don&amp;rsquo;t need to ask the same questions, or even hold answers that contradict. What matters is that you’re thinking, and I’m listening. After all, approaching someone by way of their thoughts is both luxurious and romantic, don’t you think?&lt;/p&gt;
-&lt;p&gt;So if you’ve made it this far, if you’re willing to pause for just a few seconds and leave behind a small echo then that would be more than enough. I’ve always believed in the soft, invisible threads that connect one life to another: sincerity, kindness, understanding.
-They’re so much rarer, and so much more precious, than prejudice or hate.&lt;/p&gt;
-&lt;p&gt;To see and to be seen that’s the connection I cherish most. And the reason I persist in expressing myself.&lt;/p&gt;
-&lt;p&gt;Thank you for reading this far.
+&lt;p&gt;But labeling people is always a little too crude, too simplistic, like trying to sum up the whole sea with just a few tides. There’s so much more beneath the surface. I’ve scattered some of my thoughts around here. You’re welcome to take a look.&lt;/p&gt;
+&lt;p&gt;But words are only reflections of who I am in certain moments. Like the moon mirrored on water, they aren’t the moon itself. I’m always in motion, always becoming. What you read here captures only who I am now—not who I was, and not yet who I’ll be.&lt;/p&gt;
+&lt;p&gt;In a world where everything rushes forward so fast we barely have time to watch a flower bloom, human connection has grown strangely distant. We share meals, laughter, and moments with many; rarely does someone pause to ask, &lt;em&gt;“What’s been on your mind lately?”&lt;/em&gt; And rarer still: someone who stays to hear the whole answer. So we linger on the surface, where it feels safe. And slowly, we become each other’s most familiar strangers.&lt;/p&gt;
+&lt;p&gt;But me? I’m always curious:&lt;br&gt;
+&lt;span class=&#34;highlight-text&#34;&gt;How do you see this world? How do you understand life, existence, those ineffable things?&lt;/span&gt; We don&amp;rsquo;t need to ask the same questions, or even hold answers that contradict. What matters is that you’re thinking, and I’m listening. After all, approaching someone by way of their thoughts is both luxurious and romantic, don’t you think?&lt;/p&gt;
+&lt;p&gt;So if you’ve made it this far, if you’re willing to pause for just a few seconds and leave behind a small echo—then that would be more than enough. I’ve always believed in the soft, invisible threads that connect one life to another: sincerity, kindness, understanding. They’re so much rarer, and so much more precious, than prejudice or hate.&lt;/p&gt;
+&lt;p&gt;To see and to be seen—that’s the connection I cherish most. And the reason I persist in expressing myself.&lt;/p&gt;
+&lt;p&gt;Thank you for reading this far.&lt;br&gt;
 Really. ♡&lt;/p&gt;
-&lt;h2 id=&#34;psst-got-something-to-say&#34;&gt;Psst… Got Something to Say?
+&lt;hr&gt;
+&lt;h2 id=&#34;-psst-got-something-to-say&#34;&gt;📮 Psst… Got Something to Say?
 &lt;/h2&gt;&lt;p&gt;Got something on your mind? A thought, a question, or just a passing hello?&lt;/p&gt;
 &lt;p&gt;Too shy to speak up? That’s okay! I’ve prepared an anonymous question box, ready to quietly listen to you.&lt;/p&gt;
-&lt;p&gt;→ &lt;a class=&#34;link&#34; href=&#34;https://box.n3ko.cc/_/1sle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Send 1sle message anonymously&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;👉 **&lt;a class=&#34;link&#34; href=&#34;https://box.n3ko.cc/_/1sle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Send 1sle a message anonymously&lt;/a&gt;**stion box, ready to quietly listen to you.&lt;/p&gt;
+&lt;p&gt;👉 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://box.n3ko.cc/_/1sle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Send 1sle a message anonymously&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
