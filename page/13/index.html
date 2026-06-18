@@ -518,6 +518,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <style>
  
+:root {
+    --text-main: #2e2725;
+    --text-title: #754e49;
+    --link-color: #e3887b;
+    --link-hover: #c4877c;
+    --nav-color: #7d3737;
+    --meta-color: #8b4513;
+}
+
+ 
 .island-scrapbook {
     position: relative;
     width: 100%; 
@@ -550,6 +560,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  
 .dashed-border {
+     
     border: 2px dashed rgba(139, 69, 19, 0.4); 
     line-height: 0; 
     display: block;
@@ -561,7 +572,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     display: block;
     width: 100%;
     height: auto;
-    opacity: 1 !important;
+    opacity: 1 !important;  
 }
 
  
@@ -571,7 +582,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     left: 50%;
     width: 90px;
     height: 28px;
-    background: rgba(184, 141, 135, 0.25); 
+    background: rgba(227, 136, 123, 0.2); 
     backdrop-filter: blur(4px);
     transform: translateX(-50%) rotate(-2deg);
     z-index: 10;
@@ -586,35 +597,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     top: 30px; 
     background: #fffcf5; 
     padding: 30px; 
-    border: none !important;
+    border: none !important;  
     box-shadow: 10px 15px 30px rgba(0,0,0,0.04); 
     transform: rotate(1deg); 
-    z-index: 5;
+    z-index: 5;  
 }
 
-.note-title { 
-    margin: 0; 
-    font-weight: bold; 
-    font-size: 1.15em; 
-    color: var(--text-title);
-    font-family: var(--article-font-family) !important;
-}
-.note-body { 
-    margin-top: 15px; 
-    font-size: 0.92em; 
-    line-height: 1.8; 
-    color: var(--text-main);
-    font-family: var(--article-font-family) !important;
-}
-.note-footer { 
-    text-align: right; 
-    margin-top: 15px; 
-    font-size: 0.85em; 
-    font-style: italic; 
-    color: var(--meta-color); 
-    opacity: 0.8;
-    font-family: var(--article-font-family) !important;
-}
+.note-title { margin: 0; font-weight: bold; font-size: 1.15em; color: var(--text-title); }
+.note-body { margin-top: 15px; font-size: 0.92em; line-height: 1.8; color: var(--text-main); }
+.note-footer { text-align: right; margin-top: 15px; font-size: 0.85em; font-style: italic; color: var(--meta-color); opacity: 0.8; }
 
  
 .p3 { 
@@ -627,8 +618,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 .p4 { 
     width: 250px; 
-    left: 6%;
-    top: 260px;
+    left: 6%;        
+    top: 260px;      
     transform: rotate(3deg); 
     z-index: 2; 
 }
@@ -643,6 +634,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  
 @media (max-width: 768px) {
 
+     
     .island-scrapbook {
         display: block;
         padding: 20px 15px;
@@ -651,14 +643,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
     .scrapbook-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: column;    
         height: auto;
         max-width: 100%;
     }
 
+     
     .p5.note-paper {
         position: relative !important;
-        order: -1;
+        order: -1;                 
         width: 100% !important;
         right: auto !important;
         top: 0 !important;
@@ -668,27 +661,31 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         z-index: 2;
     }
 
-    .scrap-item.photo {
-        position: relative !important;
-        order: 1;
-        left: 0 !important;
-        top: 0 !important;
-        margin: 10px auto;
-        width: 58% !important;
-        z-index: 1;
-    }
+     
+.scrap-item.photo {
+    position: relative !important;
+    order: 1;
+    left: 0 !important;
+    top: 0 !important;
+    margin: 10px auto;
+    width: 58% !important;    
+    z-index: 1;
+}
 
-    .p3 {
-        transform: rotate(-3deg) translateX(-8px) !important;
-        z-index: 1;
-    }
+ 
+.p3 {
+    transform: rotate(-3deg) translateX(-8px) !important;
+    z-index: 1;
+}
 
-    .p4 {
-        transform: rotate(5deg) translateX(12px) !important;
-        margin-top: -100px !important;
-        z-index: 3;
-    }
+ 
+.p4 {
+    transform: rotate(5deg) translateX(12px) !important;
+    margin-top: -100px !important;    
+    z-index: 3;
+}
 
+     
     .scrapbook-images-layer,
     .scrap-text-layer {
         position: relative !important;
@@ -696,6 +693,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         display: block !important;
     }
 }
+
+</style>
 </style>
 
             </main>
