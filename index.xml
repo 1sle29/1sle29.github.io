@@ -3108,6 +3108,12 @@ summary:hover {
 #tags li.revealed {
   filter: blur(0);
 }
+  .article-header {
+  display: none !important;
+}
+  .article-details {
+  display: none !important;
+}
 &lt;/style&gt;
 &lt;blockquote&gt;
 &lt;p&gt;📡 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
