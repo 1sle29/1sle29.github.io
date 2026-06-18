@@ -3071,75 +3071,103 @@ layouts/partials/article-list/tile.html&lt;/p&gt;
         
         <guid>https://1sle29.github.io/intro/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
         <description>&lt;style&gt;
-/* ✨ 重新设计的现代手账感折叠框 */
-details {
+/* 🌍 语言选择器容器 */
+.language-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 30px 0;
+}
+
+/* 📂 重新设计的手账便签折叠框 */
+details.lang-box {
   background: var(--card-background, #fffcf5); /* 适配你的莫兰迪暖茶色 */
-  border: 1px dashed rgba(139, 69, 19, 0.25);
+  border: 1px dashed rgba(139, 69, 19, 0.3);
   border-radius: 12px;
-  padding: 15px 20px;
-  margin: 25px 0;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.02);
-  transition: all 0.3s ease;
+  padding: 18px 22px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.01);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 
-details[open] {
-  box-shadow: 0 8px 25px rgba(139, 69, 19, 0.05);
+/* 悬停在卡片上的效果 */
+details.lang-box:hover {
+  border-color: var(--link-color, #e3887b);
+  box-shadow: 0 6px 20px rgba(227, 136, 123, 0.08);
 }
 
-summary {
+/* 展开后的状态 */
+details.lang-box[open] {
+  box-shadow: 0 10px 30px rgba(139, 69, 19, 0.05);
+  border-style: dashed;
+}
+
+/* 💡 折叠框头部（小标签） */
+details.lang-box summary {
   cursor: pointer;
   font-weight: 600;
-  padding: 5px 0;
+  font-size: 1.05em;
   color: var(--text-title, #754e49);
   outline: none;
   user-select: none;
-  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 让箭头去最右边 */
 }
 
-summary:hover {
-  color: var(--link-color, #e3887b);
+/* 展开内容区域的丝滑过渡和间距 */
+.lang-content {
+  margin-top: 20px;
+  border-top: 1px dashed rgba(139, 69, 19, 0.12);
+  padding-top: 20px;
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-5px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 /* 暗黑模式适配 */
 @media (prefers-color-scheme: dark) {
-  details {
+  details.lang-box {
     background: #252423;
     border-color: rgba(255,255,255,0.1);
   }
-  summary {
-    color: #ccc;
-  }
-  summary:hover {
-    color: #e3887b;
-  }
+  details.lang-box summary { color: #ccc; }
+  .lang-content { border-top-color: rgba(255,255,255,0.1); }
 }
 
-/* 优化引用块样式 */
+/* 核心句子高亮 */
+.highlight-text {
+  color: var(--text-title, #754e49);
+  font-weight: bold;
+}
 .intro-quote {
   border-left: 3px solid var(--link-color, #e3887b) !important;
   background: transparent !important;
   padding-left: 15px !important;
   margin: 20px 0 !important;
 }
-
-/* 强调文字样式 */
-.highlight-text {
-  color: var(--text-title, #754e49);
-  font-weight: 500;
-}
 &lt;/style&gt;
-&lt;details&gt;
-&lt;summary&gt;💡 Looking for Chinese version? / 需要中文翻译请点这里&lt;/summary&gt;
-&lt;div style=&#34;margin-top: 15px; border-top: 1px dashed rgba(139, 69, 19, 0.1); padding-top: 15px;&#34;&gt;
+&lt;!-- 🐱 居中的可爱猫咪作为页头视觉中心 --&gt;
+&lt;div style=&#34;text-align: center; margin: 35px 0 20px 0;&#34;&gt;
+  &lt;img src=&#34;https://1sle29.github.io/img/catdoodle.png&#34; alt=&#34;catdoodle&#34; style=&#34;max-width: 160px; opacity: 0.9;&#34; /&gt;
+&lt;/div&gt;
+&lt;!-- 📦 中英文卡片容器 --&gt;
+&lt;div class=&#34;language-container&#34;&gt;
+  &lt;!-- 🇨🇳 中文简介卡片 --&gt;
+  &lt;details class=&#34;lang-box&#34;&gt;
+    &lt;summary&gt;☕ 阅读中文简介 / Chinese Profile &lt;span&gt;▼&lt;/span&gt;&lt;/summary&gt;
+    &lt;div class=&#34;lang-content&#34;&gt;
 &lt;blockquote&gt;
 &lt;p&gt;📡 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;通过 RSS 订阅岛の碎碎念&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;一颗叛逃轨道漂浮在宇宙中的小岛，正在记录银河系漫游指南 ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
+&lt;p&gt;一颗叛逃轨道、在宇宙中独自漂浮的小岛，正在认真记录它的银河系漫游指南。✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
 &lt;p&gt;你好呀，人类。或者……外星人？&lt;/p&gt;
-&lt;p&gt;无论你来自哪里，为什么来，我都相信这是宇宙在暗中安排的奇妙邂逅。我们在某个时空的某一个坐标相遇，这是一种概率近乎于零的奇迹。很高兴遇见你，愿你的每一天都温暖、明亮、健康。&lt;/p&gt;
-&lt;p&gt;我呢，是这颗蓝色星球中既普通又特别的一个，一团凝结成了会思考的形状的小小星尘，拥有人类这种生物常见的小毛病：偶尔缺乏耐心、易燃易爆炸，普通却自信；同时也拥有些不太常见的特质：超强的共情力、多愁善感，以及，还算善良（至少我是这样希望的^^）&lt;/p&gt;
-&lt;p&gt;如果你需要用标签来拼凑出一个模糊的我，那么大概是找到这样的一些碎片：&lt;/p&gt;
+&lt;p&gt;无论你来自哪里，又因何而来。宇宙总喜欢安排一些奇妙的邂逅，让我们在某个时空的特定坐标相遇——这本就是一种概率近乎于零的奇迹。很高兴遇见你，愿你的每一天都温暖、明亮、健康。&lt;/p&gt;
+&lt;p&gt;至于我呢，大概是这颗蓝色星球上既普通又特别的一个。一团凝结成了“会思考的形状”的星尘，拥有人类这种生物常见的小毛病：偶尔缺乏耐心、易燃易爆炸、普通却莫名自信；但好在，也有些不太常见的属性：超强的共情力、泛滥的多愁善感，以及，还算善良（至少，我是这样希望的 ^^）。&lt;/p&gt;
+&lt;p&gt;如果需要用标签来勾勒我的轮廓，那么我大概是由以下这些碎片拼凑而成的吧：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;♀️ &lt;strong&gt;女权主义者&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;🧪 &lt;strong&gt;测了至少 50 遍都是 ENFP 的水瓶座&lt;/strong&gt;&lt;/li&gt;
@@ -3149,19 +3177,22 @@ summary:hover {
 &lt;li&gt;🎬 &lt;strong&gt;恐怖片爱好者&lt;/strong&gt;，尤其是 cult 和 slasher（就是那种一边捂着眼睛一边透过指缝偷看的类型啦！）&lt;/li&gt;
 &lt;li&gt;🍯 &lt;strong&gt;习惯吃任何东西都蘸醋&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;不过呢，只用标签去定义一个人，总是太简单粗暴了。就像试图用几次潮汐概括整片海洋，生命的色彩远比那些词汇要丰富、复杂得多。好在这里存放着一些我的想法，我就藏在这些文字的背后，请随意翻阅。但你也要知道，这些文字呢，也只是我在某个瞬间的定格，就像水面映出的月亮并不是真正的月亮，我也是不断流动、变化着的。当下的表达就只代表敲下键盘那一刻的我，不代表此时此刻，更不代表明天的我。&lt;/p&gt;
-&lt;p&gt;在这个什么都很快，快到来不及细看一次花开的时代，人与人的连接似乎也变浅了。我们和很多人一起吃饭玩耍，却很少有人会认真问一句 “你最近在想什么？”，更少有人愿意耐心听完答案。我们默契地停留在安全的表面，成为彼此最熟悉的陌生人。&lt;/p&gt;
-&lt;p&gt;而我呢，我总是很好奇，&lt;span class=&#34;highlight-text&#34;&gt;你怎么看这个世界？你怎么理解人生、存在，以及那些说不清道不明的东西？&lt;/span&gt;我们不必总是思考相同的问题，甚至可以拥有完全相反的答案。重要的是你在表达，而我在倾听。毕竟，从思想开始慢慢地靠近一个人，是一件奢侈又浪漫的事，你觉得呢？&lt;/p&gt;
-&lt;p&gt;如果你愿意在这里停留几分钟，给予我的表达一点点回应的话，那就太好啦。我始终相信生命与生命之间那些柔软的：真诚、友善、理解，它们比任何偏见和仇恨，都要珍贵得多。&lt;/p&gt;
+&lt;p&gt;不过呢，用标签去定义一个人，总是太简单粗暴了。就像试图用几次潮汐去概括整片海洋，生命的色彩远比那些词汇要丰富、复杂得多。&lt;/p&gt;
+&lt;p&gt;好在这里存放着我的一些奇思妙想，我就藏在这些文字的缝隙背后，请你随意翻阅。但这些文字，也只是我在某个瞬间留下的倒影——就像水面映出的月亮并不是真正的月亮，我也是不断流动、变化着的。当下的表达，只代表敲下键盘那一刻的我，不代表此时此刻，更不代表明天的我。&lt;/p&gt;
+&lt;p&gt;在这个什么都很快、快到来不及细看一次花开的时代，人和人之间也变得奇怪了。我们和很多人一起吃饭、玩耍、大笑，却很少有人会认真问一句：“你最近在想什么？”，更少有人愿意耐心听完答案。我们达成了一种默契，永远停留在安全的表面，成为彼此最熟悉的陌生人。&lt;/p&gt;
+&lt;p&gt;而我呢，我总是很好奇 —— &lt;span class=&#34;highlight-text&#34;&gt;你怎么看这个世界？你怎么理解人生、存在，以及那些说不清道不明的东西？&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;我们不必思考相同的问题，甚至可以拥有完全相反的答案。重要的是你在想，而我在听。毕竟，从思想开始慢慢靠近一个人，是一件奢侈又极其浪漫的事，你觉得呢？&lt;/p&gt;
+&lt;p&gt;如果你愿意在这里停留几秒钟，给我的表达留下一小声回音，那就太好啦。我始终相信生命与生命之间那些柔软的&lt;strong&gt;引力&lt;/strong&gt;：真诚、友善与理解。它们比任何偏见和仇恨，都要珍贵得多。&lt;/p&gt;
 &lt;p&gt;看见和被看见，大概就是我表达的全部意义了。
 无论如何，谢谢你读到这里！&lt;/p&gt;
-&lt;/div&gt;
-&lt;/details&gt;
-&lt;div style=&#34;text-align: center; margin: 30px 0;&#34;&gt;
-  &lt;img src=&#34;https://1sle29.github.io/img/catdoodle.png&#34; alt=&#34;catdoodle&#34; style=&#34;max-width: 180px; opacity: 0.9;&#34; /&gt;
-&lt;/div&gt;
-&lt;h2 id=&#34;who-is-1sle&#34;&gt;Who is 1sle?
-&lt;/h2&gt;&lt;blockquote class=&#34;intro-quote&#34;&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/details&gt;
+  &lt;!-- 🇬🇧 英文简介卡片 --&gt;
+  &lt;details class=&#34;lang-box&#34;&gt;
+    &lt;summary&gt;🛸 Read in English / English Profile &lt;span&gt;▼&lt;/span&gt;&lt;/summary&gt;
+    &lt;div class=&#34;lang-content&#34;&gt;
+&lt;blockquote class=&#34;intro-quote&#34;&gt;
   🛸 &lt;b&gt;&lt;a href=&#34;https://1sle29.github.io/index.xml&#34;&gt;Subscribe to Island&#39;s Random Rambles via RSS&lt;/a&gt;&lt;/b&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;A rebellious little island, off its destined orbit, drifting through the cosmos while quietly writing its own version of the galaxy’s travel diary. ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
@@ -3184,12 +3215,14 @@ summary:hover {
 &lt;p&gt;To see and to be seen—that’s the connection I cherish most. And the reason I persist in expressing myself.&lt;/p&gt;
 &lt;p&gt;Thank you for reading this far.&lt;br&gt;
 Really. ♡&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+  &lt;/details&gt;
+&lt;/div&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;-psst-got-something-to-say&#34;&gt;📮 Psst… Got Something to Say?
 &lt;/h2&gt;&lt;p&gt;Got something on your mind? A thought, a question, or just a passing hello?&lt;/p&gt;
 &lt;p&gt;Too shy to speak up? That’s okay! I’ve prepared an anonymous question box, ready to quietly listen to you.&lt;/p&gt;
-&lt;p&gt;👉 **&lt;a class=&#34;link&#34; href=&#34;https://box.n3ko.cc/_/1sle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Send 1sle a message anonymously&lt;/a&gt;**stion box, ready to quietly listen to you.&lt;/p&gt;
 &lt;p&gt;👉 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://box.n3ko.cc/_/1sle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Send 1sle a message anonymously&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 </description>
