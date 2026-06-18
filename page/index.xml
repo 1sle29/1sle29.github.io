@@ -42,6 +42,15 @@ summary:hover {
   width: 100%;
   box-sizing: border-box;
 }
+#tags li {
+  filter: blur(4px);
+  cursor: pointer;
+  transition: filter 0.3s ease;
+  user-select: none;
+}
+#tags li.revealed {
+  filter: blur(0);
+}
 &lt;/style&gt;
 &lt;blockquote&gt;
 &lt;p&gt;📡 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -50,7 +59,7 @@ summary:hover {
 &lt;p&gt;一颗叛逃轨道漂浮在宇宙中的小岛，正在记录银河系漫游指南✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
 &lt;p&gt;你好呀，人类。或者..外星人？无论你来自哪里，为什么来，我都相信这是宇宙在暗中安排的奇妙邂逅。我们在某个时空的某一个坐标交汇，本身就是概率近乎为零的奇迹。很高兴遇见你，愿你的每一天都温暖、明亮，健康。我呢，是这颗蓝色星球中既普通又特别的一个，一团凝结成了会思考的形状的小小星尘，拥有人类这种生物常见的小毛病：缺乏耐心、易燃易爆炸，普通却自信；同时也有些不太常见的特质：超强的共情力、多愁善感，以及，还算善良（至少我是这样希望的^^）&lt;/p&gt;
 &lt;p&gt;如果你需要用标签来拼凑出一个模糊的我，那大概会找到这样的一些碎片：&lt;/p&gt;
-&lt;ul&gt;
+&lt;ul id=&#34;tags&#34;&gt;
 &lt;li&gt;女权主义者&lt;/li&gt;
 &lt;li&gt;测了至少50遍都是ENFP的水瓶座&lt;/li&gt;
 &lt;li&gt;正在执着地收集Pusheen相关的一切产品&lt;/li&gt;
@@ -68,10 +77,10 @@ summary:hover {
 &lt;p&gt;🛸 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Subscribe to 1sle via RSS&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;A runaway island floating in space, currently recording its own Hitchhiker’s Guide to the Galaxy. ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
-&lt;p&gt;Hello there, human. Or&amp;hellip; alien? Wherever you are from and whatever brings you here, I’d like to believe this is a wondrous encounter quietly orchestrated by the universe. The fact that we cross paths at this specific coordinate in time and space is a miracle with a near-zero probability. I’m so glad to meet you. May your days be warm, bright, and full of health.&lt;/p&gt;
-&lt;p&gt;As for me? I’m just an ordinary yet unique soul on this blue planet, a tiny clump of stardust that happened to condense into a thinking shape. I come with the usual flaws of being human: lacking patience, being a bit short-tempered, and possessing that typical, unearned confidence. But I also have a few less-common traits: deep empathy, a sentimental heart, and a pretty kind soul (at least, I’d like to think so ^^)&lt;/p&gt;
-&lt;p&gt;If you need tags to piece together a blurry silhouette of who I am, you’d probably find these fragments:&lt;/p&gt;
+&lt;p&gt;A runaway island floating in space, currently recording its own Hitchhiker&amp;rsquo;s Guide to the Galaxy. ✧ʕ̢̣̣̣̣̩̩̩̩·͡˔·ོɁ̡̣̣̣̣̩̩̩̩✦☄︎&lt;/p&gt;
+&lt;p&gt;Hello there, human. Or&amp;hellip; alien? Wherever you are from and whatever brings you here, I&amp;rsquo;d like to believe this is a wondrous encounter quietly orchestrated by the universe. The fact that we cross paths at this specific coordinate in time and space is a miracle with a near-zero probability. I&amp;rsquo;m so glad to meet you. May your days be warm, bright, and full of health.&lt;/p&gt;
+&lt;p&gt;As for me? I&amp;rsquo;m just an ordinary yet unique soul on this blue planet, a tiny clump of stardust that happened to condense into a thinking shape. I come with the usual flaws of being human: lacking patience, being a bit short-tempered, and possessing that typical, unearned confidence. But I also have a few less-common traits: deep empathy, a sentimental heart, and a pretty kind soul (at least, I&amp;rsquo;d like to think so ^^)&lt;/p&gt;
+&lt;p&gt;If you need tags to piece together a blurry silhouette of who I am, you&amp;rsquo;d probably find these fragments:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Feminist&lt;/li&gt;
 &lt;li&gt;ENFP/Aquarius&lt;/li&gt;
@@ -79,9 +88,9 @@ summary:hover {
 &lt;li&gt;A horror movie enthusiast, especially cult classics and slashers (the type who covers their eyes while peeking through their fingers anyway!)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;But then again, defining someone with tags is always a bit too reductionist, like trying to summarize the entire ocean by a few tides. The colors of life are far richer and more complex. Fortunately, this space holds some of my thoughts, and I am right here behind these words. Feel free to browse. However, these words are merely snapshots of me at a single moment. Just as the moon reflected in the water is not the real moon, I am constantly flowing and changing. What I express here only represents who I was the second my fingers hit the keyboard, not who I am right now, and certainly not who I will be tomorrow.&lt;/p&gt;
-&lt;p&gt;In an era where everything moves so fast, too fast to even watch a flower bloom, human connections seem to have grown thin. We eat and hang out with so many people, yet rarely does anyone genuinely ask, &amp;ldquo;What’s been on your mind lately?&amp;rdquo; and even fewer are willing to listen to the answer with patience. We tacitly stay on the safe surface, becoming each other&amp;rsquo;s most familiar strangers.&lt;/p&gt;
-&lt;p&gt;But me? I’m always curious. &lt;strong&gt;How do you view this world? How do you make sense of life, existence, and all those fleeting, inexplicable things?&lt;/strong&gt; We don’t have to ponder the same questions, and we can even hold polar opposite answers. What matters is that you are expressing, and I am listening. After all, getting to know someone slowly, starting from their mind, is a rare and romantic luxury, don’t you think?&lt;/p&gt;
-&lt;p&gt;If you&amp;rsquo;d like to stay for a few minutes and leave a little echo to my thoughts, that would be wonderful. I’ve always believed in the tender connections between souls, like sincerity, kindness, and understanding. They are far more precious than prejudice and hatred. To see and to be seen; I suppose that is the entire meaning of my expression.&lt;/p&gt;
+&lt;p&gt;In an era where everything moves so fast, too fast to even watch a flower bloom, human connections seem to have grown thin. We eat and hang out with so many people, yet rarely does anyone genuinely ask, &amp;ldquo;What&amp;rsquo;s been on your mind lately?&amp;rdquo; and even fewer are willing to listen to the answer with patience. We tacitly stay on the safe surface, becoming each other&amp;rsquo;s most familiar strangers.&lt;/p&gt;
+&lt;p&gt;But me? I&amp;rsquo;m always curious. &lt;strong&gt;How do you view this world? How do you make sense of life, existence, and all those fleeting, inexplicable things?&lt;/strong&gt; We don&amp;rsquo;t have to ponder the same questions, and we can even hold polar opposite answers. What matters is that you are expressing, and I am listening. After all, getting to know someone slowly, starting from their mind, is a rare and romantic luxury, don&amp;rsquo;t you think?&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;d like to stay for a few minutes and leave a little echo to my thoughts, that would be wonderful. I&amp;rsquo;ve always believed in the tender connections between souls, like sincerity, kindness, and understanding. They are far more precious than prejudice and hatred. To see and to be seen; I suppose that is the entire meaning of my expression.&lt;/p&gt;
 &lt;p&gt;In any case, thank you for reading this far!&lt;/p&gt;
 &lt;p&gt;Really. ♡&lt;/p&gt;
 &lt;/details&gt;
@@ -89,6 +98,13 @@ summary:hover {
 &lt;summary&gt; 匿名信箱 / Anonymous Drop Box &lt;/summary&gt;
 &lt;p style=&#34;margin-top: 1rem;&#34;&gt;→ &lt;a href=&#34;https://box.n3ko.cc/_/1sle&#34; target=&#34;_blank&#34;&gt;Send 1sle message anonymously&lt;/a&gt;&lt;/p&gt;
 &lt;/details&gt;
+&lt;script&gt;
+document.querySelectorAll(&#39;#tags li&#39;).forEach(li =&gt; {
+  li.addEventListener(&#39;click&#39;, () =&gt; {
+    li.classList.toggle(&#39;revealed&#39;);
+  });
+});
+&lt;/script&gt;
 </description>
         </item>
         <item>
