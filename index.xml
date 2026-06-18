@@ -3096,8 +3096,8 @@ summary:hover {
   }
 }
 #waline {
-  max-width: 100%;
-  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 &lt;/style&gt;
 &lt;details&gt;
