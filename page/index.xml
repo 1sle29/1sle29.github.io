@@ -22,25 +22,6 @@
 	
 &gt;&lt;/p&gt;
 &lt;style&gt;
-/* ✨ 1. 强行隐藏右侧的 Table of Contents 目录 */
-.toc, #toc, .table-of-contents, aside, .post-toc {
-  display: none !important;
-}
-
-/* ✨ 2. 约束文章主体与评论区的宽度，让它们在正中间对齐 */
-.post-content, 
-article, 
-.post-comments, 
-#comments,
-.comments-container,
-.main-inner,
-.content-wrapper {
-  max-width: 760px !important; /* ⭐ 黄金阅读宽度，和你的文章正文完美对齐 */
-  margin-left: auto !important;
-  margin-right: auto !important;
-}
-
-/* 3. 你原有的 summary 样式 */
 summary {
   cursor: pointer;
   font-weight: 600;
