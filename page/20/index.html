@@ -504,9 +504,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="note-content">
                 <p class="note-title">欢迎来到这座小岛 ^^</p>
                 <p class="note-body">
-                    我在等待一艘悬停在窗外的飞船。等它缓缓牵引我升空，去俯瞰整座城市的灯火在脚下汇聚成琥珀色的静谧河流。我无数次梦见一种古老的狂欢，月圆之夜的森林深处，我和小动物们手拉手围跳萨巴特之舞，脚下踩着野花和嘎吱作响的落叶。<br><br>
-                    玛格丽特一定在某个春夜，骑着会飞的小猪掠过莫斯科的屋顶，赶赴撒旦盛大的舞会。天空是低饱和的紫罗兰色，风里混合着硫磺和丁香的味道。浪漫的想象力一次次打捞我，从每个按下闹钟、机械起身的早晨，所以我还没有溺死在平庸的潮汐里。<br><br>
-                    确信在可见的光谱之外，宇宙深处还存在另一个世界。于是银蓝色的光柱落下，篝火在瞳孔里跳跃，握住小狐狸温热的掌心，体内濒临风化的部分重新又变得柔软了。
+                    我在等待一艘悬停在窗外的飞船，缓缓牵引我升空，俯瞰整座城市的灯火在脚下汇聚成琥珀色的静谧河流。我无数次梦见一种古老的狂欢，月圆之夜，森林最深处，我和小动物们手拉手围跳萨巴特之舞，脚下踩着野花和嘎吱作响的落叶。<br><br>
+                   玛格丽特一定在某个春夜骑着会飞的小猪掠过莫斯科的屋顶，赶赴撒旦盛大的舞会，天空是低饱和的紫罗兰色，风里混合着硫磺和丁香的味道。浪漫的想象力一次次打捞我，从每个按下闹钟、机械起身的早晨，所以我还没有溺死在平庸的潮汐。<br><br>
+                    确信在可见的光谱之外，宇宙深处还存在另一个世界。于是银蓝的光柱落下，篝火在瞳孔里跳跃，握住小狐狸温热的掌心，体内濒临风化的部分重新又变得柔软了。
                 </p>
                 <p class="note-footer">
                     衣橱里漏出松针的香气。我知道，只要推开门，下一秒就能走进积雪的纳尼亚。
@@ -580,17 +580,123 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 }
 
  
-.p5.note-paper {
-    width: 400px;
-    right: 2%;
-    top: 30px;
-    background: #fffcf5;
-    padding: 30px;
-    box-shadow: 10px 15px 30px rgba(0,0,0,0.04);
-    transform: rotate(1deg);
+.p5.note-paper { 
+    width: 400px; 
+    right: 2%; 
+    top: 30px; 
+    background: #fffcf5; 
+    padding: 30px; 
+    border: none !important;
+    box-shadow: 10px 15px 30px rgba(0,0,0,0.04); 
+    transform: rotate(1deg); 
+    z-index: 5;
+}
+
+.note-title { 
+    margin: 0; 
+    font-weight: bold; 
+    font-size: 1.15em; 
+    color: var(--text-title);
+    font-family: var(--article-font-family) !important;
+}
+.note-body { 
+    margin-top: 15px; 
+    font-size: 0.92em; 
+    line-height: 1.8; 
+    color: var(--text-main);
+    font-family: var(--article-font-family) !important;
+}
+.note-footer { 
+    text-align: right; 
+    margin-top: 15px; 
+    font-size: 0.85em; 
+    font-style: italic; 
+    color: var(--meta-color); 
+    opacity: 0.8;
+    font-family: var(--article-font-family) !important;
+}
+
+ 
+.p3 { 
+    width: 280px; 
+    left: 0%; 
+    top: 20px; 
+    transform: rotate(-4deg); 
+    z-index: 1; 
+}
+
+.p4 { 
+    width: 250px; 
+    left: 6%;
+    top: 260px;
+    transform: rotate(3deg); 
+    z-index: 2; 
+}
+
+ 
+.scrap-item:hover {
+    transform: scale(1.05) rotate(0deg) !important;
+    z-index: 100 !important;
+    cursor: pointer;
+}
+
+ 
+@media (max-width: 768px) {
+
+    .island-scrapbook {
+        display: block;
+        padding: 20px 15px;
+        min-height: auto;
+    }
+
+    .scrapbook-container {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .p5.note-paper {
+        position: relative !important;
+        order: -1;
+        width: 100% !important;
+        right: auto !important;
+        top: 0 !important;
+        margin: -20px 0 30px 0 !important;
+        transform: none !important;
+        box-sizing: border-box;
+        z-index: 2;
+    }
+
+    .scrap-item.photo {
+        position: relative !important;
+        order: 1;
+        left: 0 !important;
+        top: 0 !important;
+        margin: 10px auto;
+        width: 58% !important;
+        z-index: 1;
+    }
+
+    .p3 {
+        transform: rotate(-3deg) translateX(-8px) !important;
+        z-index: 1;
+    }
+
+    .p4 {
+        transform: rotate(5deg) translateX(12px) !important;
+        margin-top: -100px !important;
+        z-index: 3;
+    }
+
+    .scrapbook-images-layer,
+    .scrap-text-layer {
+        position: relative !important;
+        height: auto !important;
+        display: block !important;
+    }
 }
 </style>
-
 
             </main>
         </div>
