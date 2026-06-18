@@ -3070,7 +3070,15 @@ layouts/partials/article-list/tile.html&lt;/p&gt;
         <pubDate>Wed, 22 Jan 2025 00:00:00 +0000</pubDate>
         
         <guid>https://1sle29.github.io/intro/%E5%85%B3%E4%BA%8E%E6%88%91/</guid>
-        <description>&lt;style&gt;
+        <description>&lt;p&gt;&lt;img src=&#34;https://1sle29.github.io/img/catdoodle.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;style&gt;
 summary {
   cursor: pointer;
   font-weight: 600;
@@ -3115,16 +3123,8 @@ summary:hover {
 &lt;p&gt;看见和被看见，大概就是我表达的全部意义了。
 无论如何，谢谢你读到这里！&lt;/p&gt;
 &lt;/details&gt;
-&lt;p&gt;&lt;img src=&#34;https://1sle29.github.io/img/catdoodle.png&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;&lt;/p&gt;
 &lt;details&gt;
-&lt;summary&gt;如果你需要英文翻译的话，请点这里展开&lt;/summary&gt;
+&lt;summary&gt;Click here to expand for the English translation&lt;/summary&gt;
 &lt;!-- 英文内容区域 --&gt;
 &lt;blockquote&gt;
 &lt;p&gt;🛸 &lt;a class=&#34;link&#34; href=&#34;https://1sle29.github.io/index.xml&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -3151,11 +3151,12 @@ They’re so much rarer, and so much more precious, than prejudice or hate.&lt;/
 &lt;p&gt;Thank you for reading this far.
 Really. ♡&lt;/p&gt;
 &lt;/details&gt;
-&lt;h2 id=&#34;psst-got-something-to-say&#34;&gt;Psst… Got Something to Say?
-&lt;/h2&gt;&lt;p&gt;Got something on your mind? A thought, a question, or just a passing hello?&lt;/p&gt;
-&lt;p&gt;Too shy to speak up? That’s okay! I’ve prepared an anonymous question box, ready to quietly listen to you.&lt;/p&gt;
+&lt;details&gt;
+&lt;summary&gt; 匿名信箱 / Anonymous Drop Box &lt;/summary&gt;
+&lt;!-- Box --&gt;
 &lt;p&gt;→ &lt;a class=&#34;link&#34; href=&#34;https://box.n3ko.cc/_/1sle&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Send 1sle message anonymously&lt;/a&gt;&lt;/p&gt;
+&lt;details&gt;
 </description>
         </item>
         <item>
