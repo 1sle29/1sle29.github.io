@@ -26,9 +26,9 @@
     &lt;/a&gt;
     🫠
   &lt;/p&gt;
-  &lt;iframe
+&lt;iframe
     style=&#34;border-radius:12px&#34;
-    src=&#34;https://open.spotify.com/track/3GVkPk8mqxz0itaAriG1L7&#34;
+    src=&#34;https://open.spotify.com/embed/track/3GVkPk8mqxz0itaAriG1L7&#34;
     width=&#34;100%&#34;
     height=&#34;80&#34;
     allow=&#34;autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture&#34;
