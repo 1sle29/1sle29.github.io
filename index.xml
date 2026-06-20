@@ -35,11 +35,9 @@
     loading=&#34;lazy&#34;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
-&lt;h2 id=&#34;最前面&#34;&gt;最前面
-&lt;/h2&gt;&lt;div style=&#34;margin: 20px 0; padding: 20px; border-radius: 12px; background: rgba(150, 150, 150, 0.08); border: 1px solid rgba(150, 150, 150, 0.15); position: relative; overflow: hidden;&#34;&gt;
-  &lt;div style=&#34;position: absolute; top: 0; left: 0; right: 0; height: 5px; background: linear-gradient(to right, #ff595e, #ffca3a, #8ac926, #1982c4, #6a4c93);&#34;&gt;&lt;/div&gt;
-  &lt;h3 style=&#34;margin: 5px 0; font-size: 1.5rem; background: linear-gradient(to right, #ff595e, #ffca3a, #8ac926, #1982c4, #6a4c93); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; display: inline-block;&#34;&gt;Happy Pride! 🌈✨&lt;/h3&gt;
-  &lt;p style=&#34;margin: 5px 0 0 0; font-size: 0.95rem; opacity: 0.85;&#34;&gt;愿每个人都能自由、舒展、有尊严地做自己，去爱与被爱。Happy Pride Month!!!&lt;/p&gt;
+&lt;div style=&#34;margin: 20px 0; padding: 20px; border-radius: 12px; background: rgba(150, 150, 150, 0.08); border: 1px solid rgba(150, 150, 150, 0.15); position: relative; overflow: hidden;&#34;&gt;
+  &lt;h3 style=&#34;margin: 5px 0; font-size: 1.5rem; color: #d4a373; font-weight: bold; display: inline-block;&#34;&gt;Happy Pride! 🌈✨&lt;/h3&gt;
+  &lt;p style=&#34;margin: 5px 0 0 0; font-size: 0.95rem; opacity: 0.85; color: #333333;&#34;&gt;愿每个人都能自由、舒展、有尊严地做自己，去爱与被爱。Happy Pride Month!!!&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;接下来的内容都没有图片，不好意思插入图片简直太麻烦了。决定认真要严肃学习一下怎么快速放图片到blog里面的方法。鞠躬（！&lt;/p&gt;
 &lt;h2 id=&#34;女权话题不想看的请跳过w&#34;&gt;女权话题！不想看的请跳过w
